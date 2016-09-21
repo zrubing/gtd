@@ -43,6 +43,10 @@
    :LOGBOOK:
    CLOCK: [2016-09-20 周二 17:08]--[2016-09-20 周二 17:33] =>  0:25
    :END:
+** STARTED [[https://hltj.gitbooks.io/kotlin-reference-chinese/content/txt/getting-started.html][kotlin]]
+   :LOGBOOK:
+   CLOCK: [2016-09-21 周三 11:00]--[2016-09-21 周三 11:25] =>  0:25
+   :END:
 * nodejs
 ** DONE rongcloud
    CLOSED: [2016-09-14 周三 09:43]
@@ -53,6 +57,7 @@
    :END:
 ** STARTED [[http://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000/00143449917624134f5c4695b524e81a581ab5a222b05ec000][js廖雪峰]]
    :LOGBOOK:
+   CLOCK: [2016-09-21 周三 09:53]--[2016-09-21 周三 10:18] =>  0:25
    CLOCK: [2016-09-20 周二 16:27]--[2016-09-20 周二 16:52] =>  0:25
    :END:
 * python
@@ -65,6 +70,7 @@
    :END:
 ** STARTED [[http://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000][廖雪峰]]
    :LOGBOOK:
+   CLOCK: [2016-09-21 周三 09:16]--[2016-09-21 周三 09:41] =>  0:25 迭代器
    CLOCK: [2016-09-20 周二 14:26]--[2016-09-20 周二 14:51] =>  0:25 列表生成式
    CLOCK: [2016-09-20 周二 13:27]--[2016-09-20 周二 13:53] =>  0:26
    :END:
@@ -83,6 +89,7 @@
   - State "DONE"       from "TODO"       [2016-09-12 周一 08:51]
   :END:
 * TODO booms签到
+
   SCHEDULED: <2016-09-18 周日 .+6d>
   :PROPERTIES:
   :LAST_REPEAT: [2016-09-12 周一 08:51]
