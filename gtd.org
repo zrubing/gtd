@@ -43,9 +43,16 @@
 *** MessageFragment
 **** STARTED AppointWallFragment
      :LOGBOOK:
+     CLOCK: [2016-09-27 周二 11:18]--[2016-09-27 周二 11:43] =>  0:25
+     CLOCK: [2016-09-27 周二 10:32]--[2016-09-27 周二 10:57] =>  0:25
      CLOCK: [2016-09-23 周五 13:26]--[2016-09-23 周五 13:51] =>  0:25
      CLOCK: [2016-09-13 周二 14:49]--[2016-09-13 周二 15:47] =>  0:58
      :END:
+*** STARTED Login
+    :LOGBOOK:
+    CLOCK: [2016-09-27 周二 17:18]--[2016-09-27 周二 17:43] =>  0:25
+    CLOCK: [2016-09-27 周二 16:26]--[2016-09-27 周二 16:51] =>  0:25
+    :END:
 ** STARTED [[http://design-patterns.readthedocs.io/zh_CN/latest/read_uml.html][UML类图和时序图]]
    :LOGBOOK:
    CLOCK: [2016-09-18 周日 14:06]--[2016-09-18 周日 14:20] =>  0:14
@@ -87,6 +94,10 @@
    :END:
 ** STARTED [[https://git.oschina.net/zzparkour/heiye-server][TechneServer]]
    :LOGBOOK:
+   CLOCK: [2016-09-27 周二 15:17]--[2016-09-27 周二 15:42] =>  0:25
+   CLOCK: [2016-09-27 周二 14:20]--[2016-09-27 周二 14:45] =>  0:25
+   CLOCK: [2016-09-27 周二 13:43]--[2016-09-27 周二 14:08] =>  0:25
+   CLOCK: [2016-09-27 周二 13:08]--[2016-09-27 周二 13:33] =>  0:25
    CLOCK: [2016-09-26 周一 17:37]--[2016-09-26 周一 18:02] =>  0:25
    CLOCK: [2016-09-26 周一 17:06]--[2016-09-26 周一 17:31] =>  0:25
    CLOCK: [2016-09-24 周六 15:05]--[2016-09-24 周六 15:30] =>  0:25 babel
@@ -97,7 +108,11 @@
     CLOCK: [2016-09-26 周一 14:14]--[2016-09-26 周一 14:39] =>  0:25
     CLOCK: [2016-09-24 周六 15:42]--[2016-09-24 周六 17:35] =>  1:53
     :END:
-
+*** STARTED [[ https://segmentfault.com/a/1190000004293922][RxJS]] [[http://liubin.org/promises-book/][JSPromise]]
+    :LOGBOOK:
+    CLOCK: [2016-09-27 周二 09:49]--[2016-09-27 周二 10:14] =>  0:25
+    CLOCK: [2016-09-27 周二 09:16]--[2016-09-27 周二 09:41] =>  0:25
+    :END:
 * python
 ** STARTED [[https://wizardforcel.gitbooks.io/think-python-2e/content/11.html][python tutorial]]
    :LOGBOOK:
