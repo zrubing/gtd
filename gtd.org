@@ -344,7 +344,9 @@
      CLOSED: [2017-03-13 周一 16:43]
      - State "DONE"       from              [2017-03-13 周一 16:43]
 **** 崩溃后页面重叠
-*** 我的小店
+*** DONE 我的小店
+    CLOSED: [2017-03-19 周日 18:03]
+    - State "DONE"       from              [2017-03-19 周日 18:03]
 **** 添加商品页
 *** DONE 3.13 周一
     CLOSED: [2017-03-14 周二 09:05]
@@ -475,7 +477,9 @@
      :LOGBOOK:
      CLOCK: [2017-03-15 周三 17:24]--[2017-03-15 周三 17:35] =>  0:11
      :END:
-*** STARTED 3.16周四
+*** DONE 3.16周四
+    CLOSED: [2017-03-17 周五 08:59]
+    - State "DONE"       from "STARTED"    [2017-03-17 周五 08:59]
 **** DONE 填写报表-日报(页面变更)
      CLOSED: [2017-03-16 周四 12:02]
      - State "DONE"       from "STARTED"    [2017-03-16 周四 12:02]
@@ -531,9 +535,65 @@
      :LOGBOOK:
      CLOCK: [2017-03-16 周四 13:39]--[2017-03-16 周四 13:52] =>  0:13
      :END:
-*** 会办another
+**** DONE 发布版本1.2.8
+     CLOSED: [2017-03-16 周四 15:33]
+     - State "DONE"       from "STARTED"    [2017-03-16 周四 15:33]
+     :LOGBOOK:
+     CLOCK: [2017-03-16 周四 15:21]--[2017-03-16 周四 15:33] =>  0:12
+     :END:
+*** DONE 3.17 周五
+    CLOSED: [2017-03-19 周日 14:03]
+    - State "DONE"       from              [2017-03-19 周日 14:03]
+**** DONE 拍照crash
+     CLOSED: [2017-03-16 周四 19:06]
+     - State "DONE"       from              [2017-03-16 周四 19:06]
+**** DONE 小店界面调整
+     CLOSED: [2017-03-17 周五 14:38]
+     - State "DONE"       from "STARTED"    [2017-03-17 周五 14:38]
+     :LOGBOOK:
+     CLOCK: [2017-03-17 周五 09:35]--[2017-03-17 周五 10:00] =>  0:25
+     :END:
+***** DONE 添加商品界面
+      CLOSED: [2017-03-17 周五 10:42]
+      - State "DONE"       from "STARTED"    [2017-03-17 周五 10:42]
+      :LOGBOOK:
+      CLOCK: [2017-03-17 周五 10:31]--[2017-03-17 周五 10:42] =>  0:11
+      :END:
+***** DONE 商品详情
+      CLOSED: [2017-03-17 周五 14:38]
+      - State "DONE"       from "STARTED"    [2017-03-17 周五 14:38]
+      :LOGBOOK:
+      CLOCK: [2017-03-17 周五 11:38]--[2017-03-17 周五 12:03] =>  0:25
+      CLOCK: [2017-03-17 周五 11:06]--[2017-03-17 周五 11:31] =>  0:25
+      CLOCK: [2017-03-17 周五 10:51]--[2017-03-17 周五 10:56] =>  0:05
+      :END:
+***** DONE okhttp
+      CLOSED: [2017-03-17 周五 14:37]
+      - State "DONE"       from "STARTED"    [2017-03-17 周五 14:37]
+      :LOGBOOK:
+      CLOCK: [2017-03-17 周五 12:18]--[2017-03-17 周五 14:37] =>  2:19
+      :END:
+**** DONE 修改小店的接口
+     CLOSED: [2017-03-17 周五 17:55]
+     - State "DONE"       from "STARTED"    [2017-03-17 周五 17:55]
+     :LOGBOOK:
+     CLOCK: [2017-03-17 周五 15:25]--[2017-03-17 周五 15:50] =>  0:25
+     :END:
+***** DONE 新增商品done
+      CLOSED: [2017-03-17 周五 15:52]
+      - State "DONE"       from              [2017-03-17 周五 15:52]
+***** DONE 商品详情
+      CLOSED: [2017-03-17 周五 17:55]
+      - State "DONE"       from "STARTED"    [2017-03-17 周五 17:55]
+      :LOGBOOK:
+      CLOCK: [2017-03-17 周五 16:37]--[2017-03-17 周五 17:02] =>  0:25
+      CLOCK: [2017-03-17 周五 16:03]--[2017-03-17 周五 16:28] =>  0:25
+      :END:
+** STARTED 会办another
 **** STARTED 审批activity
      :LOGBOOK:
+     CLOCK: [2017-03-16 周四 16:33]--[2017-03-16 周四 16:58] =>  0:25
+     CLOCK: [2017-03-16 周四 15:52]--[2017-03-16 周四 16:17] =>  0:25
      CLOCK: [2017-03-13 周一 22:27]--[2017-03-13 周一 22:52] =>  0:25
      :END:
 ***** DONE 创建 
@@ -542,6 +602,17 @@
 **** DONE TeamFragment加载慢
      CLOSED: [2017-03-13 周一 23:30]
      - State "DONE"       from              [2017-03-13 周一 23:30]
+**** STARTED 朋友圈
+     :LOGBOOK:
+     CLOCK: [2017-03-18 周六 10:06]--[2017-03-18 周六 10:27] =>  0:21
+     CLOCK: [2017-03-17 周五 14:38]--[2017-03-17 周五 15:03] =>  0:25
+     CLOCK: [2017-03-16 周四 17:38]--[2017-03-16 周四 18:03] =>  0:25
+     :END:
+***** STARTED 点赞评论
+      :LOGBOOK:
+      CLOCK: [2017-03-18 周六 22:04]--[2017-03-18 周六 22:29] =>  0:25
+      CLOCK: [2017-03-18 周六 10:28]--[2017-03-18 周六 10:31] =>  0:03
+      :END:
 ** android笔试面试题
 *** [[http://www.100mian.com/mianshi/android/49868.html][避免oom]]
 * STARTED [[https://classroom.udacity.com/nanodegrees/nd009/parts/0091345400/modules/009134540075460/lessons/6d6c5cc6-08eb-4e8b-8408-854e49584028/concepts/9556c8b3-6593-49b3-a44d-ef83febc6447][MachineLeanring]]
@@ -617,6 +688,8 @@
    :END:
 ** STARTED [[http://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000][廖雪峰]]
    :LOGBOOK:
+   CLOCK: [2017-03-19 周日 22:14]--[2017-03-19 周日 22:39] =>  0:25
+   CLOCK: [2017-03-18 周六 22:45]--[2017-03-18 周六 23:10] =>  0:25
    CLOCK: [2017-03-15 周三 22:52]--[2017-03-15 周三 23:17] =>  0:25
    CLOCK: [2017-03-15 周三 22:20]--[2017-03-15 周三 22:45] =>  0:25
    CLOCK: [2017-03-14 周二 23:25]--[2017-03-14 周二 23:50] =>  0:25
@@ -682,6 +755,7 @@
 ** [[http://scse.buaa.edu.cn/buaa-css-web/articleDetail.action;jsessionid=DBFB2A8FE1CD0441D85FC0F7057D0C83?articleId=2bff0a2e-f114-4853-9bd3-dd6515a98bff&type=NEWS&firstSelId=6e011b46-2c70-4f68-a633-ec51f42b4718&secondSelId=NOTICE_PUBLICITY&language=0][专业课大纲]]
 ** STARTED [[https://www.coursera.org/learn/jisuanji-biancheng/lecture/IB2qK/zheng-shu-xing-de-cun-chu][C语言程序设计]]
    :LOGBOOK:
+   CLOCK: [2017-03-19 周日 18:07]--[2017-03-19 周日 18:32] =>  0:25
    CLOCK: [2017-03-12 周日 22:55]--[2017-03-12 周日 23:20] =>  0:25
    CLOCK: [2017-03-11 周六 18:07]--[2017-03-11 周六 18:32] =>  0:25
    CLOCK: [2017-03-09 周四 23:09]--[2017-03-09 周六 23:32] => 0:25
@@ -689,6 +763,8 @@
    :END:
 ** STARTED [[https://www.coursera.org/learn/unity-yinqing-youxi-kaifa/lecture/xlbGz/ben-men-ke-cheng-jie-shao][Unity]]
    :LOGBOOK:
+   CLOCK: [2017-03-19 周日 23:17]--[2017-03-19 周日 23:42] =>  0:25
+   CLOCK: [2017-03-18 周六 23:40]--[2017-03-19 周日 00:05] =>  0:25
    CLOCK: [2017-03-10 周五 23:43]--[2017-03-11 周六 00:08] =>  0:25
    CLOCK: [2017-03-09 周四 22:35]--[2017-03-09 周四 23:00] =>  0:25
    CLOCK: [2017-03-08 周三 22:37]--[2017-03-08 周三 23:02] =>  0:25
