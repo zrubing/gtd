@@ -922,3 +922,218 @@ Archived entries from file c:/Users/rubing/mygtd/gtd.org
 ** DONE 添加任务单list
    CLOSED: [2017-03-23 周四 17:08]
    - State "DONE"       from              [2017-03-23 周四 17:08]
+
+* DONE diffUtil
+  CLOSED: [2017-05-06 周六 14:07]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-05-06 周六 14:07
+  :ARCHIVE_FILE: ~/mygtd/gtd.org
+  :ARCHIVE_CATEGORY: gtd
+  :ARCHIVE_TODO: DONE
+  :END:
+  - State "DONE"       from "STARTED"    [2017-05-06 周六 14:07]
+  :LOGBOOK:
+  CLOCK: [2017-05-06 周六 09:31]--[2017-05-06 周六 09:55] =>  0:24
+  :END:
+
+* DONE hexo
+  CLOSED: [2016-11-12 周六 19:50]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-05-12 周五 15:57
+  :ARCHIVE_FILE: ~/mygtd/gtd.org
+  :ARCHIVE_OLPATH: nodejs
+  :ARCHIVE_CATEGORY: gtd
+  :ARCHIVE_TODO: DONE
+  :END:
+  - State "DONE"       from "STARTED"    [2016-11-12 周六 19:50]
+  :LOGBOOK:
+  CLOCK: [2016-09-29 周四 10:01]--[2016-09-29 周四 10:15] =>  0:14
+  :END:
+
+* DONE rongcloud
+  CLOSED: [2016-09-14 周三 09:43]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-05-12 周五 15:57
+  :ARCHIVE_FILE: ~/mygtd/gtd.org
+  :ARCHIVE_OLPATH: nodejs
+  :ARCHIVE_CATEGORY: gtd
+  :ARCHIVE_TODO: DONE
+  :END:
+  :LOGBOOK:
+  - State "DONE"       from "STARTED"    [2016-09-14 周三 09:43]
+  CLOCK: [2016-09-13 周二 09:23]--[2016-09-13 周二 12:00] =>  2:37
+  CLOCK: [2016-09-12 周一 16:32]--[2016-09-12 周一 18:12] =>  1:40
+  :END:
+
+* DONE [[https://leancloud.cn/docs/rest_api.html][leanCloud restapi]]
+  CLOSED: [2016-11-12 周六 19:50]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-05-12 周五 15:57
+  :ARCHIVE_FILE: ~/mygtd/gtd.org
+  :ARCHIVE_OLPATH: nodejs
+  :ARCHIVE_CATEGORY: gtd
+  :ARCHIVE_TODO: DONE
+  :END:
+  - State "DONE"       from "STARTED"    [2016-11-12 周六 19:50]
+  :LOGBOOK:
+  CLOCK: [2016-10-06 周四 14:42]--[2016-10-06 周四 15:15] =>  0:33
+  :END:
+
+* DONE [[https://leancloud.cn/docs/rest_api.html][leanCloud restapi]]
+  CLOSED: [2016-11-12 周六 19:50]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-05-12 周五 15:58
+  :ARCHIVE_FILE: ~/mygtd/gtd.org
+  :ARCHIVE_OLPATH: nodejs
+  :ARCHIVE_CATEGORY: gtd
+  :ARCHIVE_TODO: DONE
+  :END:
+  - State "DONE"       from "STARTED"    [2016-11-12 周六 19:50]
+  :LOGBOOK:
+  CLOCK: [2016-10-06 周四 14:42]--[2016-10-06 周四 15:15] =>  0:33
+  :END:
+
+* DONE [[https://leancloud.cn/docs/rest_api.html][leanCloud restapi]]
+  CLOSED: [2016-11-12 周六 19:50]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-05-12 周五 15:59
+  :ARCHIVE_FILE: ~/mygtd/gtd.org
+  :ARCHIVE_OLPATH: nodejs
+  :ARCHIVE_CATEGORY: gtd
+  :ARCHIVE_TODO: DONE
+  :END:
+  - State "DONE"       from "STARTED"    [2016-11-12 周六 19:50]
+  :LOGBOOK:
+  CLOCK: [2016-10-06 周四 14:42]--[2016-10-06 周四 15:15] =>  0:33
+  :END:
+
+* DONE 会办
+  CLOSED: [2017-05-12 周五 16:00]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-05-12 周五 16:00
+  :ARCHIVE_FILE: ~/mygtd/gtd.org
+  :ARCHIVE_OLPATH: Android
+  :ARCHIVE_CATEGORY: gtd
+  :ARCHIVE_TODO: DONE
+  :END:
+  - State "DONE"       from "STARTED"    [2017-05-12 周五 16:00]
+** 需要的api
+*** 查看别人的小店
+
+* DONE 会办another
+  CLOSED: [2017-05-12 周五 16:00]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-05-12 周五 16:00
+  :ARCHIVE_FILE: ~/mygtd/gtd.org
+  :ARCHIVE_OLPATH: Android
+  :ARCHIVE_CATEGORY: gtd
+  :ARCHIVE_TODO: DONE
+  :END:
+  - State "DONE"       from "STARTED"    [2017-05-12 周五 16:00]
+*** STARTED 审批activity
+    :LOGBOOK:
+    CLOCK: [2017-03-16 周四 16:33]--[2017-03-16 周四 16:58] =>  0:25
+    CLOCK: [2017-03-16 周四 15:52]--[2017-03-16 周四 16:17] =>  0:25
+    CLOCK: [2017-03-13 周一 22:27]--[2017-03-13 周一 22:52] =>  0:25
+    :END:
+**** DONE 创建 
+     CLOSED: [2017-03-13 周一 22:54]
+     - State "DONE"       from              [2017-03-13 周一 22:
+*** DONE TeamFragment加载慢
+    CLOSED: [2017-03-13 周一 23:30]
+    - State "DONE"       from              [2017-03-13 周一 23:30]
+*** STARTED 朋友圈
+    :LOGBOOK:
+    CLOCK: [2017-03-18 周六 10:06]--[2017-03-18 周六 10:27] =>  0:21
+    CLOCK: [2017-03-17 周五 14:38]--[2017-03-17 周五 15:03] =>  0:25
+    CLOCK: [2017-03-16 周四 17:38]--[2017-03-16 周四 18:03] =>  0:25
+    :END:
+**** STARTED 点赞评论
+     :LOGBOOK:
+     CLOCK: [2017-03-18 周六 22:04]--[2017-03-18 周六 22:29] =>  0:25
+     CLOCK: [2017-03-18 周六 10:28]--[2017-03-18 周六 10:31] =>  0:03
+     :END:
+*** STARTED 我的团队A
+    :LOGBOOK:
+    CLOCK: [2017-03-20 周一 15:33]--[2017-03-20 周一 15:34] =>  0:01
+    :END:
+**** STARTED 创建团队
+     :LOGBOOK:
+     CLOCK: [2017-03-20 周一 17:19]--[2017-03-20 周一 17:44] =>  0:25
+     CLOCK: [2017-03-20 周一 16:51]--[2017-03-20 周一 17:16] =>  0:25
+     CLOCK: [2017-03-20 周一 16:04]--[2017-03-20 周一 16:29] =>  0:25
+     CLOCK: [2017-03-20 周一 15:34]--[2017-03-20 周一 15:57] =>  0:23
+     :END:
+***** 添加团队成员
+**** STARTED 加入团队
+     :LOGBOOK:
+     CLOCK: [2017-03-22 周三 10:36]--[2017-03-22 周三 10:39] =>  0:03
+     :END:
+*** STARTED 联系人
+    :LOGBOOK:
+    CLOCK: [2017-03-21 周二 16:13]--[2017-03-21 周二 16:38] =>  0:25
+    :END:
+
+* DONE 接口问题
+  CLOSED: [2017-05-12 周五 16:00]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-05-12 周五 16:00
+  :ARCHIVE_FILE: ~/mygtd/gtd.org
+  :ARCHIVE_OLPATH: Android
+  :ARCHIVE_CATEGORY: gtd
+  :ARCHIVE_TODO: DONE
+  :END:
+  - State "DONE"       from              [2017-05-12 周五 16:00]
+** Team/team_detail email 返回null
+
+* SOMEDAY java编程思想
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-06-30 周五 12:22
+  :ARCHIVE_FILE: ~/mygtd/gtd.org
+  :ARCHIVE_OLPATH: Android
+  :ARCHIVE_CATEGORY: gtd
+  :ARCHIVE_TODO: SOMEDAY
+  :END:
+  :LOGBOOK:
+  CLOCK: [2017-03-09 周四 08:51]--[2017-03-09 周四 09:16] =>  0:25
+  CLOCK: [2017-03-07 周二 08:44]--[2017-03-07 周二 08:59] =>  0:15
+  :END:
+
+* DONE 3.25
+  CLOSED: [2017-06-30 周五 12:24]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-06-30 周五 12:24
+  :ARCHIVE_FILE: ~/mygtd/gtd.org
+  :ARCHIVE_CATEGORY: gtd
+  :ARCHIVE_TODO: DONE
+  :END:
+  
+  - State "DONE"       from "STARTED"    [2017-06-30 周五 12:24]
+  :LOGBOOK:
+  CLOCK: [2017-03-25 周六 08:51]--[2017-03-25 周六 09:16] =>  0:25
+  :END:
+
+* DONE git
+  CLOSED: [2017-06-30 周五 12:24]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-06-30 周五 12:24
+  :ARCHIVE_FILE: ~/mygtd/gtd.org
+  :ARCHIVE_CATEGORY: gtd
+  :ARCHIVE_TODO: DONE
+  :END:
+  - State "DONE"       from "TODO"       [2017-06-30 周五 12:24]
+** [[http://memoryboxes.github.io/blog/2014/12/07/duo-ge-gitzhang-hao-zhi-jian-de-qie-huan/][多个账号切换]]
+
+* TODO sports
+  SCHEDULED: <2016-09-14 周三 +1d>
+  :PROPERTIES:
+  :LAST_REPEAT: [2016-09-13 周二 13:09]
+  :ARCHIVE_TIME: 2017-07-11 周二 12:18
+  :ARCHIVE_FILE: ~/mygtd/gtd.org
+  :ARCHIVE_CATEGORY: gtd
+  :ARCHIVE_TODO: TODO
+  :END:
+  :LOGBOOK:
+  - State "DONE"       from "TODO"       [2016-09-13 周二 13:09]
+  - State "DONE"       from "TODO"       [2016-09-12 周一 08:51]
+  :END:
