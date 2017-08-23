@@ -94,6 +94,7 @@
 *** 获取七牛返回的值，保存到数据库
 ** [[http://www.pythondoc.com/flask-mega-tutorial/index.html][flask]]
    :LOGBOOK:
+   CLOCK: [2017-08-24 四 00:30]
    CLOCK: [2017-08-21 一 23:29]--[2017-08-21 一 23:54] =>  0:25
    :END:
 * AI
