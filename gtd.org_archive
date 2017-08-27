@@ -1350,3 +1350,90 @@ Archived entries from file c:/Users/rubing/mygtd/gtd.org
   :ARCHIVE_CATEGORY: gtd
   :ARCHIVE_TODO: DONE
   :END:
+
+* DONE 晋级失败后转圈
+  CLOSED: [2017-08-24 周四 11:11]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-08-24 周四 11:12
+  :ARCHIVE_FILE: ~/mygtd/gtd.org
+  :ARCHIVE_CATEGORY: gtd
+  :ARCHIVE_TODO: DONE
+  :END:
+
+* 福利炸金花
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-08-24 周四 11:12
+  :ARCHIVE_FILE: ~/mygtd/gtd.org
+  :ARCHIVE_CATEGORY: gtd
+  :END:
+** DONE 加载页背景
+   CLOSED: [2017-08-23 周三 14:20]
+** DONE 登录页背景,logo
+   CLOSED: [2017-08-23 周三 18:32]
+** DONE 主页背景,logo
+   CLOSED: [2017-08-23 周三 18:32]
+
+* DONE 墨池会馆
+  CLOSED: [2017-08-24 周四 15:17]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-08-24 周四 15:17
+  :ARCHIVE_FILE: ~/mygtd/gtd.org
+  :ARCHIVE_CATEGORY: gtd
+  :ARCHIVE_TODO: DONE
+  :END:
+** DONE 微信登录
+   CLOSED: [2017-08-24 周四 15:17]
+** DONE 游戏换图标
+   CLOSED: [2017-08-24 周四 12:28]
+   :LOGBOOK:
+   CLOCK: [2017-08-24 周四 11:17]--[2017-08-24 周四 11:42] =>  0:25
+   :END:
+
+* DONE 福利炸金花
+  CLOSED: [2017-08-24 周四 18:13]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-08-24 周四 18:13
+  :ARCHIVE_FILE: ~/mygtd/gtd.org
+  :ARCHIVE_CATEGORY: gtd
+  :ARCHIVE_TODO: DONE
+  :END:
+  :LOGBOOK:
+  CLOCK: [2017-08-24 周四 17:13]--[2017-08-24 周四 17:31] =>  0:18
+  :END:
+** DONE 百人牛牛下注金币音效后边的丁铃声去掉
+   CLOSED: [2017-08-24 周四 17:12]
+
+* DONE 一局比赛显示等待下一局
+  CLOSED: [2017-08-24 周四 18:14]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-08-24 周四 18:14
+  :ARCHIVE_FILE: ~/mygtd/gtd.org
+  :ARCHIVE_CATEGORY: gtd
+  :ARCHIVE_TODO: DONE
+  :END:
+  :LOGBOOK:
+  CLOCK: [2017-08-22 周二 13:14]--[2017-08-22 周二 13:39] =>  0:25
+  CLOCK: [2017-08-22 周二 12:31]--[2017-08-22 周二 12:56] =>  0:25
+  :END:
+
+* DONE 比赛场
+  CLOSED: [2017-08-26 周六 00:24]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-08-26 周六 00:24
+  :ARCHIVE_FILE: ~/mygtd/gtd.org
+  :ARCHIVE_CATEGORY: gtd
+  :ARCHIVE_TODO: DONE
+  :END:
+** 报名时定时器bug
+** DONE 延迟显示比赛结果
+   CLOSED: [2017-08-24 周四 17:05]
+** DONE 显示“等待其他玩家结束比赛”
+   CLOSED: [2017-08-24 周四 17:05]
+** DONE 显示比赛记录
+   CLOSED: [2017-08-26 周六 00:24]
+   :LOGBOOK:
+   CLOCK: [2017-08-25 周五 12:37]--[2017-08-25 周五 13:02] =>  0:25
+   CLOCK: [2017-08-25 周五 11:21]--[2017-08-25 周五 11:46] =>  0:25
+   CLOCK: [2017-08-25 周五 10:48]--[2017-08-25 周五 11:13] =>  0:25
+   CLOCK: [2017-08-24 周四 17:06]--[2017-08-24 周四 17:12] =>  0:06
+   :END:
