@@ -91,34 +91,6 @@
    CLOCK: [2016-09-21 周三 09:53]--[2016-09-21 周三 10:18] =>  0:25
    CLOCK: [2016-09-20 周二 16:27]--[2016-09-20 周二 16:52] =>  0:25
    :END:
-** STARTED [[https://git.oschina.net/zzparkour/heiye-server][TechneServer]]
-   :LOGBOOK:
-   CLOCK: [2016-09-27 周二 15:17]--[2016-09-27 周二 15:42] =>  0:25
-   CLOCK: [2016-09-27 周二 14:20]--[2016-09-27 周二 14:45] =>  0:25
-   CLOCK: [2016-09-27 周二 13:43]--[2016-09-27 周二 14:08] =>  0:25
-   CLOCK: [2016-09-27 周二 13:08]--[2016-09-27 周二 13:33] =>  0:25
-   CLOCK: [2016-09-26 周一 17:37]--[2016-09-26 周一 18:02] =>  0:25
-   CLOCK: [2016-09-26 周一 17:06]--[2016-09-26 周一 17:31] =>  0:25
-   CLOCK: [2016-09-24 周六 15:05]--[2016-09-24 周六 15:30] =>  0:25 babel
-   :END:
-*** STARTED [[https://blog.leancloud.cn/3910/][setBabel]]
-    :LOGBOOK:
-    CLOCK: [2016-09-26 周一 16:39]--[2016-09-26 周一 17:04] =>  0:25
-    CLOCK: [2016-09-26 周一 14:14]--[2016-09-26 周一 14:39] =>  0:25
-    CLOCK: [2016-09-24 周六 15:42]--[2016-09-24 周六 17:35] =>  1:53
-    :END:
-*** CANCELLED [[http://liubin.org/promises-book/][JSPromise]]
-    CLOSED: [2016-11-12 周六 20:14]
-    - State "CANCELLED"  from "STARTED"    [2016-11-12 周六 20:14] \\
-      感觉写的很绕
-    :LOGBOOK:
-    CLOCK: [2016-09-27 周二 09:49]--[2016-09-27 周二 10:14] =>  0:25
-    CLOCK: [2016-09-27 周二 09:16]--[2016-09-27 周二 09:41] =>  0:25
-    :END:
-** STARTED [[https://cnodejs.org/topic/560dbc826a1ed28204a1e7de][promise]]
-   :LOGBOOK:
-   CLOCK: [2016-11-19 周六 10:50]--[2016-11-19 周六 11:15] =>  0:25
-   :END:
 * python
 ** STARTED [[https://wizardforcel.gitbooks.io/think-python-2e/content/11.html][python tutorial]]
    :LOGBOOK:
@@ -170,6 +142,7 @@
 *** 获取七牛返回的值，保存到数据库
 ** [[http://www.pythondoc.com/flask-mega-tutorial/index.html][flask]]
    :LOGBOOK:
+   CLOCK: [2017-08-29 周二 10:59]--[2017-08-29 周二 11:24] =>  0:25
    CLOCK: [2017-08-21 一 23:29]--[2017-08-21 一 23:54] =>  0:25
    :END:
 * AI
@@ -328,6 +301,7 @@
 ** c
 ** c++
    :LOGBOOK:
+   CLOCK: [2017-08-29 周二 10:17]--[2017-08-29 周二 10:42] =>  0:25
    CLOCK: [2017-08-28 一 22:51]--[2017-08-28 一 23:16] =>  0:25
    CLOCK: [2017-08-28 周一 00:32]--[2017-08-28 周一 00:57] =>  0:25
    CLOCK: [2017-08-27 周日 11:11]--[2017-08-27 周日 11:36] =>  0:25
@@ -340,4 +314,8 @@
 ** TODO 等待其他晋级结果弹窗可以取消
 * cocos
 ** [[http://blog.sina.com.cn/s/blog_4057ab62010197z8.html][module import android.mk]]
-   
+* [[https://dongchuan.gitbooks.io/gradle-user-guide-/build_script_basics/hello_world.html][gradle]]
+  :LOGBOOK:
+  CLOCK: [2017-08-29 周二 13:41]
+  CLOCK: [2017-08-29 周二 12:19]--[2017-08-29 周二 12:39] =>  0:20
+  :END:
