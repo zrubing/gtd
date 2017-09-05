@@ -1502,3 +1502,40 @@ Archived entries from file c:/Users/rubing/mygtd/gtd.org
 ** TODO findResultOneTime a nil value 没显示晋级失败界面
 ** TODO 失败弹窗后面可点击
 ** TODO 等待其他晋级结果弹窗可以取消
+
+* 昆山麻将问题
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-09-06 三 00:07
+  :ARCHIVE_FILE: ~/gtd/gtd.org
+  :ARCHIVE_CATEGORY: gtd
+  :END:
+** 解散成功出现结算退不出房间
+** 显示扎码
+** 后准备的两个人没牌->卡住退不出房间
+** 网络错误退出房间
+
+* 7.27
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-09-06 三 00:07
+  :ARCHIVE_FILE: ~/gtd/gtd.org
+  :ARCHIVE_CATEGORY: gtd
+  :END:
+** 广东帮助保存
+** 安卓断网重连
+** 转盘点击有时没反应
+** 接受任务房卡数量发生变化
+** 麻将lua_src error
+** [[file:lua_src_err.org::1][麻将error]] 
+
+* 7.27
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-09-06 三 00:08
+  :ARCHIVE_FILE: ~/gtd/gtd.org
+  :ARCHIVE_CATEGORY: gtd
+  :END:
+** 广东帮助保存
+** 安卓断网重连
+** 转盘点击有时没反应
+** 接受任务房卡数量发生变化
+** 麻将lua_src error
+** [[file:lua_src_err.org::1][麻将error]] 
