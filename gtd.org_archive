@@ -1479,3 +1479,26 @@ Archived entries from file c:/Users/rubing/mygtd/gtd.org
    CLOCK: [2016-09-27 周二 09:49]--[2016-09-27 周二 10:14] =>  0:25
    CLOCK: [2016-09-27 周二 09:16]--[2016-09-27 周二 09:41] =>  0:25
    :END:
+
+* [[https://dongchuan.gitbooks.io/gradle-user-guide-/build_script_basics/hello_world.html][gradle]]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-09-05 周二 10:05
+  :ARCHIVE_FILE: ~/mygtd/gtd.org
+  :ARCHIVE_CATEGORY: gtd
+  :END:
+  :LOGBOOK:
+  CLOCK: [2017-09-01 周五 13:44]--[2017-09-01 周五 14:09] =>  0:25
+  CLOCK: [2017-08-31 周四 14:51]--[2017-08-31 周四 15:16] =>  0:25
+  CLOCK: [2017-08-29 周二 13:41]
+  CLOCK: [2017-08-29 周二 12:19]--[2017-08-29 周二 12:39] =>  0:20
+  :END:
+
+* bugs
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-09-05 周二 10:14
+  :ARCHIVE_FILE: ~/mygtd/gtd.org
+  :ARCHIVE_CATEGORY: gtd
+  :END:
+** TODO findResultOneTime a nil value 没显示晋级失败界面
+** TODO 失败弹窗后面可点击
+** TODO 等待其他晋级结果弹窗可以取消

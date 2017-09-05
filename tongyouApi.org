@@ -85,3 +85,185 @@
         }
     }
 }
+* roomListInfo
+  "roomListInfo" = {
+     1 = {
+         1 = 510
+         2 = {
+             1 = *MAX NESTING*
+         }
+     }
+     2 = {
+         1 = 200
+         2 = {
+             1 = *MAX NESTING*
+             2 = *MAX NESTING*
+             3 = *MAX NESTING*
+             4 = *MAX NESTING*
+             5 = *MAX NESTING*
+         }
+     }
+     3 = {
+         1 = 389
+         2 = {
+             1 = *MAX NESTING*
+             2 = *MAX NESTING*
+             3 = *MAX NESTING*
+             4 = *MAX NESTING*
+         }
+     }
+     4 = {
+         1 = 27
+         2 = {
+             1 = *MAX NESTING*
+             2 = *MAX NESTING*
+             3 = *MAX NESTING*
+             4 = *MAX NESTING*
+         }
+     }
+     5 = {
+         1 = 104
+         2 = {
+             1 = *MAX NESTING*
+         }
+     }
+     6 = {
+         1 = 6
+         2 = {
+             1 = *MAX NESTING*
+             2 = *MAX NESTING*
+             3 = *MAX NESTING*
+         }
+     }
+ }
+* roomListLayer 
+** 125- "=======" = {
+     "_Active"           = true
+     "_KindID"           = "200"
+     "_KindName"         = "qipai.land."
+     "_KindVersion"      = "101122049"
+     "_Module"           = "qipai/land/"
+     "_ServerResVersion" = 5
+     "_SortId"           = 0
+     "_Type"             = "qipai"
+     "gameIndex"         = 1
+     "nEnterRoomIndex"   = 1
+     "nSitChair"         = 65535
+     "nSitTable"         = 65535
+ }
+ 
+** roomListLayer 106
+ - "tab_room_list" = {
+     1 = {
+         "_nRoomIndex"    = 1
+         "cbEnterMember"  = 0
+         "class" = {
+             "__cname"   = "GameServerItem"
+             "__index"   = *REF*
+             "create"    = function: 0xd34b5940
+             "ctor"      = function: 0xd47017a0
+             "new"       = function: 0xd34b5ef0
+             "onInit"    = function: 0xd32c5db8
+             "readScore" = function: 0xd32909f8
+             "testlog"   = function: 0xd31010d0
+         }
+         "dwAndroidCount" = 30
+         "dwFullCount"    = 180
+         "dwOnLineCount"  = 0
+         "dwServerRule"   = 50331648
+         "dwSurportType"  = 0
+         "lCellScore"     = 100
+         "lEnterScore"    = 0
+         "szServerAddr"   = "118.190.116.11"
+         "szServerName"   = "斗地主100"
+         "wKindID"        = 200
+         "wNodeID"        = 0
+         "wServerID"      = 1039
+         "wServerKind"    = 1
+         "wServerLevel"   = 0
+         "wServerPort"    = 56447
+         "wServerType"    = 1
+         "wSortID"        = 1
+         "wTableCount"    = 60
+     }
+     2 = {
+         "_nRoomIndex"    = 2
+         "cbEnterMember"  = 0
+         "class"          = *REF*
+         "dwAndroidCount" = 30
+         "dwFullCount"    = 180
+         "dwOnLineCount"  = 0
+         "dwServerRule"   = 50331648
+         "dwSurportType"  = 0
+         "lCellScore"     = 500
+         "lEnterScore"    = 0
+         "szServerAddr"   = "118.190.116.11"
+         "szServerName"   = "斗地主500"
+         "wKindID"        = 200
+         "wNodeID"        = 0
+         "wServerID"      = 1041
+         "wServerKind"    = 1
+         "wServerLevel"   = 0
+         "wServerPort"    = 43255
+         "wServerType"    = 1
+         "wSortID"        = 2
+         "wTableCount"    = 60
+     }
+     3 = {
+         "_nRoomIndex"    = 3
+         "cbEnterMember"  = 0
+         "class"          = *REF*
+         "dwAndroidCount" = 30
+         "dwFullCount"    = 180
+         "dwOnLineCount"  = 1
+         "dwServerRule"   = 50331648
+         "dwSurportType"  = 0
+         "lCellScore"     = 1000
+         "lEnterScore"    = 0
+         "szServerAddr"   = "118.190.116.11"
+         "szServerName"   = "斗地主1000"
+         "wKindID"        = 200
+         "wNodeID"        = 0
+         "wServerID"      = 1042
+         "wServerKind"    = 1
+         "wServerLevel"   = 0
+         "wServerPort"    = 11039
+         "wServerType"    = 1
+         "wSortID"        = 3
+         "wTableCount"    = 60
+     }
+     4 = {
+         "_nRoomIndex"    = 5
+         "cbEnterMember"  = 0
+         "class"          = *REF*
+         "dwAndroidCount" = 0
+         "dwFullCount"    = 90
+         "dwOnLineCount"  = 0
+         "dwServerRule"   = 50331648
+         "dwSurportType"  = 0
+         "lCellScore"     = 1
+         "lEnterScore"    = 0
+         "szServerAddr"   = "118.190.116.11"
+         "szServerName"   = "斗地主"
+         "wKindID"        = 200
+         "wNodeID"        = 0
+         "wServerID"      = 1065
+         "wServerKind"    = 2
+         "wServerLevel"   = 0
+         "wServerPort"    = 32512
+         "wServerType"    = 1
+         "wSortID"        = 500
+         "wTableCount"    = 30
+     }
+ }
+* onEnterNextBisai
+  clientScence:onEnterNextBisai()
+  ->clientScence:onStartGame()
+* 点击房间
+  RoomListLayer:tableCellTouched()
+  ->ClientScence:onEnterGoldField()
+  ->ClientScence:1617:onStartGame()
+  ->GameFrameEngine:61:onLogonRoom()
+  ->GameFrameEngine:184:onSocketLogonFinish()
+  ->ClientScence:1201:onEnterRoom() table 里没有数据
+  ->GameFrameEngine:880:SitDown()
