@@ -267,3 +267,1342 @@
   ->GameFrameEngine:184:onSocketLogonFinish()
   ->ClientScence:1201:onEnterRoom() table 里没有数据
   ->GameFrameEngine:880:SitDown()
+* onStartGame
+  登录房间：118.190.116.11#32512
+ toLua_Client_Socket_create:[116
+ lua 网络回调:[2875][0]
+ toLua_Client_Socket_connect:[118.190.116.11][32512][11E9E77D-C628-4FD6-AC60-91A541DBD5C1]
+ onSocketCallBack main:0#sub:1
+ 连接结果
+ onSocketCallBack main:2#sub:101
+ 网络信息
+ main-------2
+ main------onSocketConfigEvent
+ 房间配置[table:60][chair:3][type:1][rule:50333984]
+ onSocketCallBack main:2#sub:103
+ 网络信息
+ main-------2
+ main------onSocketConfigEvent
+ onSocketCallBack main:3#sub:100
+ 网络信息
+ main-------3
+ main------onSocketUserEvent
+ GameFrameEngine enter ==> 	hiar2015	2577823867	nil
+ onSocketCallBack main:3#sub:100
+ 网络信息
+ main-------3
+ main------onSocketUserEvent
+ 已有自己信息，不再次处理自己信息
+ onSocketCallBack main:1#sub:102
+ 网络信息
+ main-------1
+ main------onSocketLogonEvent
+ 连接状态改变
+ 登录完成
+ self._viewFrame == userdata: 0xd35aab10 self._viewFrame.onEnterRoom == function: 0xd3594a08
+ GameFrameEngine194------------------------onEnterRoom
+ onEnterRoom--------------------------ByClick
+ client onEnterRoom
+ 自定义房间界面处理登陆成功消息
+ nil ~= entergame
+ self._sceneRecord ==== else
+ onChangeShowMode
+ 有 tag
+ 创建 RoomLayer
+ dump from: [string "client/src/plaza/views/layer/room/RoomLayer.luac"]:95: in function 'ctor'
+ - "创建 RoomLayer" = {
+ - }
+ tag = 20
+ onSocketCallBack main:4#sub:100
+ 网络信息
+ main-------4
+ main------onSocketStatusEvent
+ SUB_GR_TABLE_INFO
+ RoomLayer获取桌子信息
+ dump from: [string "client/src/plaza/views/layer/room/RoomLayer.luac"]:426: in function 'onGetTableInfo'
+ - "RoomLayer 获取桌子信息" = {
+ -     1 = {
+-     }
+ - }
+ trueaaaa
+ 进入快速游戏方法事件
+ 判断当前场景
+ 判断当前场景完毕
+ 使用游戏
+ ClientScene1085------------------------OnEnterRoom
+ onEnterRoom--------------------------ByClick
+ client onEnterRoom
+ -------快速游戏找桌
+ dump from: [string "client/src/plaza/views/ClientScene.luac"]:1396: in function 'onEnterRoom'
+ - "wtf_table" = {
+ -     1 = {
+ -         "cbPlayStatus" = 0
+ -     -     54 = {
+ -         "cbPlayStatus" = 0
+ -         "cbTableLock"  = 0
+ -         "lCellScore"   = 1
+ -     }
+ -     55 = {
+ 获取桌子信息
+ dump from: [string "client/src/plaza/models/GameFrameEngine.luac"]:679: in function 'onSocketStatusEvent'
+ - "获取桌子信息" = {
+ -     1 = {
+ -         "cbPlayStatus" = 0
+ -    
+ -     60 = {
+ -         "cbPlayStatus" = 0
+ -         "cbTableLock"  = 0
+ -         "lCellScore"   = 1
+ -     }
+ - }
+ onSocketCallBack main:8#sub:206
+ 网络信息
+ main-------8
+ main------onSocketGameSocketEvent
+ ----PriFrame:onGameSocketEvent
+ onSocketCallBack main:3#sub:100
+ 网络信息
+ main-------3
+ main------onSocketUserEvent
+ 已有自己信息，不再次处理自己信息
+ onSocketCallBack main:3#sub:102
+ 网络信息
+ main-------3
+ main------onSocketUserEvent
+ 自己坐下
+ ClientScene onEnterTable
+ tag != yl.SCENE_GAME 
+ onChangeShowMode
+ 有 tag
+ nil ~= entergame
+ gameScene
+ [LUA-print] 发送准备
+ [LUA-print] KillGameClock
+ [LUA-print] tag = 21
+* 登录游戏进入界面
+  =========== 登录成功 ===========
+ D/cocos2d-x debug info: [LUA-print] lock server 0
+ D/cocos2d-x debug info: [LUA-print] lock kind 0
+ [LUA-print] *** curlen-272
+ [LUA-print] *** datalen-296
+ [LUA-print] *** tmpSize-20
+ [LUA-print] *** tmpCmd-3
+ [LUA-print] **************************************************
+ [LUA-print] **************************************************
+:callJavaStaticMethod(lua_State *L)
+:getJavaVM(), pthread_self() = -729274080
+:callJavaStaticMethod("org/cocos2dx/lua/AppActivity", "getHostAdress", args, "()Ljava/lang/String;") SUCCESS
+ [LUA-print] The ret is:0.0.0.0
+ [LUA-print] onSocketCallBack main:1#sub:350
+ [LUA-print] onSocketCallBack main:101#sub:101
+ [LUA-print] =============== onSubRoomListInfo ================
+ [LUA-print] onSubRoomListInfo:3477
+ [LUA-print] =============== onSubRoomListInfo ================ 	19
+ [LUA-print] onSocketCallBack main:101#sub:200
+ [LUA-print] onCloseSocket
+ [_DEBUG]	CClientSocket::~CClientSocket
+ [LUA-print] dump from: [string "client/src/plaza/models/LogonFrame.luac"]:158: in function 'onRoomListEvent'
+ [Kernel LogOut]: m_pCashList push_back
+ [LUA-print] - "wtf_roomlist" = {
+ [LUA-print] -     1 = {
+ [LUA-print] -         1 = 510
+ [LUA-print] -         2 = {
+ [LUA-print] -             1 = *MAX NESTING*
+ [LUA-print] -         }
+ [LUA-print] -     }
+ [LUA-print] - }
+ [LUA-print] dump from: [string "client/src/plaza/models/LogonFrame.luac"]:158: in function 'onRoomListEvent'
+ [LUA-print] - "wtf_roomlist" = {
+ [LUA-print] -     1 = {
+ [LUA-print] -         1 = 510
+ [LUA-print] -         2 = {
+ [LUA-print] -             1 = *MAX NESTING*
+ [LUA-print] -         }
+ [LUA-print] -     }
+ [LUA-print] -     2 = {
+ [LUA-print] -         1 = 200
+ [LUA-print] -         2 = {
+ [LUA-print] -             1 = *MAX NESTING*
+ [LUA-print] -             2 = *MAX NESTING*
+ [LUA-print] -             3 = *MAX NESTING*
+ [LUA-print] -             4 = *MAX NESTING*
+ [LUA-print] -             5 = *MAX NESTING*
+ [LUA-print] -         }
+ [LUA-print] -     }
+ [LUA-print] - }
+ [LUA-print] dump from: [string "client/src/plaza/models/LogonFrame.luac"]:158: in function 'onRoomListEvent'
+ [LUA-print] - "wtf_roomlist" = {
+ [LUA-print] -     1 = {
+ [LUA-print] -         1 = 510
+ [LUA-print] -         2 = {
+ [LUA-print] -             1 = *MAX NESTING*
+ [LUA-print] -         }
+ [LUA-print] -     }
+ [LUA-print] -     2 = {
+ [LUA-print] -         1 = 200
+ [LUA-print] -         2 = {
+ [LUA-print] -             1 = *MAX NESTING*
+ [LUA-print] -             2 = *MAX NESTING*
+ [LUA-print] -             3 = *MAX NESTING*
+ [LUA-print] -             4 = *MAX NESTING*
+ [LUA-print] -             5 = *MAX NESTING*
+ [LUA-print] -         }
+ [LUA-print] -     }
+ [LUA-print] -     3 = {
+ [LUA-print] -         1 = 389
+ [LUA-print] -         2 = {
+ [LUA-print] -             1 = *MAX NESTING*
+ [LUA-print] -             2 = *MAX NESTING*
+ [LUA-print] -             3 = *MAX NESTING*
+ [LUA-print] -             4 = *MAX NESTING*
+ [LUA-print] -         }
+ [LUA-print] -     }
+ [LUA-print] - }
+ [LUA-print] dump from: [string "client/src/plaza/models/LogonFrame.luac"]:158: in function 'onRoomListEvent'
+ [LUA-print] - "wtf_roomlist" = {
+ [LUA-print] -     1 = {
+ [LUA-print] -         1 = 510
+ [LUA-print] -         2 = {
+ [LUA-print] -             1 = *MAX NESTING*
+ [LUA-print] -         }
+ [LUA-print] -     }
+ [LUA-print] - }
+ [LUA-print] dump from: [string "client/src/plaza/models/LogonFrame.luac"]:158: in function 'onRoomListEvent'
+ [LUA-print] - "wtf_roomlist" = {
+ [LUA-print] -     1 = {
+ [LUA-print] -         1 = 510
+ [LUA-print] -         2 = {
+ [LUA-print] -             1 = *MAX NESTING*
+ [LUA-print] -         }
+ [LUA-print] - }
+ [LUA-print] dump from: [string "client/src/plaza/models/LogonFrame.luac"]:158: in function 'onRoomListEvent'
+ [LUA-print] - "wtf_roomlist" = {
+ [LUA-print] -     1 = {
+ [LUA-print] -         1 = 510
+ [LUA-print] -         2 = {
+ [LUA-print] -             1 = *MAX NESTING*
+ [LUA-print] -         }
+ [LUA-print] -     }
+ [LUA-print] - }
+ [LUA-print] dump from: [string "client/src/plaza/models/LogonFrame.luac"]:158: in function 'onRoomListEvent'
+ [LUA-print] - "wtf_roomlist" = {
+ [LUA-print] -     1 = {
+ [LUA-print] -         1 = 510
+ [LUA-print] -         2 = {
+ [LUA-print] -             1 = *MAX NESTING*
+ [LUA-print] -         }
+ [LUA-print] -     }
+ [LUA-print] - }
+ [LUA-print] onCloseSocket
+ save_path:/data/user/0/foxuc.qp.Glory.jlzzz/files/user_gameconfig.plist
+ save_path:/data/user/0/foxuc.qp.Glory.jlzzz/files/user_gameconfig.plist
+ [LUA-print] timevalue-1505464665
+ [LUA-print] signature-DB835217D1C9784F99A49F6FEFB63CD8
+ [LUA-print] appdf.onHttpJsionTable:http://ty.ttqp.cc/WS/MobileInterface.ashx
+ [Kernel LogOut]: delete cash
+:getJavaVM(), pthread_self() = -803673824
+ find in flash memory dirPath(/data/user/0/foxuc.qp.Glory.jlzzz/files//saverec/)
+ find in flash memory dirPath(/data/user/0/foxuc.qp.Glory.jlzzz/files//downrec/)
+ [LUA-print] 创建GameFrameEngine
+ [LUA-print] dump from: [string "client/src/plaza/models/GameFrameEngine.luac"]:22: in function 'ctor'
+ [LUA-print] - "创建GameFrameEngine" = {
+ [LUA-print] - }
+ come in the keyboardEnable
+ [LUA-print] onChangeShowMode
+ [LUA-print] 有 tag
+ [LUA-print] ============= 游戏列表界面创建 =============
+:callJavaStaticMethod(lua_State *L)
+:getJavaVM(), pthread_self() = -729274080
+:callJavaStaticMethod("org/cocos2dx/lua/AppActivity", "getUUID", args, "()Ljava/lang/String;") SUCCESS
+ [LUA-print] The ret is:0000000024226093ffffffffe3e07aeb
+ [LUA-print] tag = 1
+ find in flash memory dirPath(/data/user/0/foxuc.qp.Glory.jlzzz/files//friend/)
+ find in flash memory dirPath(/data/user/0/foxuc.qp.Glory.jlzzz/files//friend/10468/)
+ [LUA-print] new instance
+ [LUA-print] register main ==> 3 sub ==> 200 name ==> friend_chat
+ [LUA-print] register main ==> 3 sub ==> 201 name ==> friend_apply
+ [LUA-print] register main ==> 3 sub ==> 202 name ==> friend_response
+ [LUA-print] register main ==> 3 sub ==> 204 name ==> friend_invite
+ [LUA-print] register main ==> 3 sub ==> 213 name ==> pri_friend_invite
+ [LUA-print] register main ==> 3 sub ==> 212 name ==> friend_share
+ toLua_Client_Socket_create:[52
+ lua 网络回调:[1407][0]
+ toLua_Client_Socket_connect:[ty.ttqp.cc][8630][11E9E77D-C628-4FD6-AC60-91A541DBD5C1]
+:callJavaStaticMethod(lua_State *L)
+:getJavaVM(), pthread_self() = -729274080
+:callJavaStaticMethod("org/cocos2dx/lua/AppActivity", "requestLocation", args, "(I)V") SUCCESS
+ [LUA-print] FriendMgr send login
+ WARN this is cmd_data is auto! init auto is 512
+ find in flash memory dirPath(/data/user/0/foxuc.qp.Glory.jlzzz/files//friend/10468/)
+ come in the keyboardEnable
+ [LUA-print] dump from: [string "client/src/plaza/models/FriendMgr.luac"]:209: in function <[string "client/src/plaza/models/FriendMgr.luac"]:201>
+ [LUA-print] - "FriendMgr:updateLocation" = {
+ [LUA-print] -     "berror" = true
+ [LUA-print] -     "msg"    = "8,定位失败! KEY错误 请到http://lbs.amap.com/api/android-location-sdk/abouterrorcode/查看错误码说明."
+ [LUA-print] - }
+ [LUA-print] 8,定位失败! KEY错误 请到http://lbs.amap.com/api/android-location-sdk/abouterrorcode/查看错误码说明.
+FunctionById() - function id 1 released
+ create rendererRecreatedListener for GLProgramState
+ [LUA-print] register main ==> 3 sub ==> 200 name ==> client_friend_chat
+ [LUA-print] register main ==> 3 sub ==> 201 name ==> client_friend_apply
+ [LUA-print] register main ==> 3 sub ==> 202 name ==> client_friend_response
+ [LUA-print] register main ==> 3 sub ==> 204 name ==> client_friend_invite
+ [LUA-print] register main ==> 3 sub ==> 213 name ==> client_pri_friend_invite
+ [LUA-print] register main ==> 3 sub ==> 212 name ==> client_friend_share
+ [LUA-print] register main ==> 3 sub ==> 205 name ==> trumpet
+ [LUA-print] register main ==> 3 sub ==> 250 name ==> client_task_info
+ toLua_Client_Socket_create:[53
+ lua 网络回调:[1507][0]
+ toLua_Client_Socket_connect:[ty.ttqp.cc][8600][11E9E77D-C628-4FD6-AC60-91A541DBD5C1]
+ [LUA-print] appdf.onHttpJsionTable:http://ty.ttqp.cc/WS/MobileInterface.ashx?action=GetMobileRollNotice
+: remove EditBox
+ create rendererRecreatedListener for GLProgramState
+: remove EditBox
+ [LUA-print] onSocketCallBack main:0#sub:1
+ [LUA-print] ============ShopDetail onConnectCompeleted============
+ [LUA-print] ConnectCompeleted oprateCode=4
+:getJavaVM(), pthread_self() = -871884512
+:getJavaVM(), pthread_self() = -872928992
+ cocos2d: SpriteBatchNode: resizing TextureAtlas capacity from [29] to [40].
+ [LUA-print] onSocketCallBack main:6#sub:108
+ [LUA-print] ============ ShopDetail onSocketEvent ============
+ [LUA-print] socket event:6#108
+ [LUA-print] count ==> 0
+ [LUA-print] onSocketCallBack main:6#sub:104
+ [LUA-print] ============ ShopDetail onSocketEvent ============
+ [LUA-print] socket event:6#104
+ [LUA-print] ============ ShopDetailFrame:onSubQueryBag ============
+ [LUA-print] PriRoom:onEnterPlazaFinish ==> not lock game
+ toLua_Client_Socket_create:[59
+ lua 网络回调:[2066][0]
+ toLua_Client_Socket_connect:[ty.ttqp.cc][8600][11E9E77D-C628-4FD6-AC60-91A541DBD5C1]
+ [LUA-print] onCloseSocket
+ [_DEBUG]	CClientSocket::~CClientSocket
+ [Kernel LogOut]: m_pCashList push_back
+ [Kernel LogOut]: delete cash
+ [LUA-print] onSocketCallBack main:0#sub:1
+ [LUA-print] ============Task onConnectCompeleted============
+ [LUA-print] TaskFrame:onConnectCompeleted oprateCode=0
+ [LUA-print] ============Task onConnectCompeleted============
+ [LUA-print] onSocketCallBack main:3#sub:251
+ [LUA-print] ============Task onSocketEvent============
+ [LUA-print] socket event:3#251
+ [LUA-print] ============Task onSocketEvent============
+ [LUA-print] itemcount - 1
+ [LUA-print] describe length - 0
+ [LUA-print] onSocketCallBack main:3#sub:250
+ [LUA-print] ============Task onSocketEvent============
+ [LUA-print] socket event:3#250
+ [LUA-print] ============Task onSocketEvent============
+ toLua_Client_Socket_create:[60
+ lua 网络回调:[2072][0]
+ toLua_Client_Socket_connect:[ty.ttqp.cc][8600][11E9E77D-C628-4FD6-AC60-91A541DBD5C1]
+ toLua_Client_Socket_create:[61
+ lua 网络回调:[2073][0]
+ toLua_Client_Socket_connect:[ty.ttqp.cc][8600][11E9E77D-C628-4FD6-AC60-91A541DBD5C1]
+ [LUA-print] onCloseSocket
+ [_DEBUG]	CClientSocket::~CClientSocket
+ [Kernel LogOut]: m_pCashList push_back
+ [Kernel LogOut]: delete cash
+ [LUA-print] onSocketCallBack main:0#sub:1
+ [LUA-print] onSocketCallBack main:0#sub:1
+ [LUA-print] ============Checkin onConnectCompeleted============
+ [LUA-print] CheckinFrame:onConnectCompeleted oprateCode=0
+ [LUA-print] sendCheckinQuery
+ [LUA-print] onSocketCallBack main:3#sub:301
+ [LUA-print] LevelFrame:onSocketEvent 3 301
+ [LUA-print] onCloseSocket
+ [_DEBUG]	CClientSocket::~CClientSocket
+ [Kernel LogOut]: m_pCashList push_back
+ [Kernel LogOut]: delete cash
+ [LUA-print] onSocketCallBack main:3#sub:221
+ [LUA-print] ============Checkin onSocketEvent============
+ [LUA-print] *socket event:3#221
+ [LUA-print] ============CheckinFrame:onSubCheckinInfo============
+ [LUA-print] wSeriesDate-5
+ [LUA-print] lRewardGold[1]-1000
+ [LUA-print] lRewardGold[2]-1000
+ [LUA-print] lRewardGold[3]-1000
+ [LUA-print] lRewardGold[4]-1000
+ [LUA-print] lRewardGold[5]-1000
+ [LUA-print] lRewardGold[6]-1000
+ [LUA-print] lRewardGold[7]-5000
+ [LUA-print] onCloseSocket
+* 进入斗地主普通场
+ [LUA-print] RoomListLayer:tableCellTouched
+ [LUA-print] dump from: [string "client/src/plaza/views/layer/plaza/RoomListLayer.luac"]:106: in function <[string "client/src/plaza/views/layer/plaza/RoomListLayer.luac"]:102>
+ [LUA-print] - "tab_room_list" = {
+ [LUA-print] -     1 = {
+ [LUA-print] -         "_nRoomIndex"    = 1
+ [LUA-print] -         "cbEnterMember"  = 0
+ [LUA-print] -         "class" = {
+ [LUA-print] -             "__cname"   = "GameServerItem"
+ [LUA-print] -             "__index"   = *REF*
+ [LUA-print] -             "create"    = function: 0xd3f7a658
+ [LUA-print] -             "ctor"      = function: 0xd3f7ac88
+ [LUA-print] -             "new"       = function: 0xd3f7a618
+ [LUA-print] -             "onInit"    = function: 0xd3f30f60
+ [LUA-print] -             "readScore" = function: 0xd31b56d8
+ [LUA-print] -             "testlog"   = function: 0xd33272c8
+ [LUA-print] -         }
+ [LUA-print] -         "dwAndroidCount" = 27
+ [LUA-print] -         "dwFullCount"    = 180
+ [LUA-print] -         "dwOnLineCount"  = 0
+ [LUA-print] -         "dwServerRule"   = 50331648
+ [LUA-print] -         "dwSurportType"  = 0
+ [LUA-print] -         "lCellScore"     = 100
+ [LUA-print] -         "lEnterScore"    = 0
+ [LUA-print] -         "szServerAddr"   = "118.190.116.11"
+ [LUA-print] -         "szServerName"   = "斗地主100"
+ [LUA-print] -         "wKindID"        = 200
+ [LUA-print] -         "wNodeID"        = 0
+ [LUA-print] -         "wServerID"      = 1039
+ [LUA-print] -         "wServerKind"    = 1
+ [LUA-print] -         "wServerLevel"   = 0
+ [LUA-print] -         "wServerPort"    = 56447
+ [LUA-print] -         "wServerType"    = 1
+ [LUA-print] -         "wSortID"        = 1
+ [LUA-print] -         "wTableCount"    = 60
+ [LUA-print] -     }
+ [LUA-print] -     2 = {
+ [LUA-print] -         "_nRoomIndex"    = 2
+ [LUA-print] -         "cbEnterMember"  = 0
+ [LUA-print] -         "class"          = *REF*
+ [LUA-print] -         "dwAndroidCount" = 29
+ [LUA-print] -         "dwFullCount"    = 180
+ [LUA-print] -         "dwOnLineCount"  = 0
+ [LUA-print] -         "dwServerRule"   = 50331648
+ [LUA-print] -         "dwSurportType"  = 0
+ [LUA-print] -         "lCellScore"     = 500
+ [LUA-print] -         "lEnterScore"    = 0
+ [LUA-print] -         "szServerAddr"   = "118.190.116.11"
+ [LUA-print] -         "szServerName"   = "斗地主500"
+ [LUA-print] -         "wKindID"        = 200
+ [LUA-print] -         "wNodeID"        = 0
+ [LUA-print] -         "wServerID"      = 1041
+ [LUA-print] -         "wServerKind"    = 1
+ [LUA-print] -         "wServerLevel"   = 0
+ [LUA-print] -         "wServerPort"    = 43255
+ [LUA-print] -         "wServerType"    = 1
+ [LUA-print] -         "wSortID"        = 2
+ [LUA-print] -         "wTableCount"    = 60
+ [LUA-print] -     }
+ [LUA-print] -     3 = {
+ [LUA-print] -         "_nRoomIndex"    = 3
+ [LUA-print] -         "cbEnterMember"  = 0
+ [LUA-print] -         "class"          = *REF*
+ [LUA-print] -         "dwAndroidCount" = 29
+ [LUA-print] -         "dwFullCount"    = 180
+ [LUA-print] -         "dwOnLineCount"  = 0
+ [LUA-print] -         "dwServerRule"   = 50331648
+ [LUA-print] -         "dwSurportType"  = 0
+ [LUA-print] -         "lCellScore"     = 1000
+ [LUA-print] -         "lEnterScore"    = 0
+ [LUA-print] -         "szServerAddr"   = "118.190.116.11"
+ [LUA-print] -         "szServerName"   = "斗地主1000"
+ [LUA-print] -         "wKindID"        = 200
+ [LUA-print] -         "wNodeID"        = 0
+ [LUA-print] -         "wServerID"      = 1042
+ [LUA-print] -         "wServerKind"    = 1
+ [LUA-print] -         "wServerLevel"   = 0
+ [LUA-print] -         "wServerPort"    = 11039
+ [LUA-print] -         "wServerType"    = 1
+ [LUA-print] -         "wSortID"        = 3
+ [LUA-print] -         "wTableCount"    = 60
+ [LUA-print] -     }
+ [LUA-print] -     4 = {
+ [LUA-print] -         "_nRoomIndex"    = 5
+ [LUA-print] -         "cbEnterMember"  = 0
+ [LUA-print] -         "class"          = *REF*
+ [LUA-print] -         "dwAndroidCount" = 0
+ [LUA-print] -         "dwFullCount"    = 180
+ [LUA-print] -         "dwOnLineCount"  = 0
+ [LUA-print] -         "dwServerRule"   = 50331648
+ [LUA-print] -         "dwSurportType"  = 0
+ [LUA-print] -         "lCellScore"     = 1
+ [LUA-print] -         "lEnterScore"    = 0
+ [LUA-print] -         "szServerAddr"   = "118.190.116.11"
+ [LUA-print] -         "szServerName"   = "斗地主"
+ [LUA-print] -         "wKindID"        = 200
+ [LUA-print] -         "wNodeID"        = 0
+ [LUA-print] -         "wServerID"      = 1065
+ [LUA-print] -         "wServerKind"    = 2
+ [LUA-print] -         "wServerLevel"   = 0
+ [LUA-print] -         "wServerPort"    = 32512
+ [LUA-print] -         "wServerType"    = 1
+ [LUA-print] -         "wSortID"        = 500
+ [LUA-print] -         "wTableCount"    = 60
+ [LUA-print] -     }
+ [LUA-print] - }
+ [LUA-print] -------进入金币房
+ [LUA-print] 进入快速游戏方法事件
+ [LUA-print] 判断当前场景
+ [LUA-print] 判断当前场景完毕
+ [LUA-print] 使用游戏
+ [LUA-print] 游戏房间列表
+ [LUA-print] 获取到roominfo
+ [LUA-print] 进入房间
+ [LUA-print] onStartGame
+ [LUA-print] onInitData
+ [LUA-print] setKindInfo
+ [LUA-print] setViewFrame
+ [LUA-print] onCloseSocket
+ [LUA-print] 连接房间
+ [LUA-print] self._roomInfo = table: 0xd31b1c68
+ [LUA-print] dump from: [string "client/src/plaza/models/GameFrameEngine.luac"]:66: in function 'onLogonRoom'
+ [LUA-print] - "onLogonRoom-------info" = {
+ [LUA-print] -     "_nRoomIndex"    = 1
+ [LUA-print] -     "cbEnterMember"  = 0
+ [LUA-print] -     "class" = {
+ [LUA-print] -         "__cname"   = "GameServerItem"
+ [LUA-print] -         "__index"   = *REF*
+ [LUA-print] -         "create"    = function: 0xd3f7a658
+ [LUA-print] -         "ctor"      = function: 0xd3f7ac88
+ [LUA-print] -         "new"       = function: 0xd3f7a618
+ [LUA-print] -         "onInit"    = function: 0xd3f30f60
+ [LUA-print] -         "readScore" = function: 0xd31b56d8
+ [LUA-print] -         "testlog"   = function: 0xd33272c8
+ [LUA-print] -     }
+ [LUA-print] -     "dwAndroidCount" = 27
+ [LUA-print] -     "dwFullCount"    = 180
+ [LUA-print] -     "dwOnLineCount"  = 0
+ [LUA-print] -     "dwServerRule"   = 50331648
+ [LUA-print] -     "dwSurportType"  = 0
+ [LUA-print] -     "lCellScore"     = 100
+ [LUA-print] -     "lEnterScore"    = 0
+ [LUA-print] -     "szServerAddr"   = "118.190.116.11"
+ [LUA-print] -     "szServerName"   = "斗地主100"
+ [LUA-print] -     "wKindID"        = 200
+ [LUA-print] -     "wNodeID"        = 0
+ [LUA-print] -     "wServerID"      = 1039
+ [LUA-print] -     "wServerKind"    = 1
+ [LUA-print] -     "wServerLevel"   = 0
+ [LUA-print] -     "wServerPort"    = 56447
+ [LUA-print] -     "wServerType"    = 1
+ [LUA-print] -     "wSortID"        = 1
+ [LUA-print] -     "wTableCount"    = 60
+ [LUA-print] - }
+ [LUA-print] 登录房间：118.190.116.11#56447
+ toLua_Client_Socket_create:[236
+ lua 网络回调:[3951][0]
+ toLua_Client_Socket_connect:[118.190.116.11][56447][11E9E77D-C628-4FD6-AC60-91A541DBD5C1]
+ [LUA-print] onSocketCallBack main:0#sub:1
+ [LUA-print] 连接结果
+ [LUA-print] onInitData
+ [LUA-print] onSocketCallBack main:2#sub:101
+ [LUA-print] 网络信息
+ [LUA-print] main-------2
+ [LUA-print] main------onSocketConfigEvent
+ [LUA-print] 房间配置[table:60][chair:3][type:1][rule:54528288]
+ [LUA-print] onSocketCallBack main:2#sub:103
+ [LUA-print] 网络信息
+ [LUA-print] main-------2
+ [LUA-print] main------onSocketConfigEvent
+ [LUA-print] onSocketCallBack main:3#sub:100
+ [LUA-print] 网络信息
+ [LUA-print] main-------3
+ [LUA-print] main------onSocketUserEvent
+ [LUA-print] GameFrameEngine enter ==> 	hiar2015	2633691762	nil
+ [LUA-print] onSocketCallBack main:3#sub:100
+ [LUA-print] 网络信息
+ [LUA-print] main-------3
+ [LUA-print] main------onSocketUserEvent
+ [LUA-print] GameFrameEngine enter ==> 	高跟鞋	0	nil
+ [LUA-print] onSocketCallBack main:3#sub:100
+ [LUA-print] 网络信息
+ [LUA-print] main-------3
+ [LUA-print] main------onSocketUserEvent
+ [LUA-print] GameFrameEngine enter ==> 	天大的笑话	0	nil
+ [LUA-print] onSocketCallBack main:3#sub:100
+ [LUA-print] 网络信息
+ [LUA-print] main-------3
+ [LUA-print] main------onSocketUserEvent
+ [LUA-print] GameFrameEngine enter ==> 	单身情歌	0	nil
+ [LUA-print] onSocketCallBack main:3#sub:100
+ [LUA-print] 网络信息
+ [LUA-print] main-------3
+ [LUA-print] main------onSocketUserEvent
+ [LUA-print] GameFrameEngine enter ==> 	都市女郎	0	nil
+ [LUA-print] onSocketCallBack main:3#sub:100
+ [LUA-print] 网络信息
+ [LUA-print] main-------3
+ [LUA-print] main------onSocketUserEvent
+ [LUA-print] GameFrameEngine enter ==> 	阿斯蒂芬	0	nil
+ [LUA-print] onSocketCallBack main:3#sub:100
+ [LUA-print] 网络信息
+ [LUA-print] main-------3
+ [LUA-print] main------onSocketUserEvent
+ [LUA-print] GameFrameEngine enter ==> 	请原谅我坦白	0	nil
+ [LUA-print] onSocketCallBack main:3#sub:100
+ [LUA-print] 网络信息
+ [LUA-print] main-------3
+ [LUA-print] main------onSocketUserEvent
+ [LUA-print] GameFrameEngine enter ==> 	余344第三方	0	nil
+ [LUA-print] onSocketCallBack main:3#sub:100
+ [LUA-print] 网络信息
+ [LUA-print] main-------3
+ [LUA-print] main------onSocketUserEvent
+ [LUA-print] GameFrameEngine enter ==> 	能遇见在另条街	0	nil
+ [LUA-print] onSocketCallBack main:3#sub:100
+ [LUA-print] 网络信息
+ [LUA-print] main-------3
+ [LUA-print] main------onSocketUserEvent
+ [LUA-print] GameFrameEngine enter ==> 	我和任何人	0	nil
+ [LUA-print] onSocketCallBack main:3#sub:100
+ [LUA-print] 网络信息
+ [LUA-print] main-------3
+ [LUA-print] main------onSocketUserEvent
+ [LUA-print] GameFrameEngine enter ==> 	45发的郭德纲	0	nil
+ [LUA-print] onSocketCallBack main:3#sub:100
+ [LUA-print] 网络信息
+ [LUA-print] main-------3
+ [LUA-print] main------onSocketUserEvent
+ [LUA-print] GameFrameEngine enter ==> 	迷人的混蛋	0	nil
+ [LUA-print] onSocketCallBack main:3#sub:100
+ [LUA-print] 网络信息
+ [LUA-print] main-------3
+ [LUA-print] main------onSocketUserEvent
+ [LUA-print] GameFrameEngine enter ==> 	赛龙舟	0	nil
+ [LUA-print] onSocketCallBack main:3#sub:100
+ [LUA-print] 网络信息
+ [LUA-print] main-------3
+ [LUA-print] main------onSocketUserEvent
+ [LUA-print] GameFrameEngine enter ==> 	撒饭破爱说	0	nil
+ [LUA-print] onSocketCallBack main:3#sub:100
+ [LUA-print] 网络信息
+ [LUA-print] main-------3
+ [LUA-print] main------onSocketUserEvent
+ [LUA-print] GameFrameEngine enter ==> 	一路高歌	0	nil
+ [LUA-print] onSocketCallBack main:3#sub:100
+ [LUA-print] 网络信息
+ [LUA-print] main-------3
+ [LUA-print] main------onSocketUserEvent
+ [LUA-print] GameFrameEngine enter ==> 	与你风雨同舟	0	nil
+ [LUA-print] onSocketCallBack main:3#sub:100
+ [LUA-print] 网络信息
+ [LUA-print] main-------3
+ [LUA-print] main------onSocketUserEvent
+ [LUA-print] GameFrameEngine enter ==> 	00跟黄几	0	nil
+ [LUA-print] onSocketCallBack main:3#sub:100
+ [LUA-print] 网络信息
+ [LUA-print] main-------3
+ [LUA-print] main------onSocketUserEvent
+ [LUA-print] GameFrameEngine enter ==> 	admin复古风格	0	nil
+ [LUA-print] onSocketCallBack main:3#sub:100
+ [LUA-print] 网络信息
+ [LUA-print] main-------3
+ [LUA-print] main------onSocketUserEvent
+ [LUA-print] GameFrameEngine enter ==> 	巴豆不吃蒜	0	nil
+ [LUA-print] onSocketCallBack main:3#sub:100
+ [LUA-print] 网络信息
+ [LUA-print] main-------3
+ [LUA-print] main------onSocketUserEvent
+ [LUA-print] GameFrameEngine enter ==> 	90韩国国会	0	nil
+ [LUA-print] onSocketCallBack main:3#sub:100
+ [LUA-print] 网络信息
+ [LUA-print] main-------3
+ [LUA-print] main------onSocketUserEvent
+ [LUA-print] GameFrameEngine enter ==> 	沿途欣赏	0	nil
+ [LUA-print] onSocketCallBack main:3#sub:100
+ [LUA-print] 网络信息
+ [LUA-print] main-------3
+ [LUA-print] main------onSocketUserEvent
+ [LUA-print] GameFrameEngine enter ==> 	李会计好	0	nil
+ [LUA-print] onSocketCallBack main:3#sub:100
+ [LUA-print] 网络信息
+ [LUA-print] main-------3
+ [LUA-print] main------onSocketUserEvent
+ [LUA-print] GameFrameEngine enter ==> 	国惠康1	0	nil
+ [LUA-print] onSocketCallBack main:3#sub:100
+ [LUA-print] 网络信息
+ [LUA-print] main-------3
+ [LUA-print] main------onSocketUserEvent
+ [LUA-print] GameFrameEngine enter ==> 	23功夫国防部	0	nil
+ [LUA-print] onSocketCallBack main:3#sub:100
+ [LUA-print] 网络信息
+ [LUA-print] main-------3
+ [LUA-print] main------onSocketUserEvent
+ [LUA-print] GameFrameEngine enter ==> 	随风飘走	0	nil
+ [LUA-print] onSocketCallBack main:3#sub:100
+ [LUA-print] 网络信息
+ [LUA-print] main-------3
+ [LUA-print] main------onSocketUserEvent
+ [LUA-print] GameFrameEngine enter ==> 	幻化作风	0	nil
+ [LUA-print] onSocketCallBack main:3#sub:100
+ [LUA-print] 网络信息
+ [LUA-print] main-------3
+ [LUA-print] main------onSocketUserEvent
+ [LUA-print] GameFrameEngine enter ==> 	67换个换个号	0	nil
+ [LUA-print] onSocketCallBack main:3#sub:100
+ [LUA-print] 网络信息
+ [LUA-print] main-------3
+ [LUA-print] main------onSocketUserEvent
+ [LUA-print] GameFrameEngine enter ==> 	孤蠹青春	0	nil
+ [LUA-print] onSocketCallBack main:3#sub:100
+ [LUA-print] 网络信息
+ [LUA-print] main-------3
+ [LUA-print] main------onSocketUserEvent
+ [LUA-print] 已有自己信息，不再次处理自己信息
+ [LUA-print] onSocketCallBack main:1#sub:102
+ [LUA-print] 网络信息
+ [LUA-print] main-------1
+ [LUA-print] main------onSocketLogonEvent
+ [LUA-print] 连接状态改变
+ [LUA-print] 登录完成
+ [LUA-print] self._viewFrame == userdata: 0xd3f398e0 self._viewFrame.onEnterRoom == function: 0xd25afa18
+ [LUA-print] GameFrameEngine194------------------------onEnterRoom
+ [LUA-print] onEnterRoom--------------------------ByClick
+ [LUA-print] client onEnterRoom
+ [LUA-print] -------快速游戏找桌
+ [LUA-print] dump from: [string "client/src/plaza/views/ClientScene.luac"]:1361: in function 'onEnterRoom'
+ [LUA-print] - "wtf_table" = {
+ [LUA-print] - }
+ [LUA-print]  fast enter 65535 ## 65535
+ [LUA-print] update game info
+ [LUA-print] t = 65535 v = 65535
+ [LUA-print] -------showPopWait
+ [LUA-print] onSocketCallBack main:4#sub:100
+ [LUA-print] 网络信息
+ [LUA-print] main-------4
+ [LUA-print] main------onSocketStatusEvent
+ [LUA-print] SUB_GR_TABLE_INFO
+ [LUA-print] onSocketCallBack main:8#sub:206
+ [LUA-print] 网络信息
+ [LUA-print] main-------8
+ [LUA-print] main------onSocketGameSocketEvent
+ [LUA-print] ----PriFrame:onGameSocketEvent
+ [LUA-print] onSocketCallBack main:8#sub:207
+ [LUA-print] 网络信息
+ [LUA-print] main-------8
+ [LUA-print] main------onSocketGameSocketEvent
+ [LUA-print] ----PriFrame:onGameSocketEvent
+ [LUA-print] onSocketCallBack main:3#sub:100
+ [LUA-print] 网络信息
+ [LUA-print] main-------3
+ [LUA-print] main------onSocketUserEvent
+ [LUA-print] 已有自己信息，不再次处理自己信息
+ [LUA-print] onSocketCallBack main:3#sub:102
+ [LUA-print] 网络信息
+ [LUA-print] main-------3
+ [LUA-print] main------onSocketUserEvent
+ [LUA-print] 自己坐下
+ [LUA-print] ClientScene onEnterTable
+ [LUA-print] tag != yl.SCENE_GAME 
+ [LUA-print] onChangeShowMode
+ [LUA-print] 有 tag
+ [LUA-print] nil ~= entergame
+ [LUA-print] gameScene
+nv->IsInstanceOf fails
+ediaPlayerFactory: bIsQCMediaPlayerPresent 0
+nv->IsInstanceOf fails
+ediaPlayerFactory: bIsQCMediaPlayerPresent 0
+ [LUA-print] tag = 21
+nv->IsInstanceOf fails
+ediaPlayerFactory: bIsQCMediaPlayerPresent 0
+nv->IsInstanceOf fails
+ediaPlayerFactory: bIsQCMediaPlayerPresent 0
+ come in the keyboardEnable
+ [LUA-print] setViewFrame
+ [LUA-print] ---------------0
+ [LUA-print]  update user 2
+ callBackName  cannot be found
+ callBackName  cannot be found
+ [LUA-print] onSocketCallBack main:3#sub:101
+ [LUA-print] 网络信息
+ [LUA-print] main-------3
+ [LUA-print] main------onSocketUserEvent
+ [LUA-print] 更新用户[8767][一路高歌][810036]
+ [LUA-print] dump from: [string "client/src/plaza/models/GameFrameEngine.luac"]:472: in function 'onSocketUserScore'
+ [LUA-print] - "更新游戏数据" = {
+ [LUA-print] -     "cbGender"       = 1
+ [LUA-print] -     "cbMemberOrder"  = 0
+ [LUA-print] -     "cbUserStatus"   = 5
+ [LUA-print] -     "class" = {
+ [LUA-print] -         "__cname" = "ClientUserItem"
+ [LUA-print] -         "__index" = *REF*
+ [LUA-print] -         "create"  = function: 0xd373eef0
+ [LUA-print] -         "ctor"    = function: 0xd372d720
+ [LUA-print] -         "new"     = function: 0xd371d2d0
+ [LUA-print] -         "testlog" = function: 0xd3729720
+ [LUA-print] -     }
+ [LUA-print] -     "dBeans"         = 0
+ [LUA-print] -     "dwAgentID"      = 0
+ [LUA-print] -     "dwCustomID"     = 0
+ [LUA-print] -     "dwDrawCount"    = 336
+ [LUA-print] -     "dwExperience"   = 4294957907
+ [LUA-print] -     "dwFleeCount"    = 0
+ [LUA-print] -     "dwGameID"       = 108307
+ [LUA-print] -     "dwIpAddress"    = 0
+ [LUA-print] -     "dwLostCount"    = 14508
+ [LUA-print] -     "dwUserID"       = 8767
+ [LUA-print] -     "dwWinCount"     = 18196
+ [LUA-print] -     "lGrade"         = 0
+ [LUA-print] -     "lIngot"         = 26410
+ [LUA-print] -     "lInsure"        = 0
+ [LUA-print] -     "lIntegralCount" = -9189
+ [LUA-print] -     "lScore"         = 810036
+ [LUA-print] -     "szNickName"     = "一路高歌"
+ [LUA-print] -     "wChairID"       = 0
+ [LUA-print] -     "wFaceID"        = 1
+ [LUA-print] -     "wTableID"       = 1
+ [LUA-print] - }
+ [LUA-print] dwWinCount == 18196
+ [LUA-print] dwLostCount == 14508
+ [LUA-print] dwDrawCount == 336
+ [LUA-print] dwFleeCount == 0
+ [LUA-print] onSocketCallBack main:3#sub:101
+ [LUA-print] 网络信息
+ [LUA-print] main-------3
+ [LUA-print] main------onSocketUserEvent
+ [LUA-print] 更新用户[9617][高跟鞋][417319]
+ [LUA-print] dump from: [string "client/src/plaza/models/GameFrameEngine.luac"]:472: in function 'onSocketUserScore'
+ [LUA-print] - "更新游戏数据" = {
+ [LUA-print] -     "cbGender"       = 2
+ [LUA-print] -     "cbMemberOrder"  = 0
+ [LUA-print] -     "cbUserStatus"   = 5
+ [LUA-print] -     "class" = {
+ [LUA-print] -         "__cname" = "ClientUserItem"
+ [LUA-print] -         "__index" = *REF*
+ [LUA-print] -         "create"  = function: 0xd373eef0
+ [LUA-print] -         "ctor"    = function: 0xd372d720
+ [LUA-print] -         "new"     = function: 0xd371d2d0
+ [LUA-print] -         "testlog" = function: 0xd3729720
+ [LUA-print] -     }
+ [LUA-print] -     "dBeans"         = 0
+ [LUA-print] -     "dwAgentID"      = 0
+ [LUA-print] -     "dwCustomID"     = 0
+ [LUA-print] -     "dwDrawCount"    = 160
+ [LUA-print] -     "dwExperience"   = 4294949269
+ [LUA-print] -     "dwFleeCount"    = 0
+ [LUA-print] -     "dwGameID"       = 109185
+ [LUA-print] -     "dwIpAddress"    = 0
+ [LUA-print] -     "dwLostCount"    = 7367
+ [LUA-print] -     "dwUserID"       = 9617
+ [LUA-print] -     "dwWinCount"     = 5276
+ [LUA-print] -     "lGrade"         = 0
+ [LUA-print] -     "lIngot"         = 10212
+ [LUA-print] -     "lInsure"        = 0
+ [LUA-print] -     "lIntegralCount" = -18127
+ [LUA-print] -     "lScore"         = 417319
+ [LUA-print] -     "szNickName"     = "高跟鞋"
+ [LUA-print] -     "wChairID"       = 1
+ [LUA-print] -     "wFaceID"        = 1
+ [LUA-print] -     "wTableID"       = 1
+ [LUA-print] - }
+ [LUA-print] dwWinCount == 5276
+ [LUA-print] dwLostCount == 7367
+ [LUA-print] dwDrawCount == 160
+ [LUA-print] dwFleeCount == 0
+ [LUA-print] onSocketCallBack main:3#sub:101
+ [LUA-print] 网络信息
+ [LUA-print] main-------3
+ [LUA-print] main------onSocketUserEvent
+ [LUA-print] 更新用户[9145][与你风雨同舟][533256]
+ [LUA-print] dump from: [string "client/src/plaza/models/GameFrameEngine.luac"]:472: in function 'onSocketUserScore'
+ [LUA-print] - "更新游戏数据" = {
+ [LUA-print] -     "cbGender"       = 2
+ [LUA-print] -     "cbMemberOrder"  = 0
+ [LUA-print] -     "cbUserStatus"   = 5
+ [LUA-print] -     "class" = {
+ [LUA-print] -         "__cname" = "ClientUserItem"
+ [LUA-print] -         "__index" = *REF*
+ [LUA-print] -         "create"  = function: 0xd373eef0
+ [LUA-print] -         "ctor"    = function: 0xd372d720
+ [LUA-print] -         "new"     = function: 0xd371d2d0
+ [LUA-print] -         "testlog" = function: 0xd3729720
+ [LUA-print] -     }
+ [LUA-print] -     "dBeans"         = 0
+ [LUA-print] -     "dwAgentID"      = 0
+ [LUA-print] -     "dwCustomID"     = 0
+ [LUA-print] -     "dwDrawCount"    = 0
+ [LUA-print] -     "dwExperience"   = 1928
+ [LUA-print] -     "dwFleeCount"    = 0
+ [LUA-print] -     "dwGameID"       = 108693
+ [LUA-print] -     "dwIpAddress"    = 0
+ [LUA-print] -     "dwLostCount"    = 11486
+ [LUA-print] -     "dwUserID"       = 9145
+ [LUA-print] -     "dwWinCount"     = 8850
+ [LUA-print] -     "lGrade"         = 0
+ [LUA-print] -     "lIngot"         = 18406
+ [LUA-print] -     "lInsure"        = 0
+ [LUA-print] -     "lIntegralCount" = 1828
+ [LUA-print] -     "lScore"         = 533256
+ [LUA-print] -     "szNickName"     = "与你风雨同舟"
+ [LUA-print] -     "wChairID"       = 2
+ [LUA-print] -     "wFaceID"        = 1
+ [LUA-print] -     "wTableID"       = 1
+ [LUA-print] - }
+ [LUA-print] dwWinCount == 8850
+ [LUA-print] dwLostCount == 11486
+ [LUA-print] dwDrawCount == 0
+ [LUA-print] dwFleeCount == 0
+ [LUA-print] onSocketCallBack main:3#sub:102
+ [LUA-print] 网络信息
+ [LUA-print] main-------3
+ [LUA-print] main------onSocketUserEvent
+ [LUA-print] onSocketCallBack main:3#sub:102
+ [LUA-print] 网络信息
+ [LUA-print] main-------3
+ [LUA-print] main------onSocketUserEvent
+ [LUA-print] onSocketCallBack main:3#sub:102
+ [LUA-print] 网络信息
+ [LUA-print] main-------3
+ [LUA-print] main------onSocketUserEvent
+ [LUA-print] onSocketCallBack main:4#sub:101
+ [LUA-print] 网络信息
+ [LUA-print] main-------4
+ [LUA-print] main------onSocketStatusEvent
+ [LUA-print] SUB_GR_TABLE_STATUS ==> 2
+ [LUA-print] onSocketCallBack main:100#sub:100
+ [LUA-print] 网络信息
+ [LUA-print] main-------100
+ [LUA-print] main------onSocketFrameEvent
+ [LUA-print] onSocketCallBack main:210#sub:9
+ [LUA-print] 网络信息
+ [LUA-print] main-------210
+ [LUA-print] main------onSocketGameSocketEvent
+ [LUA-print] ----PriFrame:onGameSocketEvent
+ [LUA-print] dump from: [string "client/src/privatemode/plaza/src/models/PriFrame.luac"]:624: in function 'onSubTableTip'
+ [LUA-print] - "PriRoom:getInstance().m_tabPriData" = {
+ [LUA-print] -     "cbIsGoldOrGameScore" = 0
+ [LUA-print] -     "cbIsJoinGame"        = 0
+ [LUA-print] -     "dwDrawCountLimit"    = 0
+ [LUA-print] -     "dwDrawTimeLimit"     = 0
+ [LUA-print] -     "dwPlayCount"         = 0
+ [LUA-print] -     "dwPlayTime"          = 1505465960
+ [LUA-print] -     "dwTableOwnerUserID"  = 10468
+ [LUA-print] -     "lCellScore"          = 100
+ [LUA-print] -     "lIniScore"           = 0
+ [LUA-print] -     "szServerID"          = ""
+ [LUA-print] - }
+ [LUA-print] onSocketCallBack main:100#sub:200
+ [LUA-print] 网络信息
+ [LUA-print] main-------100
+ [LUA-print] main------onSocketFrameEvent
+ [LUA-print] 系统消息#1#欢迎您进入“斗地主”游戏，祝您游戏愉快！
+ [LUA-print] onSocketCallBack main:100#sub:101
+ [LUA-print] 网络信息
+ [LUA-print] main-------100
+ [LUA-print] main------onSocketFrameEvent
+ [LUA-print] 场景数据:0
+ [LUA-print] ---------------0
+ [LUA-print]  update user 2
+ [LUA-print] dump from: [string "game/qipai/land/src/views/GameLayer.luac"]:440: in function 'onEventGameSceneFree'
+ [LUA-print] - "scene free" = {
+ [LUA-print] -     "cbTimeCallScore"   = 20
+ [LUA-print] -     "cbTimeHeadOutCard" = 30
+ [LUA-print] -     "cbTimeOutCard"     = 20
+ [LUA-print] -     "cbTimeStartGame"   = 30
+ [LUA-print] -     "lCellScore"        = 100
+ [LUA-print] -     "lCollectScore" = {
+ [LUA-print] -         1 = {
+ [LUA-print] -             1 = 0
+ [LUA-print] -             2 = 0
+ [LUA-print] -             3 = 0
+ [LUA-print] -         }
+ [LUA-print] -     }
+ [LUA-print] -     "lTurnScore" = {
+ [LUA-print] -         1 = {
+ [LUA-print] -             1 = 0
+ [LUA-print] -             2 = 0
+ [LUA-print] -             3 = 0
+ [LUA-print] -         }
+ [LUA-print] -     }
+ [LUA-print] - }
+ [LUA-print] KillGameClock
+ [LUA-print] 第一个设置倒计时
+ [LUA-print] GlobalUserItem.bPrivateRoom == false GlobalUserItem.bPasswordRoom == false
+ [LUA-print] ---------------0
+ [LUA-print] onSocketCallBack main:4#sub:101
+ [LUA-print] 网络信息
+ [LUA-print] main-------4
+ [LUA-print] main------onSocketStatusEvent
+ [LUA-print] SUB_GR_TABLE_STATUS ==> 7
+ [LUA-print] onSocketCallBack main:4#sub:101
+ [LUA-print] 网络信息
+ [LUA-print] main-------4
+ [LUA-print] main------onSocketStatusEvent
+ [LUA-print] SUB_GR_TABLE_STATUS ==> 7
+ [LUA-print] onSocketCallBack main:3#sub:100
+ [LUA-print] 网络信息
+ [LUA-print] main-------3
+ [LUA-print] main------onSocketUserEvent
+ [LUA-print] GameFrameEngine enter ==> 	一路高歌	0	nil
+ [LUA-print] ---------------0
+ [LUA-print]  update user 3
+ callBackName  cannot be found
+ callBackName  cannot be found
+ [LUA-print] onSocketCallBack main:3#sub:102
+ [LUA-print] 网络信息
+ [LUA-print] main-------3
+ [LUA-print] main------onSocketUserEvent
+ [LUA-print] ---------------0
+ [LUA-print]  update user 3
+ [LUA-print] ---------------0
+ [LUA-print]  update user 3
+* 快速游戏
+  [LUA-print] 进入按钮事件
+ [LUA-print] 进入快速游戏方法事件
+ [LUA-print] 判断当前场景
+ [LUA-print] 判断当前场景完毕
+ [LUA-print] 使用游戏
+ [LUA-print] 开始快速游戏
+ [LUA-print] 进入快速登录逻辑
+ [LUA-print] onStartGame
+ [LUA-print] onInitData
+ [LUA-print] setKindInfo
+ [LUA-print] setViewFrame
+ [LUA-print] onCloseSocket
+ [LUA-print] 连接房间
+ [LUA-print] self._roomInfo = table: 0xd31b1c68
+ [LUA-print] dump from: [string "client/src/plaza/models/GameFrameEngine.luac"]:66: in function 'onLogonRoom'
+ [LUA-print] - "onLogonRoom-------info" = {
+ [LUA-print] -     "_nRoomIndex"    = 1
+ [LUA-print] -     "cbEnterMember"  = 0
+ [LUA-print] -     "class" = {
+ [LUA-print] -         "__cname"   = "GameServerItem"
+ [LUA-print] -         "__index"   = *REF*
+ [LUA-print] -         "create"    = function: 0xd3f7a658
+ [LUA-print] -         "ctor"      = function: 0xd3f7ac88
+ [LUA-print] -         "new"       = function: 0xd3f7a618
+ [LUA-print] -         "onInit"    = function: 0xd3f30f60
+ [LUA-print] -         "readScore" = function: 0xd31b56d8
+ [LUA-print] -         "testlog"   = function: 0xd33272c8
+ [LUA-print] -     }
+ [LUA-print] -     "dwAndroidCount" = 27
+ [LUA-print] -     "dwFullCount"    = 180
+ [LUA-print] -     "dwOnLineCount"  = 0
+ [LUA-print] -     "dwServerRule"   = 50331648
+ [LUA-print] -     "dwSurportType"  = 0
+ [LUA-print] -     "lCellScore"     = 100
+ [LUA-print] -     "lEnterScore"    = 0
+ [LUA-print] -     "szServerAddr"   = "118.190.116.11"
+ [LUA-print] -     "szServerName"   = "斗地主100"
+ [LUA-print] -     "wKindID"        = 200
+ [LUA-print] -     "wNodeID"        = 0
+ [LUA-print] -     "wServerID"      = 1039
+ [LUA-print] -     "wServerKind"    = 1
+ [LUA-print] -     "wServerLevel"   = 0
+ [LUA-print] -     "wServerPort"    = 56447
+ [LUA-print] -     "wServerType"    = 1
+ [LUA-print] -     "wSortID"        = 1
+ [LUA-print] -     "wTableCount"    = 60
+ [LUA-print] - }
+ [LUA-print] 登录房间：118.190.116.11#56447
+ toLua_Client_Socket_create:[640
+ lua 网络回调:[7836][0]
+ toLua_Client_Socket_connect:[118.190.116.11][56447][11E9E77D-C628-4FD6-AC60-91A541DBD5C1]
+ [LUA-print] onSocketCallBack main:0#sub:1
+ [LUA-print] 连接结果
+ [LUA-print] onInitData
+ [LUA-print] onSocketCallBack main:2#sub:101
+ [LUA-print] 网络信息
+ [LUA-print] main-------2
+ [LUA-print] main------onSocketConfigEvent
+ [LUA-print] 房间配置[table:60][chair:3][type:1][rule:54528288]
+ [LUA-print] onSocketCallBack main:2#sub:103
+ [LUA-print] 网络信息
+ [LUA-print] main-------2
+ [LUA-print] main------onSocketConfigEvent
+ [LUA-print] onSocketCallBack main:3#sub:100
+ [LUA-print] 网络信息
+ [LUA-print] main-------3
+ [LUA-print] main------onSocketUserEvent
+ [LUA-print] GameFrameEngine enter ==> 	hiar2015	2633691762	nil
+ [LUA-print] onSocketCallBack main:3#sub:100
+ [LUA-print] 网络信息
+ [LUA-print] main-------3
+ [LUA-print] main------onSocketUserEvent
+ [LUA-print] GameFrameEngine enter ==> 	高跟鞋	0	nil
+ [LUA-print] onSocketCallBack main:3#sub:100
+ [LUA-print] 网络信息
+ [LUA-print] main-------3
+ [LUA-print] main------onSocketUserEvent
+ [LUA-print] GameFrameEngine enter ==> 	天大的笑话	0	nil
+ [LUA-print] onSocketCallBack main:3#sub:100
+ [LUA-print] 网络信息
+ [LUA-print] main-------3
+ [LUA-print] main------onSocketUserEvent
+ [LUA-print] GameFrameEngine enter ==> 	单身情歌	0	nil
+ [LUA-print] onSocketCallBack main:3#sub:100
+ [LUA-print] 网络信息
+ [LUA-print] main-------3
+ [LUA-print] main------onSocketUserEvent
+ [LUA-print] GameFrameEngine enter ==> 	都市女郎	0	nil
+ [LUA-print] onSocketCallBack main:3#sub:100
+ [LUA-print] 网络信息
+ [LUA-print] main-------3
+ [LUA-print] main------onSocketUserEvent
+ [LUA-print] GameFrameEngine enter ==> 	阿斯蒂芬	0	nil
+ [LUA-print] onSocketCallBack main:3#sub:100
+ [LUA-print] 网络信息
+ [LUA-print] main-------3
+ [LUA-print] main------onSocketUserEvent
+ [LUA-print] GameFrameEngine enter ==> 	请原谅我坦白	0	nil
+ [LUA-print] onSocketCallBack main:3#sub:100
+ [LUA-print] 网络信息
+ [LUA-print] main-------3
+ [LUA-print] main------onSocketUserEvent
+ [LUA-print] GameFrameEngine enter ==> 	余344第三方	0	nil
+ [LUA-print] onSocketCallBack main:3#sub:100
+ [LUA-print] 网络信息
+ [LUA-print] main-------3
+ [LUA-print] main------onSocketUserEvent
+ [LUA-print] GameFrameEngine enter ==> 	能遇见在另条街	0	nil
+ [LUA-print] onSocketCallBack main:3#sub:100
+ [LUA-print] 网络信息
+ [LUA-print] main-------3
+ [LUA-print] main------onSocketUserEvent
+ [LUA-print] GameFrameEngine enter ==> 	我和任何人	0	nil
+ [LUA-print] onSocketCallBack main:3#sub:100
+ [LUA-print] 网络信息
+ [LUA-print] main-------3
+ [LUA-print] main------onSocketUserEvent
+ [LUA-print] GameFrameEngine enter ==> 	45发的郭德纲	0	nil
+ [LUA-print] onSocketCallBack main:3#sub:100
+ [LUA-print] 网络信息
+ [LUA-print] main-------3
+ [LUA-print] main------onSocketUserEvent
+ [LUA-print] GameFrameEngine enter ==> 	迷人的混蛋	0	nil
+ [LUA-print] onSocketCallBack main:3#sub:100
+ [LUA-print] 网络信息
+ [LUA-print] main-------3
+ [LUA-print] main------onSocketUserEvent
+ [LUA-print] GameFrameEngine enter ==> 	赛龙舟	0	nil
+ [LUA-print] onSocketCallBack main:3#sub:100
+ [LUA-print] 网络信息
+ [LUA-print] main-------3
+ [LUA-print] main------onSocketUserEvent
+ [LUA-print] GameFrameEngine enter ==> 	撒饭破爱说	0	nil
+ [LUA-print] onSocketCallBack main:3#sub:100
+ [LUA-print] 网络信息
+ [LUA-print] main-------3
+ [LUA-print] main------onSocketUserEvent
+ [LUA-print] GameFrameEngine enter ==> 	一路高歌	0	nil
+ [LUA-print] onSocketCallBack main:3#sub:100
+ [LUA-print] 网络信息
+ [LUA-print] main-------3
+ [LUA-print] main------onSocketUserEvent
+ [LUA-print] GameFrameEngine enter ==> 	与你风雨同舟	0	nil
+ [LUA-print] onSocketCallBack main:3#sub:100
+ [LUA-print] 网络信息
+ [LUA-print] main-------3
+ [LUA-print] main------onSocketUserEvent
+ [LUA-print] GameFrameEngine enter ==> 	00跟黄几	0	nil
+ [LUA-print] onSocketCallBack main:3#sub:100
+ [LUA-print] 网络信息
+ [LUA-print] main-------3
+ [LUA-print] main------onSocketUserEvent
+ [LUA-print] GameFrameEngine enter ==> 	admin复古风格	0	nil
+ [LUA-print] onSocketCallBack main:3#sub:100
+ [LUA-print] 网络信息
+ [LUA-print] main-------3
+ [LUA-print] main------onSocketUserEvent
+ [LUA-print] GameFrameEngine enter ==> 	巴豆不吃蒜	0	nil
+ [LUA-print] onSocketCallBack main:3#sub:100
+ [LUA-print] 网络信息
+ [LUA-print] main-------3
+ [LUA-print] main------onSocketUserEvent
+ [LUA-print] GameFrameEngine enter ==> 	90韩国国会	0	nil
+ [LUA-print] onSocketCallBack main:3#sub:100
+ [LUA-print] 网络信息
+ [LUA-print] main-------3
+ [LUA-print] main------onSocketUserEvent
+ [LUA-print] GameFrameEngine enter ==> 	沿途欣赏	0	nil
+ [LUA-print] onSocketCallBack main:3#sub:100
+ [LUA-print] 网络信息
+ [LUA-print] main-------3
+ [LUA-print] main------onSocketUserEvent
+ [LUA-print] GameFrameEngine enter ==> 	李会计好	0	nil
+ [LUA-print] onSocketCallBack main:3#sub:100
+ [LUA-print] 网络信息
+ [LUA-print] main-------3
+ [LUA-print] main------onSocketUserEvent
+ [LUA-print] GameFrameEngine enter ==> 	国惠康1	0	nil
+ [LUA-print] onSocketCallBack main:3#sub:100
+ [LUA-print] 网络信息
+ [LUA-print] main-------3
+ [LUA-print] main------onSocketUserEvent
+ [LUA-print] GameFrameEngine enter ==> 	23功夫国防部	0	nil
+ [LUA-print] onSocketCallBack main:3#sub:100
+ [LUA-print] 网络信息
+ [LUA-print] main-------3
+ [LUA-print] main------onSocketUserEvent
+ [LUA-print] GameFrameEngine enter ==> 	随风飘走	0	nil
+ [LUA-print] onSocketCallBack main:3#sub:100
+ [LUA-print] 网络信息
+ [LUA-print] main-------3
+ [LUA-print] main------onSocketUserEvent
+ [LUA-print] GameFrameEngine enter ==> 	幻化作风	0	nil
+ [LUA-print] onSocketCallBack main:3#sub:100
+ [LUA-print] 网络信息
+ [LUA-print] main-------3
+ [LUA-print] main------onSocketUserEvent
+ [LUA-print] GameFrameEngine enter ==> 	67换个换个号	0	nil
+ [LUA-print] onSocketCallBack main:3#sub:100
+ [LUA-print] 网络信息
+ [LUA-print] main-------3
+ [LUA-print] main------onSocketUserEvent
+ [LUA-print] GameFrameEngine enter ==> 	孤蠹青春	0	nil
+ [LUA-print] onSocketCallBack main:3#sub:100
+ [LUA-print] 网络信息
+ [LUA-print] main-------3
+ [LUA-print] main------onSocketUserEvent
+ [LUA-print] 已有自己信息，不再次处理自己信息
+ [LUA-print] onSocketCallBack main:1#sub:102
+ [LUA-print] 网络信息
+ [LUA-print] main-------1
+ [LUA-print] main------onSocketLogonEvent
+ [LUA-print] 连接状态改变
+ [LUA-print] 登录完成
+ [LUA-print] self._viewFrame == userdata: 0xd3f398e0 self._viewFrame.onEnterRoom == function: 0xd25afa18
+ [LUA-print] GameFrameEngine194------------------------onEnterRoom
+ [LUA-print] onEnterRoom--------------------------ByClick
+ [LUA-print] client onEnterRoom
+ [LUA-print] -------快速游戏找桌
+ [LUA-print] dump from: [string "client/src/plaza/views/ClientScene.luac"]:1361: in function 'onEnterRoom'
+ [LUA-print] - "wtf_table" = {
+ [LUA-print] - }
+ [LUA-print]  fast enter 65535 ## 65535
+ [LUA-print] update game info
+ [LUA-print] t = 65535 v = 65535
+ [LUA-print] -------showPopWait
+ [LUA-print] onSocketCallBack main:4#sub:100
+ [LUA-print] 网络信息
+ [LUA-print] main-------4
+ [LUA-print] main------onSocketStatusEvent
+ [LUA-print] SUB_GR_TABLE_INFO
+ [LUA-print] onSocketCallBack main:8#sub:206
+ [LUA-print] 网络信息
+ [LUA-print] main-------8
+ [LUA-print] main------onSocketGameSocketEvent
+ [LUA-print] ----PriFrame:onGameSocketEvent
+ [LUA-print] onSocketCallBack main:8#sub:207
+ [LUA-print] 网络信息
+ [LUA-print] main-------8
+ [LUA-print] main------onSocketGameSocketEvent
+ [LUA-print] ----PriFrame:onGameSocketEvent
+ [LUA-print] onSocketCallBack main:3#sub:100
+ [LUA-print] 网络信息
+ [LUA-print] main-------3
+ [LUA-print] main------onSocketUserEvent
+ [LUA-print] 已有自己信息，不再次处理自己信息
+ [LUA-print] onSocketCallBack main:3#sub:102
+ [LUA-print] 网络信息
+ [LUA-print] main-------3
+ [LUA-print] main------onSocketUserEvent
+ [LUA-print] 自己坐下
+ [LUA-print] ClientScene onEnterTable
+ [LUA-print] tag != yl.SCENE_GAME 
+ [LUA-print] onChangeShowMode
+ [LUA-print] 有 tag
+ [LUA-print] nil ~= entergame
+ [LUA-print] gameScene
+nv->IsInstanceOf fails
+ediaPlayerFactory: bIsQCMediaPlayerPresent 0
+nv->IsInstanceOf fails
+ediaPlayerFactory: bIsQCMediaPlayerPresent 0
+ callBackName  cannot be found
+ callBackName  cannot be found
+ callBackName  cannot be found
+ callBackName  cannot be found
+ callBackName  cannot be found
+ callBackName  cannot be found
+ callBackName  cannot be found
+ callBackName  cannot be found
+ callBackName  cannot be found
+ callBackName  cannot be found
+ callBackName  cannot be found
+ callBackName  cannot be found
+ callBackName  cannot be found
+ callBackName  cannot be found
+ callBackName  cannot be found
+ callBackName  cannot be found
+ callBackName  cannot be found
+ callBackName  cannot be found
+ callBackName  cannot be found
+ callBackName  cannot be found
+ callBackName  cannot be found
+ callBackName  cannot be found
+ callBackName  cannot be found
+ callBackName  cannot be found
+ callBackName  cannot be found
+ callBackName  cannot be found
+ callBackName  cannot be found
+ callBackName  cannot be found
+ callBackName  cannot be found
+ callBackName  cannot be found
+ [LUA-print] tag = 21
+nv->IsInstanceOf fails
+ediaPlayerFactory: bIsQCMediaPlayerPresent 0
+nv->IsInstanceOf fails
+ediaPlayerFactory: bIsQCMediaPlayerPresent 0
+ come in the keyboardEnable
+ [LUA-print] setViewFrame
+ [LUA-print] ---------------0
+ [LUA-print]  update user 2
+ callBackName  cannot be found
+ callBackName  cannot be found
+ [LUA-print] onSocketCallBack main:100#sub:100
+ [LUA-print] 网络信息
+ [LUA-print] main-------100
+ [LUA-print] main------onSocketFrameEvent
+ [LUA-print] onSocketCallBack main:210#sub:9
+ [LUA-print] 网络信息
+ [LUA-print] main-------210
+ [LUA-print] main------onSocketGameSocketEvent
+ [LUA-print] ----PriFrame:onGameSocketEvent
+ [LUA-print] dump from: [string "client/src/privatemode/plaza/src/models/PriFrame.luac"]:624: in function 'onSubTableTip'
+ [LUA-print] - "PriRoom:getInstance().m_tabPriData" = {
+ [LUA-print] -     "cbIsGoldOrGameScore" = 0
+ [LUA-print] -     "cbIsJoinGame"        = 0
+ [LUA-print] -     "dwDrawCountLimit"    = 0
+ [LUA-print] -     "dwDrawTimeLimit"     = 0
+ [LUA-print] -     "dwPlayCount"         = 0
+ [LUA-print] -     "dwPlayTime"          = 1505467741
+ [LUA-print] -     "dwTableOwnerUserID"  = 10468
+ [LUA-print] -     "lCellScore"          = 100
+ [LUA-print] -     "lIniScore"           = 0
+ [LUA-print] -     "szServerID"          = ""
+ [LUA-print] - }
+ [LUA-print] onSocketCallBack main:100#sub:200
+ [LUA-print] 网络信息
+ [LUA-print] main-------100
+ [LUA-print] main------onSocketFrameEvent
+ [LUA-print] 系统消息#1#欢迎您进入“斗地主”游戏，祝您游戏愉快！
+ [LUA-print] onSocketCallBack main:100#sub:101
+ [LUA-print] 网络信息
+ [LUA-print] main-------100
+ [LUA-print] main------onSocketFrameEvent
+ [LUA-print] 场景数据:0
+ [LUA-print] ---------------0
+ [LUA-print]  update user 2
+ [LUA-print] dump from: [string "game/qipai/land/src/views/GameLayer.luac"]:440: in function 'onEventGameSceneFree'
+ [LUA-print] - "scene free" = {
+ [LUA-print] -     "cbTimeCallScore"   = 20
+ [LUA-print] -     "cbTimeHeadOutCard" = 30
+ [LUA-print] -     "cbTimeOutCard"     = 20
+ [LUA-print] -     "cbTimeStartGame"   = 30
+ [LUA-print] -     "lCellScore"        = 100
+ [LUA-print] -     "lCollectScore" = {
+ [LUA-print] -         1 = {
+ [LUA-print] -             1 = 0
+ [LUA-print] -             2 = 0
+ [LUA-print] -             3 = 0
+ [LUA-print] -         }
+ [LUA-print] -     }
+ [LUA-print] -     "lTurnScore" = {
+ [LUA-print] -         1 = {
+ [LUA-print] -             1 = 0
+ [LUA-print] -             2 = 0
+ [LUA-print] -             3 = 0
+ [LUA-print] -         }
+ [LUA-print] -     }
+ [LUA-print] - }
+ [LUA-print] KillGameClock
+ [LUA-print] 第一个设置倒计时
+ [LUA-print] GlobalUserItem.bPrivateRoom == false GlobalUserItem.bPasswordRoom == false
+ [LUA-print] ---------------0
+* 
+** 登录时获取到 房间信息roomList   -> GlobalUserItem.roomlist 
+** 进入斗地主普通场时回调 GameFrameEngine:onSocketStatusEvent()中为GlobaleUserItem.MatchTable赋值
