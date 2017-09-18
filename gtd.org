@@ -174,6 +174,7 @@
 ** [[http://scse.buaa.edu.cn/buaa-css-web/articleDetail.action;jsessionid=DBFB2A8FE1CD0441D85FC0F7057D0C83?articleId=2bff0a2e-f114-4853-9bd3-dd6515a98bff&type=NEWS&firstSelId=6e011b46-2c70-4f68-a633-ec51f42b4718&secondSelId=NOTICE_PUBLICITY&language=0][专业课大纲]]
 ** STARTED [[https://www.coursera.org/learn/unity-yinqing-youxi-kaifa/lecture/xlbGz/ben-men-ke-cheng-jie-shao][Unity开发基础]]
    :LOGBOOK:
+   CLOCK: [2017-09-18 周一 16:29]--[2017-09-18 周一 16:54] =>  0:25
    CLOCK: [2017-09-17 日 18:46]--[2017-09-17 日 19:11] =>  0:25
    CLOCK: [2017-09-11 一 22:30]--[2017-09-11 一 22:55] =>  0:25
    CLOCK: [2017-09-10 日 17:31]--[2017-09-10 日 17:56] =>  0:25
@@ -199,13 +200,14 @@
       - [X] 流程控制
     - [X] 变量进阶与函数
       - [X] 值类型和引用类型
-    - [-] 面向对象
+    - [X] 面向对象
       - [X] 面向对象的含义
-      - [ ] 面向对象的技术
-      - [ ] 类的定义与使用
+      - [X] 面向对象的技术
+      - [X] 类的定义与使用
     - 
 *** 第四周 MoocHero
-    - [ ] c#编写unity脚本
+    - [X] c#编写unity脚本
+      - [X] 骨牌脚本讲解
     - [ ] 概述
     - [ ] 地形系统
     - [ ] 动画系统
@@ -380,3 +382,24 @@
 * 9.15
 ** 进入比赛网络连接超时 2个人无法开始
 ** 没进去的那个人 GlobalUserItem.bPasswordRoom=true,进普通场会有问题
+** 定时器优化
+*** 层级关系
+    GameLayer 创建 GameModel
+    GameModel 创建 GameViewLayer
+    
+    #+BEGIN_SRC lua
+    local GameLayer = class("GameLayer", GameModel)
+    
+    function GameLayer:ctor( frameEngine,scene )      创建gameModel   
+       GameLayer.super.ctor(self, frameEngine, scene)
+    end
+
+    function GameModel:ctor()
+       self:createView()
+    end
+    --创建场景
+    function GameLayer:CreateView()
+       return GameViewLayer:create(self):addTo(self)
+    end   
+    #+END_SRC
+    
