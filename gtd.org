@@ -85,13 +85,51 @@
 * nodejs
 ** STARTED [[http://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000/00143449917624134f5c4695b524e81a581ab5a222b05ec000][js 廖雪峰]]
    :LOGBOOK:
+   CLOCK: [2017-09-20 周三 16:14]--[2017-09-20 周三 16:39] =>  0:25
    CLOCK: [2016-09-25 周日 19:27]--[2016-09-25 周日 19:52] =>  0:25
    CLOCK: [2016-09-24 周六 10:58]--[2016-09-24 周六 11:23] =>  0:25
    CLOCK: [2016-09-22 周四 12:13]--[2016-09-22 周四 12:38] =>  0:25
    CLOCK: [2016-09-21 周三 09:53]--[2016-09-21 周三 10:18] =>  0:25
    CLOCK: [2016-09-20 周二 16:27]--[2016-09-20 周二 16:52] =>  0:25
    :END:
-   - [ ] 
+   - [X] 快速入门
+     - [X] map和set
+     - [X] iterable
+   - [-] 函数
+     - [X] 定义和调用
+       - [X] arguments
+       - [X] rest参数
+       - [X] 小心return语句
+         #+BEGIN_SRC javascript 
+         function foo() {
+            return; // 自动添加了分号，相当于return undefined;
+            { name: 'foo' }; // 这行语句已经没法执行到了
+         }
+         #+END_SRC 
+     - [-] 变量作用域
+       - [X] 变量作用域
+       - [X] 变量提升
+         自动提升变量的声明，不会提升赋值
+       - [X] 全局作用域
+         全局变量被绑定到window
+         #+BEGIN_SRC  javascript
+         'use strict';
+
+         var course = 'Learn JavaScript';
+         alert(course); // 'Learn JavaScript'
+         alert(window.course); // 'Learn JavaScript'
+
+         #+END_SRC
+       - [X] 名字空间,减少函数或变量名冲突
+       - [ ] 局部作用域
+     - [ ] 方法
+     - [ ] 高阶函数
+     - [ ] 闭包
+     - [ ] 箭头函数
+     - [ ] generator
+     - 
+   - 
+     - 
    - 
 * python
 ** STARTED [[https://wizardforcel.gitbooks.io/think-python-2e/content/11.html][python tutorial]]
@@ -428,4 +466,5 @@
        return GameViewLayer:create(self):addTo(self)
     end   
     #+END_SRC
+    
     
