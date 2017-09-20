@@ -91,6 +91,8 @@
    CLOCK: [2016-09-21 周三 09:53]--[2016-09-21 周三 10:18] =>  0:25
    CLOCK: [2016-09-20 周二 16:27]--[2016-09-20 周二 16:52] =>  0:25
    :END:
+   - [ ] 
+   - 
 * python
 ** STARTED [[https://wizardforcel.gitbooks.io/think-python-2e/content/11.html][python tutorial]]
    :LOGBOOK:
