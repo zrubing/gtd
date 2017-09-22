@@ -85,6 +85,7 @@
 * nodejs
 ** STARTED [[http://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000/00143449917624134f5c4695b524e81a581ab5a222b05ec000][js 廖雪峰]]
    :LOGBOOK:
+   CLOCK: [2017-09-21 周四 12:39]--[2017-09-21 周四 13:04] =>  0:25
    CLOCK: [2017-09-20 周三 16:14]--[2017-09-20 周三 16:39] =>  0:25
    CLOCK: [2016-09-25 周日 19:27]--[2016-09-25 周日 19:52] =>  0:25
    CLOCK: [2016-09-24 周六 10:58]--[2016-09-24 周六 11:23] =>  0:25
@@ -124,10 +125,13 @@
        - [X] 局部作用域
           for 循环中的i 在for外面也可以引用
        - [X] 常量
-     - [ ] 方法
-       - [ ] apply 
-       - [ ] 装饰器
+     - [X] 方法
+       - [X] apply 函数本身的apply方法,可以绑定到某个对象
+       - [X] 装饰器
      - [ ] 高阶函数
+       - [ ]map/reduce
+       - [ ]filter
+       - [ ]sort
      - [ ] 闭包
      - [ ] 箭头函数
      - [ ] generator
@@ -222,6 +226,7 @@
 ** [[http://scse.buaa.edu.cn/buaa-css-web/articleDetail.action;jsessionid=DBFB2A8FE1CD0441D85FC0F7057D0C83?articleId=2bff0a2e-f114-4853-9bd3-dd6515a98bff&type=NEWS&firstSelId=6e011b46-2c70-4f68-a633-ec51f42b4718&secondSelId=NOTICE_PUBLICITY&language=0][专业课大纲]]
 ** STARTED [[https://www.coursera.org/learn/unity-yinqing-youxi-kaifa/lecture/xlbGz/ben-men-ke-cheng-jie-shao][Unity开发基础]]
    :LOGBOOK:
+   CLOCK: [2017-09-22 周五 15:16]--[2017-09-22 周五 15:41] =>  0:25
    CLOCK: [2017-09-20 三 10:59]--[2017-09-20 三 11:24] =>  0:25
    CLOCK: [2017-09-18 周一 16:29]--[2017-09-18 周一 16:54] =>  0:25
    CLOCK: [2017-09-17 日 18:46]--[2017-09-17 日 19:11] =>  0:25
@@ -259,7 +264,24 @@
       - [X] 骨牌脚本讲解
     - [X] 概述
     - [X] 地形系统
-    - [ ] 动画系统
+    - [-] 动画系统
+      - [X] 动画片段与角色替身
+        - [X] Mecamim workflow
+          - [X] 资源的导入 
+          - [X] 角色的建立 一般角色与人形角色
+            - [X] Avatar角色替身
+          - [X] 角色的运动 
+            - [X] 设定动画片段,动画片段间的交互,建立状态机,混合树
+              - [X] Animation Clip动画片段,行走,奔跑,跳跃
+              - [X] 分割Animation Clip
+              - [X] Animation Clip首尾一致检查
+                - [X] 姿势一致
+                - [X] Rotation
+                - [X] 首尾Position Y轴分量的一致检查
+                - [X] xz轴分量一致性检查
+            - [X] 调整动画参数或代码,控制动画 
+      - [ ] 动画状态机
+      - [ ] 动画层与身体遮罩
     - [ ] 游戏逻辑-玩家与敌人
     - [ ] 游戏逻辑-游戏管理
     - [ ] 总结
@@ -401,6 +423,10 @@
 ** 未来简史
    :LOGBOOK:
    CLOCK: [2017-08-22 周二 10:34]--[2017-08-22 周二 10:59] =>  0:25
+   :END:
+** 人类简史
+   :LOGBOOK:
+   CLOCK: [2017-09-21 周四 14:58]--[2017-09-21 周四 15:23] =>  0:25
    :END:
 * TODO c,c++
   :LOGBOOK:
