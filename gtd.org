@@ -249,6 +249,7 @@
 ** [[http://scse.buaa.edu.cn/buaa-css-web/articleDetail.action;jsessionid=DBFB2A8FE1CD0441D85FC0F7057D0C83?articleId=2bff0a2e-f114-4853-9bd3-dd6515a98bff&type=NEWS&firstSelId=6e011b46-2c70-4f68-a633-ec51f42b4718&secondSelId=NOTICE_PUBLICITY&language=0][专业课大纲]]
 ** STARTED [[https://www.coursera.org/learn/unity-yinqing-youxi-kaifa/lecture/xlbGz/ben-men-ke-cheng-jie-shao][Unity开发基础]]
    :LOGBOOK:
+   CLOCK: [2017-09-22 五 23:23]--[2017-09-22 五 23:48] =>  0:25
    CLOCK: [2017-09-22 周五 15:16]--[2017-09-22 周五 15:41] =>  0:25
    CLOCK: [2017-09-20 三 10:59]--[2017-09-20 三 11:24] =>  0:25
    CLOCK: [2017-09-18 周一 16:29]--[2017-09-18 周一 16:54] =>  0:25
@@ -303,7 +304,11 @@
                 - [X] 首尾Position Y轴分量的一致检查
                 - [X] xz轴分量一致性检查
             - [X] 调整动画参数或代码,控制动画 
-      - [ ] 动画状态机
+      - [X] 动画状态机
+        - [X] Animator组件 控制对象的动画 包括建立状态机,调整动画参数,及代码控制动画
+        - [X] Animator Controller 动画控制器用来管理某对象一系列动画片段
+          - [X] Animation state Machine 状态机
+          - [X] Animation Layer & Avatar Mask 管理不同身体部位的动画
       - [ ] 动画层与身体遮罩
     - [ ] 游戏逻辑-玩家与敌人
     - [ ] 游戏逻辑-游戏管理
