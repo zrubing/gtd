@@ -85,6 +85,7 @@
 * nodejs
 ** STARTED [[http://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000/00143449917624134f5c4695b524e81a581ab5a222b05ec000][js 廖雪峰]]
    :LOGBOOK:
+   CLOCK: [2017-09-24 周日 20:40]
    CLOCK: [2017-09-24 周日 11:48]--[2017-09-24 周日 12:13] =>  0:25
    CLOCK: [2017-09-23 周六 17:59]--[2017-09-23 周六 18:24] =>  0:25
    CLOCK: [2017-09-22 周五 17:30]--[2017-09-22 周五 17:55] =>  0:25
@@ -144,7 +145,8 @@
        - [X] 闭包的功能
          - 换句话说，闭包就是携带状态的函数，并且它的状态可以完全对外隐藏起来
          - 多参函数变成单参函数 
-     - [ ] 箭头函数
+     - [X] 箭头函数
+       - [X] this
      - [ ] generator
    - [ ] 标准对象
    - [ ] 面向对象编程
@@ -156,7 +158,7 @@
      - [X] first node program
      - [X] module
        - [X] 深入了解模块原理
-     - [-] 基本模块
+     - [X] 基本模块
        - global
        - process
        - [X] fs
@@ -171,8 +173,21 @@
        - [X] http
          - [X] http服务器
          - [X] 文件服务器
-       - [ ] crypto
-   - [ ] React
+       - [X] crypto
+         - md5和sha1
+         - hmac
+         - aes
+         - diffie-hellman
+         - 证书
+     - [ ] Web开发
+       - [ ] koa
+       - [ ] mysql
+       - [ ] mocha
+       - [ ] WebSocket
+       - [ ] Rest
+       - [ ] MVVM
+       - [ ] 自动化工具
+     - [ ] React
 * python
 ** STARTED [[https://wizardforcel.gitbooks.io/think-python-2e/content/11.html][python tutorial]]
    :LOGBOOK:
