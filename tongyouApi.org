@@ -1606,3 +1606,78 @@ ediaPlayerFactory: bIsQCMediaPlayerPresent 0
 * 
 ** 登录时获取到 房间信息roomList   -> GlobalUserItem.roomlist 
 ** 进入斗地主普通场时回调 GameFrameEngine:onSocketStatusEvent()中为GlobaleUserItem.MatchTable赋值
+* 进入游戏用户信息
+** dump from: [string "game/qipai/land/src/views/layer/GameViewLayer.luac"]:1168: in function 'OnUpdateUser'
+ - "userItem----" = {
+ -     "cbGender"       = 1
+ -     "cbMemberOrder"  = 0
+ -     "cbUserStatus"   = 2
+ -     "class" = {
+ -         "__cname" = "ClientUserItem"
+ -         "__index" = *REF*
+ -         "create"  = function: 0xcdd9a480
+ -         "ctor"    = function: 0xcdd9a4a0
+ -         "new"     = function: 0xcdd9a168
+ -         "testlog" = function: 0xcded9140
+ -     }
+ -     "dBeans"         = 100
+ -     "dwAgentID"      = 0
+ -     "dwCustomID"     = 0
+ -     "dwDrawCount"    = 112
+ -     "dwExperience"   = 1779
+ -     "dwFleeCount"    = 44
+ -     "dwGameID"       = 112182
+ -     "dwIpAddress"    = 2426095733
+ -     "dwLostCount"    = 481
+ -     "dwUserID"       = 10468
+ -     "dwWinCount"     = 479
+ -     "lGrade"         = 0
+ -     "lIngot"         = 296
+ -     "lInsure"        = 0
+ -     "lIntegralCount" = -16706
+ -     "lScore"         = 79044
+ -     "szNickName"     = "hiar2015"
+ -     "szSign"         = "此人很懒，没有签名"
+ -     "wChairID"       = 0
+ -     "wFaceID"        = 180
+ -     "wTableID"       = 9
+ - }
+** ------onSocketUserEvent
+ GameFrameEngine enter ==> 	隔壁的帅哥	0	nil
+ ---------------0
+  update user 3
+ 10468---userItem userID
+ dump from: [string "game/qipai/land/src/views/layer/GameViewLayer.luac"]:1168: in function 'OnUpdateUser'
+ - "userItem----" = {
+ -     "cbGender"       = 1
+ -     "cbMemberOrder"  = 0
+ -     "cbUserStatus"   = 2
+ -     "class" = {
+ -         "__cname" = "ClientUserItem"
+ -         "__index" = *REF*
+ -         "create"  = function: 0xcdd9a480
+ -         "ctor"    = function: 0xcdd9a4a0
+ -         "new"     = function: 0xcdd9a168
+ -         "testlog" = function: 0xcded9140
+ -     }
+ -     "dBeans"         = 0
+ -     "dwAgentID"      = 0
+ -     "dwCustomID"     = 0
+ -     "dwDrawCount"    = 0
+ -     "dwExperience"   = 10360
+ -     "dwFleeCount"    = 0
+ -     "dwGameID"       = 106838
+ -     "dwIpAddress"    = 0
+ -     "dwLostCount"    = 3558
+ -     "dwUserID"       = 7347
+ -     "dwWinCount"     = 2748
+ -     "lGrade"         = 0
+ -     "lIngot"         = 3493
+ -     "lInsure"        = 0
+ -     "lIntegralCount" = -17054
+ -     "lScore"         = 533443
+ -     "szNickName"     = "隔壁的帅哥"
+ -     "wChairID"       = 1
+ -     "wFaceID"        = 1
+ -     "wTableID"       = 9
+ - }
