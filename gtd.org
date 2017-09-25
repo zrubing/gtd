@@ -571,5 +571,26 @@
        return GameViewLayer:create(self):addTo(self)
     end   
     #+END_SRC
-    
-    
+* [[https://yeasy.gitbooks.io/blockchain_guide/content/][区块链技术指南]]
+  - [ ] 概念
+    - [ ] 数字货币
+    - [ ] 比特币
+    - [ ] 区块链核心概念
+    - [ ] 小结
+  - [ ] 区块链技术的价值,挑战与展望
+    - [ ] 商业价值
+    - [ ] 关键技术与挑战
+    - [ ] 趋势与展望
+    - [ ] 小结
+  - [ ] 典型引用场景
+  - [ ] 分布式系统核心问题
+  - [ ] 密码学与安全技术
+  - [ ] 比特币项目
+  - [ ] 以太坊Ethereum
+  - [ ] Hyperledger(超级账本)
+  - [ ] Fabric部署与管理
+  - [ ] 区块链应用开发
+  - [ ] Fabric架构设计
+  - [ ] 区块链即服务
+  - [ ] 性能与评测
+  - [ ] 附录
