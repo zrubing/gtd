@@ -85,6 +85,7 @@
 * nodejs
 ** STARTED [[http://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000/00143449917624134f5c4695b524e81a581ab5a222b05ec000][js 廖雪峰]]
    :LOGBOOK:
+   CLOCK: [2017-09-25 周一 17:04]--[2017-09-25 周一 17:29] =>  0:25
    CLOCK: [2017-09-24 周日 20:40]
    CLOCK: [2017-09-24 周日 11:48]--[2017-09-24 周日 12:13] =>  0:25
    CLOCK: [2017-09-23 周六 17:59]--[2017-09-23 周六 18:24] =>  0:25
@@ -179,8 +180,9 @@
          - aes
          - diffie-hellman
          - 证书
-     - [ ] Web开发
-       - [ ] koa
+     - [-] Web开发
+       - [X] koa
+         - [X] koa入门
        - [ ] mysql
        - [ ] mocha
        - [ ] WebSocket
@@ -271,6 +273,7 @@
 ** [[http://scse.buaa.edu.cn/buaa-css-web/articleDetail.action;jsessionid=DBFB2A8FE1CD0441D85FC0F7057D0C83?articleId=2bff0a2e-f114-4853-9bd3-dd6515a98bff&type=NEWS&firstSelId=6e011b46-2c70-4f68-a633-ec51f42b4718&secondSelId=NOTICE_PUBLICITY&language=0][专业课大纲]]
 ** STARTED [[https://www.coursera.org/learn/unity-yinqing-youxi-kaifa/lecture/xlbGz/ben-men-ke-cheng-jie-shao][Unity开发基础]]
    :LOGBOOK:
+   CLOCK: [2017-09-25 周一 16:19]--[2017-09-25 周一 16:44] =>  0:25
    CLOCK: [2017-09-22 五 23:23]--[2017-09-22 五 23:48] =>  0:25
    CLOCK: [2017-09-22 周五 15:16]--[2017-09-22 周五 15:41] =>  0:25
    CLOCK: [2017-09-20 三 10:59]--[2017-09-20 三 11:24] =>  0:25
@@ -310,7 +313,7 @@
       - [X] 骨牌脚本讲解
     - [X] 概述
     - [X] 地形系统
-    - [-] 动画系统
+    - [X] 动画系统
       - [X] 动画片段与角色替身
         - [X] Mecamim workflow
           - [X] 资源的导入 
@@ -331,9 +334,18 @@
         - [X] Animator Controller 动画控制器用来管理某对象一系列动画片段
           - [X] Animation state Machine 状态机
           - [X] Animation Layer & Avatar Mask 管理不同身体部位的动画
-      - [ ] 动画层与身体遮罩
+      - [X] 动画层与身体遮罩
+        - [X] Animation Layer & Avatar Mask 用户合成身体不同部位的动画
+        - [X] Animation Layer 动画层来管理不同部位的动画
+        - [X] Avatar Mask 可以启用或禁用相关关节的动画
     - [ ] 游戏逻辑-玩家与敌人
+      - [ ] 玩家的移动控制
+      - [ ] 玩家的生命值与射击
+      - [ ] 敌人的追踪逻辑
+      - [ ] 敌人的生命值.分数与攻击行为
     - [ ] 游戏逻辑-游戏管理
+      - [ ] 游戏管理器 
+      - [ ] 敌人的自动生成
     - [ ] 总结
 *** 第五周 unity高级特性与移动平台开发
     - [ ] 概述
