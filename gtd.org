@@ -85,6 +85,11 @@
 * nodejs
 ** STARTED [[http://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000/00143449917624134f5c4695b524e81a581ab5a222b05ec000][js 廖雪峰]]
    :LOGBOOK:
+   CLOCK: [2017-09-26 周二 23:20]--[2017-09-26 周二 23:45] =>  0:25
+   CLOCK: [2017-09-25 周一 17:04]--[2017-09-25 周一 17:29] =>  0:25
+   CLOCK: [2017-09-24 周日 20:40]
+   CLOCK: [2017-09-24 周日 11:48]--[2017-09-24 周日 12:13] =>  0:25
+   CLOCK: [2017-09-23 周六 17:59]--[2017-09-23 周六 18:24] =>  0:25
    CLOCK: [2017-09-22 周五 17:30]--[2017-09-22 周五 17:55] =>  0:25
    CLOCK: [2017-09-22 周五 16:16]--[2017-09-22 周五 16:41] =>  0:25
    CLOCK: [2017-09-21 周四 12:39]--[2017-09-21 周四 13:04] =>  0:25
@@ -142,7 +147,8 @@
        - [X] 闭包的功能
          - 换句话说，闭包就是携带状态的函数，并且它的状态可以完全对外隐藏起来
          - 多参函数变成单参函数 
-     - [ ] 箭头函数
+     - [X] 箭头函数
+       - [X] this
      - [ ] generator
    - [ ] 标准对象
    - [ ] 面向对象编程
@@ -153,19 +159,41 @@
    - [-] Nodejs
      - [X] first node program
      - [X] module
-     - [ ] 深入了解模块原理
-     - [ ] 基本模块
+       - [X] 深入了解模块原理
+     - [X] 基本模块
        - global
        - process
-       - [ ] fs
-         - [ ] 异步读取文件
-         - [ ] 同步读取文件
-         - [ ] 写文件
-         - [ ] stat
-       - [ ] stream
-       - [ ] http
-       - [ ] crypto
-   - [ ] React
+       - [X] fs
+         - [X] 异步读取文件
+         - [X] 同步读取文件
+         - [X] 写文件
+         - [X] stat
+       - [X] stream
+         - read
+         - write
+         - pipe
+       - [X] http
+         - [X] http服务器
+         - [X] 文件服务器
+       - [X] crypto
+         - md5和sha1
+         - hmac
+         - aes
+         - diffie-hellman
+         - 证书
+     - [-] Web开发
+       - [-] koa
+         - [X] koa入门
+         - [ ] 处理url
+         - [ ] 使用Nunjucks
+         - [ ] 
+       - [ ] mysql
+       - [ ] mocha
+       - [ ] WebSocket
+       - [ ] Rest
+       - [ ] MVVM
+       - [ ] 自动化工具
+     - [ ] React
 * python
 ** STARTED [[https://wizardforcel.gitbooks.io/think-python-2e/content/11.html][python tutorial]]
    :LOGBOOK:
@@ -250,6 +278,8 @@
 ** STARTED [[https://www.coursera.org/learn/unity-yinqing-youxi-kaifa/lecture/xlbGz/ben-men-ke-cheng-jie-shao][Unity开发基础]]
    :LOGBOOK:
    CLOCK: [2017-09-28 四 21:48]--[2017-09-28 四 22:13] =>  0:25
+   CLOCK: [2017-09-27 周三 18:12]--[2017-09-27 周三 18:37] =>  0:25
+   CLOCK: [2017-09-25 周一 16:19]--[2017-09-25 周一 16:44] =>  0:25
    CLOCK: [2017-09-22 五 23:23]--[2017-09-22 五 23:48] =>  0:25
    CLOCK: [2017-09-22 周五 15:16]--[2017-09-22 周五 15:41] =>  0:25
    CLOCK: [2017-09-20 三 10:59]--[2017-09-20 三 11:24] =>  0:25
@@ -311,12 +341,20 @@
           - [X] Animation state Machine 状态机
           - [X] Animation Layer & Avatar Mask 管理不同身体部位的动画
       - [X] 动画层与身体遮罩
+        - [X] Animation Layer & Avatar Mask 用户合成身体不同部位的动画
+        - [X] Animation Layer 动画层来管理不同部位的动画
+        - [X] Avatar Mask 可以启用或禁用相关关节的动画
     - [-] 游戏逻辑-玩家与敌人
-      - [X] 玩家移动控制 
+      - [-] 玩家的移动控制
+        - [X] 移动
+        - [X] 跳跃
+        - [ ] 摄像机行为
       - [X] 玩家的生命值与射击
-      - [ ] 
-      - 
+      - [ ] 敌人的追踪逻辑
+      - [ ] 敌人的生命值.分数与攻击行为
     - [ ] 游戏逻辑-游戏管理
+      - [ ] 游戏管理器 
+      - [ ] 敌人的自动生成
     - [ ] 总结
 *** 第五周 unity高级特性与移动平台开发
     - [ ] 概述
@@ -542,5 +580,26 @@
        return GameViewLayer:create(self):addTo(self)
     end   
     #+END_SRC
-    
-    
+* [[https://yeasy.gitbooks.io/blockchain_guide/content/][区块链技术指南]]
+  - [ ] 概念
+    - [ ] 数字货币
+    - [ ] 比特币
+    - [ ] 区块链核心概念
+    - [ ] 小结
+  - [ ] 区块链技术的价值,挑战与展望
+    - [ ] 商业价值
+    - [ ] 关键技术与挑战
+    - [ ] 趋势与展望
+    - [ ] 小结
+  - [ ] 典型引用场景
+  - [ ] 分布式系统核心问题
+  - [ ] 密码学与安全技术
+  - [ ] 比特币项目
+  - [ ] 以太坊Ethereum
+  - [ ] Hyperledger(超级账本)
+  - [ ] Fabric部署与管理
+  - [ ] 区块链应用开发
+  - [ ] Fabric架构设计
+  - [ ] 区块链即服务
+  - [ ] 性能与评测
+  - [ ] 附录
