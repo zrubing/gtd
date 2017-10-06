@@ -85,6 +85,7 @@
 * nodejs
 ** STARTED [[http://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000/00143449917624134f5c4695b524e81a581ab5a222b05ec000][js 廖雪峰]]
    :LOGBOOK:
+   CLOCK: [2017-10-06 周五 13:48]--[2017-10-06 周五 14:13] =>  0:25
    CLOCK: [2017-10-05 周四 20:34]--[2017-10-05 周四 20:59] =>  0:25
    CLOCK: [2017-10-04 周三 10:12]--[2017-10-04 周三 10:37] =>  0:25
    CLOCK: [2017-10-03 周二 13:46]--[2017-10-03 周二 14:11] =>  0:25
@@ -194,11 +195,14 @@
            - [X] 格式化
            - [X] 简单逻辑
          - [X] 使用mvc
-       - [ ] mysql
-           - [X] 使用Sequelize
-             - [X] 访问mysql mysql驱动
-             - [X] ORM
-             - [X] 实战
+       - [-] mysql
+         - [X] 使用Sequelize
+           - [X] 访问mysql mysql驱动
+           - [X] ORM
+           - [X] 实战
+         - [-] 建立Model
+           - [X] model 
+           - [ ] 数据库配置
        - [ ] mocha
        - [ ] WebSocket
        - [ ] Rest
@@ -288,6 +292,7 @@
 ** [[http://scse.buaa.edu.cn/buaa-css-web/articleDetail.action;jsessionid=DBFB2A8FE1CD0441D85FC0F7057D0C83?articleId=2bff0a2e-f114-4853-9bd3-dd6515a98bff&type=NEWS&firstSelId=6e011b46-2c70-4f68-a633-ec51f42b4718&secondSelId=NOTICE_PUBLICITY&language=0][专业课大纲]]
 ** STARTED [[https://www.coursera.org/learn/unity-yinqing-youxi-kaifa/lecture/xlbGz/ben-men-ke-cheng-jie-shao][Unity开发基础]]
    :LOGBOOK:
+   CLOCK: [2017-10-06 周五 18:14]--[2017-10-06 周五 18:39] =>  0:25
    CLOCK: [2017-10-05 周四 22:50]--[2017-10-05 周四 23:15] =>  0:25
    CLOCK: [2017-10-04 周三 22:20]--[2017-10-04 周三 22:45] =>  0:25
    CLOCK: [2017-10-03 周二 15:52]--[2017-10-03 周二 16:17] =>  0:25
@@ -374,7 +379,12 @@
 *** 第五周 unity高级特性与移动平台开发
     - [X] 游戏人称变换
     - [X] 概述
-    - [ ] 图形用户界面与移动平台界面
+    - [-] 图形用户界面与移动平台界面
+      - [X] uGUI 画布与锚点
+        - Canvas 和 EventSystem
+      - [ ] uGUI 控件
+      - [ ] 开始,进,结束界面制作
+      - [ ] 移动平台UI设置
     - [ ] 粒子系统与线渲染器
     - [ ] 物品收集，游戏胜利与失败画面
     - [ ] 完整版总结
