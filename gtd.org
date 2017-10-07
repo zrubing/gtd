@@ -85,6 +85,8 @@
 * nodejs
 ** STARTED [[http://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000/00143449917624134f5c4695b524e81a581ab5a222b05ec000][js 廖雪峰]]
    :LOGBOOK:
+   CLOCK: [2017-10-07 周六 14:03]--[2017-10-07 周六 14:28] =>  0:25
+   CLOCK: [2017-10-06 周五 23:18]--[2017-10-06 周五 23:43] =>  0:25
    CLOCK: [2017-10-06 周五 13:48]--[2017-10-06 周五 14:13] =>  0:25
    CLOCK: [2017-10-05 周四 20:34]--[2017-10-05 周四 20:59] =>  0:25
    CLOCK: [2017-10-04 周三 10:12]--[2017-10-04 周三 10:37] =>  0:25
@@ -195,15 +197,20 @@
            - [X] 格式化
            - [X] 简单逻辑
          - [X] 使用mvc
-       - [-] mysql
+       - [X] mysql
          - [X] 使用Sequelize
            - [X] 访问mysql mysql驱动
            - [X] ORM
            - [X] 实战
-         - [-] 建立Model
+         - [X] 建立Model
            - [X] model 
-           - [ ] 数据库配置
-       - [ ] mocha
+           - [X] 数据库配置
+       - [-] mocha
+         - [-] 编写测试
+           - [X] mocha test
+           - [ ] 
+         - [ ] 异步测试
+         - [ ] Http测试 
        - [ ] WebSocket
        - [ ] Rest
        - [ ] MVVM
@@ -292,6 +299,7 @@
 ** [[http://scse.buaa.edu.cn/buaa-css-web/articleDetail.action;jsessionid=DBFB2A8FE1CD0441D85FC0F7057D0C83?articleId=2bff0a2e-f114-4853-9bd3-dd6515a98bff&type=NEWS&firstSelId=6e011b46-2c70-4f68-a633-ec51f42b4718&secondSelId=NOTICE_PUBLICITY&language=0][专业课大纲]]
 ** STARTED [[https://www.coursera.org/learn/unity-yinqing-youxi-kaifa/lecture/xlbGz/ben-men-ke-cheng-jie-shao][Unity开发基础]]
    :LOGBOOK:
+   CLOCK: [2017-10-07 周六 18:49]--[2017-10-07 周六 19:14] =>  0:25
    CLOCK: [2017-10-06 周五 18:14]--[2017-10-06 周五 18:39] =>  0:25
    CLOCK: [2017-10-05 周四 22:50]--[2017-10-05 周四 23:15] =>  0:25
    CLOCK: [2017-10-04 周三 22:20]--[2017-10-04 周三 22:45] =>  0:25
@@ -382,12 +390,41 @@
     - [-] 图形用户界面与移动平台界面
       - [X] uGUI 画布与锚点
         - Canvas 和 EventSystem
-      - [ ] uGUI 控件
+      - [X] uGUI 控件
       - [ ] 开始,进,结束界面制作
       - [ ] 移动平台UI设置
     - [ ] 粒子系统与线渲染器
     - [ ] 物品收集，游戏胜利与失败画面
     - [ ] 完整版总结
+** Unity开发进阶
+   - [ ] week1可玩性提升
+     - [ ] 概述
+     - [ ] Unity导航系统
+     - [ ] 僵尸AI
+     - [ ] 逆向动力学
+   - [ ] week2游戏画面品质提升
+     - [ ] Unity三维场景渲染
+     - [ ] 光照进阶
+     - [ ] 全局光照
+     - [ ] 着色器
+     - [ ] 图像特效
+   - [ ] week3游戏性能优化
+     - [ ] 概述
+     - [ ] 性能分析工具
+     - [ ] 性能优化
+     - [ ] Quality质量设置
+     - [ ] 总结
+   - [ ] week4 Phonton网络引擎与网络游戏大厅制作
+     - [ ] 网络游戏开发与课程项目
+     - [ ] Photon网络引擎
+     - [ ] pun基本架构
+     - [ ] pun制作网络游戏大厅
+   - [ ] week5 Phonton实现网络游戏逻辑
+     - [ ] pun与网络游戏逻辑
+     - [ ] 网络游戏开始准备与玩家对象生成
+     - [ ] 网络游戏玩家的行为逻辑
+     - [ ] 游戏状态管理与场景收集物
+     - [ ] 网络游戏项目构建
 ** 算法 目录12
    :LOGBOOK:
    CLOCK: [2017-09-19 周二 11:07]--[2017-09-19 周二 11:32] =>  0:25
@@ -582,8 +619,10 @@
 * [[http://hp.stuhome.net/index.php/2016/07/06/tensorflow-learning-paths/][learning-path]]
 ** ml
    :LOGBOOK:
+   CLOCK: [2017-10-07 周六 20:51]--[2017-10-07 周六 21:16] =>  0:25
    CLOCK: [2017-10-06 周五 20:08]--[2017-10-06 周五 20:33] =>  0:25
    :END:
    - [ ] [[http://neuralnetworksanddeeplearning.com/chap1.html][chap1 recognize handwritten digits]]
      - [ ] [[http://neuralnetworksanddeeplearning.com/chap1.html#perceptrons][Perceptrons]]
      - 
+       
