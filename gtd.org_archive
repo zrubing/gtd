@@ -1618,3 +1618,32 @@ Archived entries from file c:/Users/rubing/mygtd/gtd.org
    CLOCK: [2017-04-21 周五 10:41]--[2017-04-21 周五 11:06] =>  0:25
    CLOCK: [2017-04-21 周五 15:02]--[2017-04-21 周五 15:27] =>  0:25
    :END:
+
+* 9.15
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-10-08 周日 23:58
+  :ARCHIVE_FILE: ~/mygtd/gtd.org
+  :ARCHIVE_CATEGORY: gtd
+  :END:
+** 进入比赛网络连接超时 2个人无法开始
+** 没进去的那个人 GlobalUserItem.bPasswordRoom=true,进普通场会有问题
+** 定时器优化
+*** 层级关系
+    GameLayer 创建 GameModel
+    GameModel 创建 GameViewLayer
+    
+    #+BEGIN_SRC lua
+    local GameLayer = class("GameLayer", GameModel)
+    
+    function GameLayer:ctor( frameEngine,scene )      创建gameModel   
+       GameLayer.super.ctor(self, frameEngine, scene)
+    end
+
+    function GameModel:ctor()
+       self:createView()
+    end
+    --创建场景
+    function GameLayer:CreateView()
+       return GameViewLayer:create(self):addTo(self)
+    end   
+    #+END_SRC

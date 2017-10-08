@@ -85,6 +85,8 @@
 * nodejs
 ** STARTED [[http://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000/00143449917624134f5c4695b524e81a581ab5a222b05ec000][js 廖雪峰]]
    :LOGBOOK:
+   CLOCK: [2017-10-08 周日 17:21]--[2017-10-08 周日 17:46] =>  0:25
+   CLOCK: [2017-10-08 周日 10:09]--[2017-10-08 周日 10:34] =>  0:25
    CLOCK: [2017-10-07 周六 14:03]--[2017-10-07 周六 14:28] =>  0:25
    CLOCK: [2017-10-06 周五 23:18]--[2017-10-06 周五 23:43] =>  0:25
    CLOCK: [2017-10-06 周五 13:48]--[2017-10-06 周五 14:13] =>  0:25
@@ -205,13 +207,14 @@
          - [X] 建立Model
            - [X] model 
            - [X] 数据库配置
-       - [-] mocha
-         - [-] 编写测试
+       - [X] mocha
+         - [X] 编写测试
            - [X] mocha test
-           - [ ] 
-         - [ ] 异步测试
-         - [ ] Http测试 
-       - [ ] WebSocket
+         - [X] 异步测试
+         - [X] Http测试 
+       - [-] WebSocket
+         - [X] 使用ws
+         - [ ] 编写聊天室 
        - [ ] Rest
        - [ ] MVVM
        - [ ] 自动化工具
@@ -299,6 +302,7 @@
 ** [[http://scse.buaa.edu.cn/buaa-css-web/articleDetail.action;jsessionid=DBFB2A8FE1CD0441D85FC0F7057D0C83?articleId=2bff0a2e-f114-4853-9bd3-dd6515a98bff&type=NEWS&firstSelId=6e011b46-2c70-4f68-a633-ec51f42b4718&secondSelId=NOTICE_PUBLICITY&language=0][专业课大纲]]
 ** STARTED [[https://www.coursera.org/learn/unity-yinqing-youxi-kaifa/lecture/xlbGz/ben-men-ke-cheng-jie-shao][Unity开发基础]]
    :LOGBOOK:
+   CLOCK: [2017-10-08 周日 20:17]--[2017-10-08 周日 20:42] =>  0:25
    CLOCK: [2017-10-07 周六 18:49]--[2017-10-07 周六 19:14] =>  0:25
    CLOCK: [2017-10-06 周五 18:14]--[2017-10-06 周五 18:39] =>  0:25
    CLOCK: [2017-10-05 周四 22:50]--[2017-10-05 周四 23:15] =>  0:25
@@ -396,7 +400,7 @@
     - [ ] 粒子系统与线渲染器
     - [ ] 物品收集，游戏胜利与失败画面
     - [ ] 完整版总结
-** Unity开发进阶
+** [[https://www.coursera.org/learn/unity-kaifa-jinjie/home/welcome][Unity开发进阶]]
    - [ ] week1可玩性提升
      - [ ] 概述
      - [ ] Unity导航系统
@@ -570,39 +574,19 @@
 * socket
   - [ ] [[http://www.cnblogs.com/hellojava/archive/2013/01/25/2861127.html][循序渐进socket编程java]]
   - 
-* 9.15
-** 进入比赛网络连接超时 2个人无法开始
-** 没进去的那个人 GlobalUserItem.bPasswordRoom=true,进普通场会有问题
-** 定时器优化
-*** 层级关系
-    GameLayer 创建 GameModel
-    GameModel 创建 GameViewLayer
-    
-    #+BEGIN_SRC lua
-    local GameLayer = class("GameLayer", GameModel)
-    
-    function GameLayer:ctor( frameEngine,scene )      创建gameModel   
-       GameLayer.super.ctor(self, frameEngine, scene)
-    end
-
-    function GameModel:ctor()
-       self:createView()
-    end
-    --创建场景
-    function GameLayer:CreateView()
-       return GameViewLayer:create(self):addTo(self)
-    end   
-    #+END_SRC
 * [[https://yeasy.gitbooks.io/blockchain_guide/content/][区块链技术指南]]
-  - [ ] 概念
-    - [ ] 数字货币
-    - [ ] 比特币
-    - [ ] 区块链核心概念
-    - [ ] 小结
-  - [ ] 区块链技术的价值,挑战与展望
-    - [ ] 商业价值
-    - [ ] 关键技术与挑战
-    - [ ] 趋势与展望
+  :LOGBOOK:
+  CLOCK: [2017-10-08 周日 23:29]--[2017-10-08 周日 23:54] =>  0:25
+  :END:
+  - [X] 概念
+    - [X] 数字货币
+    - [X] 比特币
+    - [X] 区块链核心概念
+    - [X] 小结
+  - [-] 区块链技术的价值,挑战与展望
+    - [X] 商业价值
+    - [X] 关键技术与挑战
+    - [X] 趋势与展望
     - [ ] 小结
   - [ ] 典型引用场景
   - [ ] 分布式系统核心问题
