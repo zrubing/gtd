@@ -302,6 +302,7 @@
 ** [[http://scse.buaa.edu.cn/buaa-css-web/articleDetail.action;jsessionid=DBFB2A8FE1CD0441D85FC0F7057D0C83?articleId=2bff0a2e-f114-4853-9bd3-dd6515a98bff&type=NEWS&firstSelId=6e011b46-2c70-4f68-a633-ec51f42b4718&secondSelId=NOTICE_PUBLICITY&language=0][专业课大纲]]
 ** STARTED [[https://www.coursera.org/learn/unity-yinqing-youxi-kaifa/lecture/xlbGz/ben-men-ke-cheng-jie-shao][Unity开发基础]]
    :LOGBOOK:
+   CLOCK: [2017-10-09 周一 16:58]--[2017-10-09 周一 17:23] =>  0:25
    CLOCK: [2017-10-08 周日 20:17]--[2017-10-08 周日 20:42] =>  0:25
    CLOCK: [2017-10-07 周六 18:49]--[2017-10-07 周六 19:14] =>  0:25
    CLOCK: [2017-10-06 周五 18:14]--[2017-10-06 周五 18:39] =>  0:25
@@ -609,4 +610,25 @@
    - [ ] [[http://neuralnetworksanddeeplearning.com/chap1.html][chap1 recognize handwritten digits]]
      - [ ] [[http://neuralnetworksanddeeplearning.com/chap1.html#perceptrons][Perceptrons]]
      - 
-       
+* spring
+  :LOGBOOK:
+  CLOCK: [2017-10-10 周二 19:12]--[2017-10-10 周二 19:37] =>  0:25
+  CLOCK: [2017-10-10 周二 18:25]--[2017-10-10 周二 18:50] =>  0:25
+  CLOCK: [2017-10-10 周二 16:46]--[2017-10-10 周二 17:11] =>  0:25
+  :END:
+** 配置
+** 用户账户
+   :LOGBOOK:
+   CLOCK: [2017-10-10 周二 22:55]--[2017-10-10 周二 23:20] =>  0:25
+   CLOCK: [2017-10-10 周二 20:19]--[2017-10-10 周二 20:44] =>  0:25
+   :END:
+   - [X] 商户注册
+     - [X] 创建UserMerchantMapper.java
+     - [X] 创建UserMerchantMapper.xml
+     - [X] 创建 model类 UserMerchant.java
+   - [X] 商户登录
+     - [X] controller 
+   - [-] 获取验证码
+     - [X] controller
+     - [ ] 需要修改tempID
+** [[http://www.jianshu.com/p/6307c89fe3fa][jwt and spring security]]
