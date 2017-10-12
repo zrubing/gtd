@@ -390,14 +390,19 @@
       - [X] 敌人的自动生成
     - [ ] 总结
 *** 第五周 unity高级特性与移动平台开发
+    :LOGBOOK:
+    CLOCK: [2017-10-11 周三 16:08]--[2017-10-11 周三 16:33] =>  0:25
+    :END:
     - [X] 游戏人称变换
     - [X] 概述
     - [-] 图形用户界面与移动平台界面
       - [X] uGUI 画布与锚点
         - Canvas 和 EventSystem
       - [X] uGUI 控件
-      - [ ] 开始,进,结束界面制作
+      - [X] 开始,进,结束界面制作
       - [ ] 移动平台UI设置
+        - 使用Input的输入函数
+        - 使用Cross Platform Input资源包
     - [ ] 粒子系统与线渲染器
     - [ ] 物品收集，游戏胜利与失败画面
     - [ ] 完整版总结
@@ -572,9 +577,8 @@
   :LOGBOOK:
   CLOCK: [2017-09-06 周三 13:32]--[2017-09-06 周三 13:57] =>  0:25
   :END:
-* socket
-  - [ ] [[http://www.cnblogs.com/hellojava/archive/2013/01/25/2861127.html][循序渐进socket编程java]]
-  - 
+* socket  
+- [ ] [[http://www.cnblogs.com/hellojava/archive/2013/01/25/2861127.html][循序渐进socket编程java]] -
 * [[https://yeasy.gitbooks.io/blockchain_guide/content/][区块链技术指南]]
   :LOGBOOK:
   CLOCK: [2017-10-08 周日 23:29]--[2017-10-08 周日 23:54] =>  0:25
@@ -619,6 +623,8 @@
 ** 配置
 ** 用户账户
    :LOGBOOK:
+   CLOCK: [2017-10-12 周四 15:47]--[2017-10-12 周四 16:12] =>  0:25
+   CLOCK: [2017-10-12 周四 12:14]--[2017-10-12 周四 12:39] =>  0:25
    CLOCK: [2017-10-10 周二 22:55]--[2017-10-10 周二 23:20] =>  0:25
    CLOCK: [2017-10-10 周二 20:19]--[2017-10-10 周二 20:44] =>  0:25
    :END:
@@ -626,9 +632,40 @@
      - [X] 创建UserMerchantMapper.java
      - [X] 创建UserMerchantMapper.xml
      - [X] 创建 model类 UserMerchant.java
-   - [X] 商户登录
-     - [X] controller 
+     - [X] 使用原有数据库 merchant
+       - [X] selectByPhone()
+       - [X] merchantMapper.xml
+       - [X] averagePrice not null
+   - [-] 商户登录
+     - [X] controller
+     - [ ] session
+     - [X] 使用merchant表
+     - [ ] 登录时生成token
    - [-] 获取验证码
      - [X] controller
      - [ ] 需要修改tempID
+** [[http://www.hredt.com:8080/merchantmanage/login.do][后台管理系统]]
+   :LOGBOOK:
+   CLOCK: [2017-10-13 周五 00:20]--[2017-10-13 周五 00:45] =>  0:25
+   :END:
+   - [ ] 园区优惠
+   - [ ] 
 ** [[http://www.jianshu.com/p/6307c89fe3fa][jwt and spring security]]
+   :LOGBOOK:
+   CLOCK: [2017-10-12 周四 22:10]--[2017-10-12 周四 22:35] =>  0:25
+   CLOCK: [2017-10-12 周四 16:32]--[2017-10-12 周四 16:57] =>  0:25
+   :END:
+   - [X] 什么是jwt
+   - [X] jwt工作流程
+   - [X] jwt的生成和解析
+   - [ ] spring-security
+   - [ ] 简单的背景知识
+   - [ ] 引入spring-security
+     - [ ] 实现UserDetails
+     - [ ] 实现UserDetailService loadByUserName
+     - [ ] 安全配置类extends WebSecurityConfigureAdapter
+     - [ ] @PreAuthorize()限制访问
+     - [ ] 使用application.yml配置springboot应用
+     - [ ] 集成jwt和springSecurity
+       - [ ] 建立filter
+     - [ ] 完成鉴权(登录).注册和更新token的功能
