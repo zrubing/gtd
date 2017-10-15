@@ -655,12 +655,13 @@
      - [X] 含有空值
      - [ ] status=0?
      - [ ] 插入
-   - [ ] filter chain处理 jwt
-     - [ ] [[http://hejiajunsh.iteye.com/blog/1776569][过滤器,监听器,拦截器]]
-   - [ ] 菜品发布
-     - [ ] list
-       - [ ] 好多空值
+   - [X] filter chain处理 jwt
+     - [X] [[http://hejiajunsh.iteye.com/blog/1776569][过滤器,监听器,拦截器]]
+   - [-] 菜品发布
+     - [X] list
+       - [X] 好多空值
      - [ ] add
+   - [ ] 我的资料
 ** [[http://www.jianshu.com/p/6307c89fe3fa][jwt and spring security]]
    :LOGBOOK:
    CLOCK: [2017-10-12 周四 22:10]--[2017-10-12 周四 22:35] =>  0:25
@@ -680,3 +681,20 @@
      - [ ] 集成jwt和springSecurity
        - [ ] 建立filter
      - [ ] 完成鉴权(登录).注册和更新token的功能
+* 量子计算
+  - [ ] [[https://www.zhihu.com/question/26933442][zhihu]]
+* Dart
+** [[https://codelabs.developers.google.com/codelabs/from-java-to-dart/index.html#1][Intro to Dart for java developers]]
+   :LOGBOOK:
+   CLOCK: [2017-10-15 周日 23:40]--[2017-10-16 周一 00:05] =>  0:25
+   CLOCK: [2017-10-15 周日 22:33]--[2017-10-15 周日 22:58] =>  0:25
+   :END:
+   - [X] introduction
+   - [X] create a simple Dart class
+   - [X] Use optional parameters(instead of overloading)
+   - [X] Create a factory
+   - [X] Implement a interface
+   - [ ] Use Dart for functional programming
+   - [ ] Congratulations
+   - [ ] learn more
+** [[https://www.dartlang.org/guides/language/language-tour][language tour]]
