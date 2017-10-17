@@ -686,6 +686,8 @@
 * Dart
 ** [[https://codelabs.developers.google.com/codelabs/from-java-to-dart/index.html#1][Intro to Dart for java developers]]
    :LOGBOOK:
+   CLOCK: [2017-10-17 周二 14:20]--[2017-10-17 周二 14:45] =>  0:25
+   CLOCK: [2017-10-16 周一 11:00]--[2017-10-16 周一 11:25] =>  0:25
    CLOCK: [2017-10-15 周日 23:40]--[2017-10-16 周一 00:05] =>  0:25
    CLOCK: [2017-10-15 周日 22:33]--[2017-10-15 周日 22:58] =>  0:25
    :END:
@@ -694,7 +696,57 @@
    - [X] Use optional parameters(instead of overloading)
    - [X] Create a factory
    - [X] Implement a interface
-   - [ ] Use Dart for functional programming
-   - [ ] Congratulations
-   - [ ] learn more
+   - [X] Use Dart for functional programming
+   - [-] Congratulations
+     - [ ] async/await
+     - [X] method cascade
+     - [X] null aware operators 
+   - [-] learn more
+     - [X] Variables
+       - [X] final and const
+     - [-] Build-in types
+       - [X] numbers
+       - [X] strings
+       - [ ] list
+       - [ ] map
+       - [ ] Runes
+       - [ ] Symbols
+     - [ ] Functions
+     - [ ] Operators
+     - [ ] Control flow
+     - [ ] Exception
+     - [ ] classes
+     - [ ] Generics
+     - [ ] libs and visibility
+     - [ ] asynchrony
+     - [ ] callable classes
+     - [ ] isolates
+     - [ ] typedefs
+     - [ ] metadata
+     - [ ] comments
 ** [[https://www.dartlang.org/guides/language/language-tour][language tour]]
+** BuildUi
+   :LOGBOOK:
+   CLOCK: [2017-10-17 周二 12:02]--[2017-10-17 周二 12:27] =>  0:25
+   :END:
+   - [-] [[https://flutter.io/widgets-intro/][tour of the widget framework]]
+     - [X] intro
+     - [X] hello world
+     - [ ] basic widget
+       - [ ] [[https://flutter.io/widgets/layout/][ layout widgets]]
+         - single-child
+         - multi-child
+     - [-] using material design
+       - [ ] [[https://flutter.io/widgets/material/][material-design widgets]]
+       - [-] [[https://docs.flutter.io/flutter/widgets/Navigator-class.html][navigator]]
+         - [X] displaying a full-screen route
+         - [ ] Using named navigator routes
+         - [ ] Routes can return a value
+         - [ ] Pop routes
+         - [ ] Custom routes 
+     - [ ] handling gestures
+     - [ ] changing widgets in response to input
+     - [ ] bring it all together
+     - [ ] Responding to widget lifecycle events
+     - [ ] keys
+     - [ ] GlobalKeys
