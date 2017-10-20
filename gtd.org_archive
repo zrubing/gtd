@@ -1647,3 +1647,34 @@ Archived entries from file c:/Users/rubing/mygtd/gtd.org
        return GameViewLayer:create(self):addTo(self)
     end   
     #+END_SRC
+
+* lua
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-10-19 周四 13:05
+  :ARCHIVE_FILE: ~/mygtd/gtd.org
+  :ARCHIVE_CATEGORY: gtd
+  :END:
+** [[http://shahdza.blog.51cto.com/2410787/1538818][夏天的风]]
+** STARTED [[http://www.cocos.com/docs/native/v3/basic-concepts/zh.html][cocos2dx cpp]]
+   - State "TODO"       from "CANCELLED"  [2017-06-30 周五 16:41]
+   :LOGBOOK:
+   CLOCK: [2017-07-10 周一 16:06]--[2017-07-10 周一 16:31] =>  0:25
+   CLOCK: [2017-07-10 周一 10:16]--[2017-07-10 周一 10:41] =>  0:25
+   CLOCK: [2017-07-06 周四 10:28]--[2017-07-06 周四 10:53] =>  0:25
+   CLOCK: [2017-07-03 周一 15:59]--[2017-07-03 周一 16:24] =>  0:25
+   CLOCK: [2017-07-03 周一 10:54]--[2017-07-03 周一 11:19] =>  0:25 动作
+   CLOCK: [2017-07-01 周六 16:43]--[2017-07-01 周六 17:08] =>  0:25 坐标系详解
+   CLOCK: [2017-06-30 周五 16:31]--[2017-06-30 周五 16:40] =>  0:09
+   :END:
+
+* otherTime
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-10-19 周四 13:05
+  :ARCHIVE_FILE: ~/mygtd/gtd.org
+  :ARCHIVE_CATEGORY: gtd
+  :END:
+  :LOGBOOK:
+  CLOCK: [2017-04-27 周四 16:16]--[2017-04-27 周四 16:25] =>  0:09
+  CLOCK: [2017-04-27 周四 14:17]--[2017-04-27 周四 14:42] =>  0:25
+  CLOCK: [2017-04-27 周四 11:34]--[2017-04-27 周四 11:59] =>  0:25
+  :END:
