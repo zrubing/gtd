@@ -513,6 +513,7 @@
   :END:
 ** [[http://www.runoob.com/cprogramming/c-tutorial.html][c]][60%]
    :LOGBOOK:
+   CLOCK: [2017-10-21 周六 16:34]--[2017-10-21 周六 16:59] =>  0:25
    CLOCK: [2017-10-19 周四 12:03]--[2017-10-19 周四 12:28] =>  0:25
    CLOCK: [2017-09-01 周五 15:13]--[2017-09-01 周五 15:38] =>  0:25
    CLOCK: [2017-09-05 二 21:00]--[2017-09-05 二 21:25] => 0:25
@@ -528,8 +529,11 @@
          int *ptr=NULL
          //ptr=0
        #+END_SRC
-     - [ ] c指针详解
-       - [ ] [[http://www.runoob.com/cprogramming/c-pointer-arithmetic.html][指针的算术运算符]]
+     - [-] c指针详解
+       - [X] [[http://www.runoob.com/cprogramming/c-pointer-arithmetic.html][指针的算术运算符]]
+         - [X] ++ 
+         - [X] --
+         - [X] 比较
        - [ ] [[http://www.runoob.com/cprogramming/c-array-of-pointers.html][指针数组]]
        - [ ] [[http://www.runoob.com/cprogramming/c-pointer-to-pointer.html][指向指针的指针]]
        - [ ] [[http://www.runoob.com/cprogramming/c-passing-pointers-to-functions.html][传递指针给函数]]
@@ -613,11 +617,13 @@
 * [[http://hp.stuhome.net/index.php/2016/07/06/tensorflow-learning-paths/][learning-path]]
 ** ml
    :LOGBOOK:
+   CLOCK: [2017-10-21 周六 17:20]--[2017-10-21 周六 17:45] =>  0:25
    CLOCK: [2017-10-07 周六 20:51]--[2017-10-07 周六 21:16] =>  0:25
    CLOCK: [2017-10-06 周五 20:08]--[2017-10-06 周五 20:33] =>  0:25
    :END:
-   - [ ] [[http://neuralnetworksanddeeplearning.com/chap1.html][chap1 recognize handwritten digits]]
-     - [ ] [[http://neuralnetworksanddeeplearning.com/chap1.html#perceptrons][Perceptrons]]
+   - [-] [[http://neuralnetworksanddeeplearning.com/chap1.html][chap1 recognize handwritten digits]]
+     - [X] [[http://neuralnetworksanddeeplearning.com/chap1.html#perceptrons][Perceptrons]]
+     - [ ] [[http://neuralnetworksanddeeplearning.com/chap1.html#sigmoid_neurons][Sigmoid neurons]]
      - 
 * spring
   :LOGBOOK:
@@ -674,10 +680,12 @@
          name店铺名称,province省,city市,area区,地址address,contactsPhone联系电话,details商户详情,
          businessHours营业时间,(商户类型,服务类型)其他表,(身份证正面照,背面照,详细图集,执照编码,银行卡号,开户银行,银行类别编码,持卡人姓名)其他表,二维码
        - [ ] 二维码
-     - [ ] 修改信息
-       - [ ] 可以更新的字段
-       - [ ] mapper.xml添加update字段 身份证图片等
-       - 
+     - [-] 修改信息
+       - [X] 可以更新的字段
+         商户图标,province省,city市,area区,地址address,服务园区,联系电话,营业时间,商户类型,服务类型,身份证正,身份反,是否餐厅,接受预定,人均消费,开始配送时间,起送价格,
+         餐盒费,配送费,预计送达时间,商户介绍,介绍图片,执照编码,银行卡号,开户银行,持卡人姓名
+       - [ ] mapper.xml添加额外update字段 身份证图片等
+       - [ ] controller接收参数
      - [ ] 提现
      - [ ] 修改密码
 ** [[http://www.jianshu.com/p/6307c89fe3fa][jwt and spring security]]
@@ -745,6 +753,9 @@
 ** [[https://www.dartlang.org/guides/language/language-tour][language tour]]
 ** BuildUi
    :LOGBOOK:
+   CLOCK: [2017-10-21 周六 18:08]--[2017-10-21 周六 18:33] =>  0:25
+   CLOCK: [2017-10-21 周六 15:52]--[2017-10-21 周六 16:17] =>  0:25
+   CLOCK: [2017-10-21 周六 01:52]--[2017-10-21 周六 02:17] =>  0:25
    CLOCK: [2017-10-17 周二 12:02]--[2017-10-17 周二 12:27] =>  0:25
    :END:
    - [-] [[https://flutter.io/widgets-intro/][tour of the widget framework]]
@@ -756,14 +767,14 @@
          - multi-child
      - [-] using material design
        - [ ] [[https://flutter.io/widgets/material/][material-design widgets]]
-       - [-] [[https://docs.flutter.io/flutter/widgets/Navigator-class.html][navigator]]
+       - [X] [[https://docs.flutter.io/flutter/widgets/Navigator-class.html][navigator]]
          - [X] displaying a full-screen route
-         - [ ] Using named navigator routes
-         - [ ] Routes can return a value
-         - [ ] Pop routes
-         - [ ] Custom routes 
-     - [ ] handling gestures
-     - [ ] changing widgets in response to input
+         - [X] Using named navigator routes
+         - [X] Routes can return a value
+         - [X] Pop routes
+         - [X] Custom routes 
+     - [X] handling gestures [[https://flutter.io/gestures/][gestures in flutter]]
+     - [ ] changing widgets in response to input [[https://docs.flutter.io/flutter/widgets/StatefulWidget-class.html][stateful widget]]
      - [ ] bring it all together
      - [ ] Responding to widget lifecycle events
      - [ ] keys
