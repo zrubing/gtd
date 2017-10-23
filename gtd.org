@@ -509,6 +509,7 @@
    :END:
 * c,c++
   :LOGBOOK:
+  CLOCK: [2017-10-22 周日 00:08]--[2017-10-22 周日 00:33] =>  0:25
   CLOCK: [2017-09-19 周二 16:33]--[2017-09-19 周二 16:58] =>  0:25
   :END:
 ** [[http://www.runoob.com/cprogramming/c-tutorial.html][c]][60%]
@@ -534,7 +535,7 @@
          - [X] ++ 
          - [X] --
          - [X] 比较
-       - [ ] [[http://www.runoob.com/cprogramming/c-array-of-pointers.html][指针数组]]
+       - [X] [[http://www.runoob.com/cprogramming/c-array-of-pointers.html][指针数组]]
        - [ ] [[http://www.runoob.com/cprogramming/c-pointer-to-pointer.html][指向指针的指针]]
        - [ ] [[http://www.runoob.com/cprogramming/c-passing-pointers-to-functions.html][传递指针给函数]]
        - [ ] [[http://www.runoob.com/cprogramming/c-passing-pointers-to-functions.html][从函数返回指针]]
@@ -753,6 +754,10 @@
 ** [[https://www.dartlang.org/guides/language/language-tour][language tour]]
 ** BuildUi
    :LOGBOOK:
+   CLOCK: [2017-10-22 周日 14:53]--[2017-10-22 周日 15:18] =>  0:25
+   CLOCK: [2017-10-22 周日 13:11]--[2017-10-22 周日 13:36] =>  0:25
+   CLOCK: [2017-10-22 周日 00:58]--[2017-10-22 周日 01:23] =>  0:25
+   CLOCK: [2017-10-21 周六 23:09]--[2017-10-21 周六 23:34] =>  0:25
    CLOCK: [2017-10-21 周六 18:08]--[2017-10-21 周六 18:33] =>  0:25
    CLOCK: [2017-10-21 周六 15:52]--[2017-10-21 周六 16:17] =>  0:25
    CLOCK: [2017-10-21 周六 01:52]--[2017-10-21 周六 02:17] =>  0:25
@@ -774,8 +779,33 @@
          - [X] Pop routes
          - [X] Custom routes 
      - [X] handling gestures [[https://flutter.io/gestures/][gestures in flutter]]
-     - [ ] changing widgets in response to input [[https://docs.flutter.io/flutter/widgets/StatefulWidget-class.html][stateful widget]]
-     - [ ] bring it all together
-     - [ ] Responding to widget lifecycle events
-     - [ ] keys
-     - [ ] GlobalKeys
+     - [X] changing widgets in response to input [[https://docs.flutter.io/flutter/widgets/StatefulWidget-class.html][stateful widget]]
+     - [X] bring it all together
+     - [X] Responding to widget lifecycle events
+     - [X] keys [[https://docs.flutter.io/flutter/widgets/Key-class.html][key]]
+     - [X] GlobalKeys
+   - [ ] widgetCatlog
+   - [ ] sampleCatlog
+   - [ ] building beautiful ui codelabs
+   - [ ] buildlayouts
+   - [ ] add interactivity
+** UserDevice and sdk api
+   :LOGBOOK:
+   CLOCK: [2017-10-23 周一 01:19]--[2017-10-23 周一 01:44] =>  0:25
+   CLOCK: [2017-10-23 周一 00:42]--[2017-10-23 周一 01:07] =>  0:25
+   :END:
+   - [ ] using packages
+   - [ ] developing packages
+   - [-] platform-specific code
+     - [X] Architectural overview:platform channels
+       - [X] platform data type support and codecs
+     - [-] Example:call android or ios code use channels
+       - [X] step1 create a new project
+       - [X] step2 create flutter platform client
+       - [X] step3a add android code
+       - [ ] Separate platform-specific code from UI code
+       - [ ] publish as a package
+       - [ ] custom channels and codecs
+   - [ ] read and write files
+   - [ ] network and http
+   - [ ] Firebase for Flutter codelab
