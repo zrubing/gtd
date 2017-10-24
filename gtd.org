@@ -219,6 +219,31 @@
        - [ ] MVVM
        - [ ] 自动化工具
      - [ ] React
+** 6.x 中文文档 
+   :LOGBOOK:
+   CLOCK: [2017-10-23 周一 14:19]--[2017-10-23 周一 14:37] =>  0:18
+   CLOCK: [2017-10-23 周一 12:43]--[2017-10-23 周一 12:54] =>  0:11
+   :END:
+   - [-] [[https://pinggod.gitbooks.io/nodejs-doc-in-chinese/content/doc/c-and-c-plus-plus-addons.html][c/c++ Addons]]
+     - [X] 插件
+     - [X] hello world
+     - [ ] 构建
+     - [ ] 链接到nodejs自身的依赖
+     - [ ] 使用require()加载插件
+     - [ ] nodejs本地抽象
+     - [ ] 插件实例
+       - [ ] 函数参数
+       - [ ] 回调函数
+       - [ ] 对象工厂
+       - [ ] 函数工厂
+       - [ ] 包装c++对象
+       - [ ] 包装对象工厂方法
+       - [ ] 传递包装对象
+       - [ ] AtExit钩子函数
+   - [ ] 
+   - [ ] 
+   - [ ] 
+   - 
 * python
 ** STARTED [[https://wizardforcel.gitbooks.io/think-python-2e/content/11.html][python tutorial]]
    :LOGBOOK:
@@ -276,8 +301,9 @@
    CLOCK: [2017-08-21 一 23:29]--[2017-08-21 一 23:54] =>  0:25
    :END:
 * AI
-** STARTED computer vision
+** [[https://www.youtube.com/watch?v=6sxrxYj3kvg&index=15&list=PLAwxTw4SYaPnbDacyrK_kB_RUkuxQBlCm][computer vision]]
    :LOGBOOK:
+   CLOCK: [2017-10-24 周二 00:42]--[2017-10-24 周二 01:07] =>  0:25
    CLOCK: [2017-03-02 周四 22:23]--[2017-03-02 周四 22:48] =>  0:25
    CLOCK: [2017-02-08 周三 12:07]--[2017-02-08 周三 12:32] =>  0:25
    CLOCK: [2017-02-06 周一 11:51]--[2017-02-06 周一 12:16] =>  0:25
@@ -288,8 +314,25 @@
    CLOCK: [2017-01-25 周三 10:10]--[2017-01-25 周三 10:35] =>  0:25
    CLOCK: [2017-01-24 周二 21:32]--[2017-01-24 周二 21:57] =>  0:25
    :END:
-** STARTED [[http://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_tutorials.html][openCV_PyTutorials]]
-** STARTED [[https://www.youtube.com/results?search_query=udacity+artificial+intelligence][udacity-artifical-intiligence]]
+   - [X] course overview
+   - [-] topic outline
+     - [-] introduction
+       - [X] intro
+       - [X] images as functions1
+       - [X] images as functions2
+       - [X] the real phyllis
+       - [ ] digital images 26
+     - [ ] image processing for computer vision
+     - [ ] camera models and views
+     - [ ] features and matching
+     - [ ] lightness and brightness
+     - [ ] motion and tracking
+     - [ ] miscellaneous
+     - [ ] human vision
+   - [X] course details
+   - [X] software
+** [[http://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_tutorials.html][openCV_PyTutorials]]
+** [[https://www.youtube.com/results?search_query=udacity+artificial+intelligence][udacity-artifical-intiligence]]
    :LOGBOOK:
    CLOCK: [2017-04-19 周三 23:25]--[2017-04-19 周三 23:50] =>  0:25
    :END:
@@ -551,30 +594,30 @@
      - [X] 定义共用体
      - [X] 访问共用体成员
    - [X] C位域
-*** c++
-    - [X] c++引用
-      - 把引用作为参数
-      - 引用作为返回值
-    - [X] c++命名空间
-    - [ ] 模板
-      函数模板
-      类模板
-    - [ ] web编程
-    - 
-   :LOGBOOK:
-   CLOCK: [2017-09-20 周三 18:23]--[2017-09-20 周三 18:36] =>  0:13
-   CLOCK: [2017-09-14 周四 12:20]--[2017-09-14 周四 12:31] =>  0:11
-   CLOCK: [2017-09-06 周三 10:05]--[2017-09-06 周三 10:30] =>  0:25
-   CLOCK: [2017-09-04 一 11:34]--[2017-09-04 一 11:59] =>  0:25
-   CLOCK: [2017-09-01 周五 14:38]--[2017-09-01 周五 15:03] =>  0:25
-   CLOCK: [2017-08-31 周四 14:13]--[2017-08-31 周四 14:38] =>  0:25
-   CLOCK: [2017-08-29 周二 10:17]--[2017-08-29 周二 10:42] =>  0:25
-   CLOCK: [2017-08-28 一 22:51]--[2017-08-28 一 23:16] =>  0:25
-   CLOCK: [2017-08-28 周一 00:32]--[2017-08-28 周一 00:57] =>  0:25
-   CLOCK: [2017-08-27 周日 11:11]--[2017-08-27 周日 11:36] =>  0:25
-   CLOCK: [2017-08-26 周六 20:56]--[2017-08-26 周六 21:22] =>  0:26
-   CLOCK: [2017-08-26 周六 00:25]--[2017-08-26 周六 00:50] =>  0:25
-   :END:
+** c++
+  :LOGBOOK:
+  CLOCK: [2017-09-20 周三 18:23]--[2017-09-20 周三 18:36] =>  0:13
+  CLOCK: [2017-09-14 周四 12:20]--[2017-09-14 周四 12:31] =>  0:11
+  CLOCK: [2017-09-06 周三 10:05]--[2017-09-06 周三 10:30] =>  0:25
+  CLOCK: [2017-09-04 一 11:34]--[2017-09-04 一 11:59] =>  0:25
+  CLOCK: [2017-09-01 周五 14:38]--[2017-09-01 周五 15:03] =>  0:25
+  CLOCK: [2017-08-31 周四 14:13]--[2017-08-31 周四 14:38] =>  0:25
+  CLOCK: [2017-08-29 周二 10:17]--[2017-08-29 周二 10:42] =>  0:25
+  CLOCK: [2017-08-28 一 22:51]--[2017-08-28 一 23:16] =>  0:25
+  CLOCK: [2017-08-28 周一 00:32]--[2017-08-28 周一 00:57] =>  0:25
+  CLOCK: [2017-08-27 周日 11:11]--[2017-08-27 周日 11:36] =>  0:25
+  CLOCK: [2017-08-26 周六 20:56]--[2017-08-26 周六 21:22] =>  0:26
+  CLOCK: [2017-08-26 周六 00:25]--[2017-08-26 周六 00:50] =>  0:25
+  :END:
+   - [X] c++引用
+     - 把引用作为参数
+     - 引用作为返回值
+   - [X] c++命名空间
+   - [ ] 模板
+     函数模板
+     类模板
+   - [ ] web编程
+   - 
 * cocos
 ** [[http://blog.sina.com.cn/s/blog_4057ab62010197z8.html][module import android.mk]]
 * [[https://qbgbook.gitbooks.io/spring-boot-reference-guide-zh/content/][spring boot]]
