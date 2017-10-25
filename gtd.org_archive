@@ -1678,3 +1678,45 @@ Archived entries from file c:/Users/rubing/mygtd/gtd.org
   CLOCK: [2017-04-27 周四 14:17]--[2017-04-27 周四 14:42] =>  0:25
   CLOCK: [2017-04-27 周四 11:34]--[2017-04-27 周四 11:59] =>  0:25
   :END:
+
+* build win32
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-10-25 周三 17:14
+  :ARCHIVE_FILE: ~/mygtd/gtd.org
+  :ARCHIVE_OLPATH: cocos
+  :ARCHIVE_CATEGORY: gtd
+  :END:
+  #+BEGIN_SRC python 
+     project_compile.py
+      27   class CCPluginCompile(cocos.CCPlugin):
+      1072    def build_win32(self):
+
+      1018    def build_vs_project(self, sln_file, project_name, build_mode, specify_vs_ver=None):
+      941     def get_available_devenv(self, required_versions, min_ver, specify_vs_ver=None):
+
+      967                    commandPath = utils.get_devenv_path(v)
+
+    utils.py
+      65 def get_devenv_path(vs_version):
+
+    cocos.py
+      369 class CCPlugin(object):
+      509        self._platforms = cocos_project.Platforms(self._project, args.platform, args.proj_dir)
+
+      596 def get_class(kls):
+    cocos_project.py
+      192 class Platforms(object):
+      223    def __init__(self, project, current, proj_dir = None):
+
+      345    def get_current_config(self):
+              return self._available_platforms[self._current]
+
+      302                self._available_platforms[p] = cfg_obj        
+
+      294                cfg_obj = cfg_class(root_path, self._project._is_script_project(), proj_info[cfg_key])
+
+      288            cfg_class = cocos.get_class(Platforms.CFG_CLASS_MAP[p])
+
+      482 class Win32Config(PlatformConfig):  
+      370 class PlatformConfig(object):
+  #+END_SRC
