@@ -303,6 +303,7 @@
 * AI
 ** [[https://www.youtube.com/watch?v=6sxrxYj3kvg&index=15&list=PLAwxTw4SYaPnbDacyrK_kB_RUkuxQBlCm][computer vision]]
    :LOGBOOK:
+   CLOCK: [2017-10-26 周四 23:43]--[2017-10-27 周五 00:08] =>  0:25
    CLOCK: [2017-10-26 周四 15:23]--[2017-10-26 周四 15:48] =>  0:25
    CLOCK: [2017-10-26 周四 00:18]--[2017-10-26 周四 00:43] =>  0:25
    CLOCK: [2017-10-24 周二 00:42]--[2017-10-24 周二 01:07] =>  0:25
@@ -332,8 +333,10 @@
        - [X] add two images demo
        - [X] multiply by a scale demo 33
        - [X] common types of noise
-       - [ ] image difference demo
-       - [ ] Generate Gaussian Noise
+       - [X] image difference demo
+       - [X] Generate Gaussian Noise
+       - [ ] effect of sigma on gussian noise 
+       - [ ] displaying images in matlab
        - 
      - [ ] image processing for computer vision
      - [ ] camera models and views
@@ -719,6 +722,7 @@
            - [ ] 微积分基本定理
 * spring
   :LOGBOOK:
+  CLOCK: [2017-10-26 周四 20:40]--[2017-10-26 周四 21:05] =>  0:25
   CLOCK: [2017-10-10 周二 19:12]--[2017-10-10 周二 19:37] =>  0:25
   CLOCK: [2017-10-10 周二 18:25]--[2017-10-10 周二 18:50] =>  0:25
   CLOCK: [2017-10-10 周二 16:46]--[2017-10-10 周二 17:11] =>  0:25
@@ -786,6 +790,7 @@
        - [ ] controller接收参数
      - [ ] 提现
      - [ ] 修改密码
+   - [ ] 扫码最近收费信息
 ** [[http://www.jianshu.com/p/6307c89fe3fa][jwt and spring security]]
    :LOGBOOK:
    CLOCK: [2017-10-12 周四 22:10]--[2017-10-12 周四 22:35] =>  0:25
