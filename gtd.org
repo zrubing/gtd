@@ -700,6 +700,7 @@
 * [[http://hp.stuhome.net/index.php/2016/07/06/tensorflow-learning-paths/][learning-path]]
 ** ml
    :LOGBOOK:
+   CLOCK: [2017-10-26 周四 18:11]--[2017-10-26 周四 18:36] =>  0:25
    CLOCK: [2017-10-26 周四 00:58]--[2017-10-26 周四 01:23] =>  0:25
    CLOCK: [2017-10-21 周六 17:20]--[2017-10-21 周六 17:45] =>  0:25
    CLOCK: [2017-10-07 周六 20:51]--[2017-10-07 周六 21:16] =>  0:25
@@ -707,8 +708,15 @@
    :END:
    - [-] [[http://neuralnetworksanddeeplearning.com/chap1.html][chap1 recognize handwritten digits]]
      - [X] [[http://neuralnetworksanddeeplearning.com/chap1.html#perceptrons][Perceptrons]]
-     - [ ] [[http://neuralnetworksanddeeplearning.com/chap1.html#sigmoid_neurons][Sigmoid neurons]]
-       - [ ] [[https://zh.wikipedia.org/wiki/%E5%BE%AE%E7%A7%AF%E5%88%86%E5%AD%A6][calculus]]
+     - [-] [[http://neuralnetworksanddeeplearning.com/chap1.html#sigmoid_neurons][Sigmoid neurons]]
+       - [-] [[https://zh.wikipedia.org/wiki/%E5%BE%AE%E7%A7%AF%E5%88%86%E5%AD%A6][calculus]]
+         - [-] 主要概念
+           - [X] 极限和无穷小
+           - [X] 导数
+           - [X] 微分学
+           - [ ] 莱布尼茨记号
+           - [ ] 积分学
+           - [ ] 微积分基本定理
 * spring
   :LOGBOOK:
   CLOCK: [2017-10-10 周二 19:12]--[2017-10-10 周二 19:37] =>  0:25
