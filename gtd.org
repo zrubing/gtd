@@ -303,6 +303,7 @@
 * AI
 ** [[https://www.youtube.com/watch?v=6sxrxYj3kvg&index=15&list=PLAwxTw4SYaPnbDacyrK_kB_RUkuxQBlCm][computer vision]]
    :LOGBOOK:
+   CLOCK: [2017-10-26 周四 15:23]--[2017-10-26 周四 15:48] =>  0:25
    CLOCK: [2017-10-26 周四 00:18]--[2017-10-26 周四 00:43] =>  0:25
    CLOCK: [2017-10-24 周二 00:42]--[2017-10-24 周二 01:07] =>  0:25
    CLOCK: [2017-03-02 周四 22:23]--[2017-03-02 周四 22:48] =>  0:25
@@ -329,7 +330,11 @@
        - [X] crop an image
        - [X] color planes
        - [X] add two images demo
-       - [ ] multiply by a scale demo 33
+       - [X] multiply by a scale demo 33
+       - [X] common types of noise
+       - [ ] image difference demo
+       - [ ] Generate Gaussian Noise
+       - 
      - [ ] image processing for computer vision
      - [ ] camera models and views
      - [ ] features and matching
@@ -875,21 +880,30 @@
    - [ ] add interactivity
 ** UserDevice and sdk api
    :LOGBOOK:
+   CLOCK: [2017-10-26 周四 16:07]--[2017-10-26 周四 16:32] =>  0:25
    CLOCK: [2017-10-23 周一 01:19]--[2017-10-23 周一 01:44] =>  0:25
    CLOCK: [2017-10-23 周一 00:42]--[2017-10-23 周一 01:07] =>  0:25
    :END:
    - [ ] using packages
    - [ ] developing packages
-   - [-] platform-specific code
+   - [X] platform-specific code
      - [X] Architectural overview:platform channels
        - [X] platform data type support and codecs
-     - [-] Example:call android or ios code use channels
+     - [X] Example:call android or ios code use channels
        - [X] step1 create a new project
        - [X] step2 create flutter platform client
        - [X] step3a add android code
-       - [ ] Separate platform-specific code from UI code
-       - [ ] publish as a package
-       - [ ] custom channels and codecs
-   - [ ] read and write files
-   - [ ] network and http
+       - [X] Separate platform-specific code from UI code
+       - [X] publish as a package
+       - [X] custom channels and codecs
+   - [X] read and write files
+     - [X] introduction
+     - [X] example
+   - [X] network and http
+     - [X] using http packages
+     - [X] making http request
+     - [X] decoding and encoding json
+     - [X] example:decoding json from https get
+     - [X] api docs
    - [ ] Firebase for Flutter codelab
+     
