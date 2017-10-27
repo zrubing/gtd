@@ -320,6 +320,7 @@
 * AI
 ** [[https://www.youtube.com/watch?v=6sxrxYj3kvg&index=15&list=PLAwxTw4SYaPnbDacyrK_kB_RUkuxQBlCm][computer vision]]
    :LOGBOOK:
+   CLOCK: [2017-10-27 周五 16:45]--[2017-10-27 周五 17:10] =>  0:25
    CLOCK: [2017-10-26 周四 23:43]--[2017-10-27 周五 00:08] =>  0:25
    CLOCK: [2017-10-26 周四 15:23]--[2017-10-26 周四 15:48] =>  0:25
    CLOCK: [2017-10-26 周四 00:18]--[2017-10-26 周四 00:43] =>  0:25
@@ -338,23 +339,28 @@
    - [-] topic outline
      - [-] introduction
        - [X] intro
-       - [X] images as functions1
-       - [X] images as functions2
-       - [X] the real phyllis
-       - [X] digital images 26
-       - [X] matlab images are Matrices
-       - [X] load and display an image
-       - [X] inspect image values
-       - [X] crop an image
-       - [X] color planes
-       - [X] add two images demo
-       - [X] multiply by a scale demo 33
-       - [X] common types of noise
-       - [X] image difference demo
-       - [X] Generate Gaussian Noise
-       - [ ] effect of sigma on gussian noise 
-       - [ ] displaying images in matlab
-       - 
+         - [X] images as functions1
+         - [X] images as functions2
+         - [X] the real phyllis
+         - [X] digital images 26
+         - [X] matlab images are Matrices
+         - [X] load and display an image
+         - [X] inspect image values
+         - [X] crop an image
+         - [X] color planes
+         - [X] add two images demo
+         - [X] multiply by a scale demo 33
+         - [X] common types of noise
+         - [X] image difference demo
+         - [X] Generate Gaussian Noise
+         - [X] effect of sigma on gussian noise //back
+         - [X] displaying images in matlab
+       - [-] intro
+         - [X] gaussian noise -how remove noise
+         - [X] averaging assumptions
+         - [X] weighted moving average
+         - [ ] moving averag in 2d
+         - 
      - [ ] image processing for computer vision
      - [ ] camera models and views
      - [ ] features and matching
