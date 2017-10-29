@@ -320,6 +320,7 @@
 * AI
 ** [[https://www.youtube.com/watch?v=6sxrxYj3kvg&index=15&list=PLAwxTw4SYaPnbDacyrK_kB_RUkuxQBlCm][computer vision]]
    :LOGBOOK:
+   CLOCK: [2017-10-28 周六 19:22]--[2017-10-28 周六 19:47] =>  0:25
    CLOCK: [2017-10-27 周五 16:45]--[2017-10-27 周五 17:10] =>  0:25
    CLOCK: [2017-10-26 周四 23:43]--[2017-10-27 周五 00:08] =>  0:25
    CLOCK: [2017-10-26 周四 15:23]--[2017-10-26 周四 15:48] =>  0:25
@@ -359,7 +360,11 @@
          - [X] gaussian noise -how remove noise
          - [X] averaging assumptions
          - [X] weighted moving average
-         - [ ] moving averag in 2d
+         - [X] moving averag in 2d 44
+         - [X] correlation filtering
+         - [X] averaging filter
+         - [X] Gaussian filter
+         - [ ] Variance or Standard Deviation 48
          - 
      - [ ] image processing for computer vision
      - [ ] camera models and views
@@ -958,6 +963,8 @@
    - [ ] Firebase for Flutter codelab
 * [[http://www.runoob.com/docker/docker-tutorial.html][Docker]]
   :LOGBOOK:
+  CLOCK: [2017-10-29 周日 13:52]--[2017-10-29 周日 14:17] =>  0:25
+  CLOCK: [2017-10-29 周日 02:27]--[2017-10-29 周日 02:52] =>  0:25
   CLOCK: [2017-10-28 周六 18:09]--[2017-10-28 周六 18:34] =>  0:25
   CLOCK: [2017-10-28 周六 16:28]--[2017-10-28 周六 16:53] =>  0:25
   CLOCK: [2017-10-28 周六 07:13]--[2017-10-28 周六 15:38] =>  8:25
@@ -993,11 +1000,18 @@
       - [X] run your new load-balanced app
       - [X] scale the app
         - [X] take down the app and the swarm
-    - [ ] 4.swarms
-      - [ ] prerequisites
-      - [ ] introduction
-      - [ ] understanding swarm clusters
-      - [ ] set up your swarms
+    - [-] 4.swarms
+      - [X] prerequisites
+      - [X] introduction
+      - [X] understanding swarm clusters
+      - [X] set up your swarms
+        - [X] create a cluster
+          - [X] vms on your local machine
+          - [X] list the vms and their ip address
+          - [X] initialize the swarm and add nodes
       - [ ] deploy your app on the swarm cluster
+        - [ ] configure a docker-machine shell to the swarm manager
+        - [ ]  
+        - [ ] 
       - [ ] interating and scaling your app
       - [ ] cleanup and reboot
