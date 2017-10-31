@@ -320,6 +320,7 @@
 * AI
 ** [[https://www.youtube.com/watch?v=6sxrxYj3kvg&index=15&list=PLAwxTw4SYaPnbDacyrK_kB_RUkuxQBlCm][computer vision]]
    :LOGBOOK:
+   CLOCK: [2017-11-01 周三 01:27]--[2017-11-01 周三 01:52] =>  0:25
    CLOCK: [2017-10-28 周六 19:22]--[2017-10-28 周六 19:47] =>  0:25
    CLOCK: [2017-10-27 周五 16:45]--[2017-10-27 周五 17:10] =>  0:25
    CLOCK: [2017-10-26 周四 23:43]--[2017-10-27 周五 00:08] =>  0:25
@@ -356,7 +357,7 @@
          - [X] Generate Gaussian Noise
          - [X] effect of sigma on gussian noise //back
          - [X] displaying images in matlab
-       - [-] intro
+       - [-] intro filter and noise
          - [X] gaussian noise -how remove noise
          - [X] averaging assumptions
          - [X] weighted moving average
@@ -364,8 +365,11 @@
          - [X] correlation filtering
          - [X] averaging filter
          - [X] Gaussian filter
-         - [ ] Variance or Standard Deviation 48
-         - 
+         - [X] Variance or Standard Deviation 48
+         - [X] matlab
+         - [X] keeping the two gaussian straight
+         - [ ] end
+       - [ ] intro 52
      - [ ] image processing for computer vision
      - [ ] camera models and views
      - [ ] features and matching
@@ -873,29 +877,33 @@
      - [X] method cascade
      - [X] null aware operators 
    - [-] learn more
-     - [X] Variables
-       - [X] final and const
-     - [-] Build-in types
-       - [X] numbers
-       - [X] strings
-       - [ ] list
-       - [ ] map
-       - [ ] Runes
-       - [ ] Symbols
-     - [ ] Functions
-     - [ ] Operators
-     - [ ] Control flow
-     - [ ] Exception
-     - [ ] classes
-     - [ ] Generics
-     - [ ] libs and visibility
-     - [ ] asynchrony
-     - [ ] callable classes
-     - [ ] isolates
-     - [ ] typedefs
-     - [ ] metadata
-     - [ ] comments
 ** [[https://www.dartlang.org/guides/language/language-tour][language tour]]
+   :LOGBOOK:
+   CLOCK: [2017-11-01 周三 00:18]--[2017-11-01 周三 00:43] =>  0:25
+   :END:
+   - [ ] important concepts
+   - [ ] keywords
+   - [ ] variables
+   - [ ] built-int types
+   - [ ] functions
+   - [ ] operators
+   - [ ] control flow statements
+   - [ ] exceptions
+   - [-] classes
+     - [X] instance variables
+     - [-] constructors
+       - [X] named constructors
+       - [ ] invoking a non-default superclass constructor
+       - [ ] 
+   - [ ] Generics
+   - [ ] Libraries and visibility
+   - [ ] asynchrony support
+   - [ ] callable classes
+   - [ ] isolates
+   - [ ] typedefs
+   - [ ] metadata
+   - [ ] comments
+   - [ ] summary
 ** BuildUi
    :LOGBOOK:
    CLOCK: [2017-10-22 周日 14:53]--[2017-10-22 周日 15:18] =>  0:25
