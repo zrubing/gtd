@@ -963,6 +963,10 @@
    - [ ] Firebase for Flutter codelab
 * [[http://www.runoob.com/docker/docker-tutorial.html][Docker]]
   :LOGBOOK:
+  CLOCK: [2017-10-31 周二 22:47]--[2017-10-31 周二 23:12] =>  0:25
+  CLOCK: [2017-10-30 周一 22:07]--[2017-10-30 周一 22:32] =>  0:25
+  CLOCK: [2017-10-30 周一 13:08]--[2017-10-30 周一 13:33] =>  0:25
+  CLOCK: [2017-10-30 周一 11:04]--[2017-10-30 周一 11:29] =>  0:25
   CLOCK: [2017-10-29 周日 18:11]--[2017-10-29 周日 18:36] =>  0:25
   CLOCK: [2017-10-29 周日 17:35]--[2017-10-29 周日 18:00] =>  0:25
   CLOCK: [2017-10-29 周日 13:52]--[2017-10-29 周日 14:17] =>  0:25
@@ -1021,5 +1025,29 @@
         - [X] stacks and swarms
         - [X] unsetting docker-machine shell variable settings
         - [X] restarting docker machines
-    - [ ] 5.stacks
-    - 
+    - [X] 5.stacks
+      - [X] prerequisites
+      - [X] introduction
+      - [X] add a new service and redeploy
+      - [X] persist the data
+        - [X] 1.add redis service
+        - [X] 2.create ./data directory on the manager
+        - [X] 3.make sure your shell configure myvm1
+    - [-] deploy your app
+      - [X] prerequisites
+      - [X] introduction
+      - [ ] choose an option
+        - [ ] connect docker cloud
+        - [ ] create your swarm
+        - [ ] deploy your app on a cloud provider
+        - [ ] iteration and cleanup
+  - [ ] [[https://docs.docker.com/samples/][samples]]
+  - [-] [[https://github.com/docker/labs/tree/master/beginner/][docker for beginers]]
+    - [X] 1.0 running your first container
+      - [X] docker run
+      - [X] terminology
+    - [ ] 2.0 webapps with docker
+      - [ ] run a static website in a container
+      - [ ] docker images
+      - [ ] create your first image
+    - [ ] 3.0 deploying an app to swarm
