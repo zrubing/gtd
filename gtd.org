@@ -531,6 +531,7 @@
      - [ ] 网络游戏项目构建
 ** 算法 目录12
    :LOGBOOK:
+   CLOCK: [2017-11-02 周四 19:37]--[2017-11-02 周四 20:02] =>  0:25
    CLOCK: [2017-10-28 周六 12:53]--[2017-10-28 周六 13:18] =>  0:25
    CLOCK: [2017-09-19 周二 11:07]--[2017-09-19 周二 11:32] =>  0:25
    CLOCK: [2017-09-18 周一 17:04]--[2017-09-18 周一 17:29] =>  0:25
@@ -560,19 +561,22 @@
        - [ ] 3.实例方法
        - [ ] 4.作用域
        - [ ] 5.api用例与实现
-   - [-] 背包队列和栈
+   - [-] 1.3背包队列和栈
      - 目标1.集合中对象的表示方式会影响集合操作的效率
      - 目标2.泛型和迭代
      - 目标3.链式数据结构的重要性
-     - [-] 1.3.1api
+     - [X] 1.3.1 api
        - [X] 泛型
        - [X] 自动装箱
        - [X] 可迭代的集合类型
        - [X] 背包
        - [X] 队列
        - [X] 下压栈
-       - [ ] 算术表达式求值
-       - 
+       - [X] 算术表达式求值
+     - [-] 1.3.2 集合类数据类型的实现
+       - [X] 1.定容栈
+       - [X] 2.泛型
+       - [ ] 3.调整数组大小
 *** 排序
 *** 查找
 *** 图
@@ -837,6 +841,9 @@
      - [ ] 提现
      - [ ] 修改密码
    - [ ] 扫码最近收费信息
+   - [ ] questions
+     - [ ] food_infomation
+       - startTime 格式是varchar 表里有2017/07/21 11:35 有2017-07-21 11:35
 ** [[http://www.jianshu.com/p/6307c89fe3fa][jwt and spring security]]
    :LOGBOOK:
    CLOCK: [2017-10-12 周四 22:10]--[2017-10-12 周四 22:35] =>  0:25
@@ -971,6 +978,10 @@
    - [ ] Firebase for Flutter codelab
 * [[http://www.runoob.com/docker/docker-tutorial.html][Docker]]
   :LOGBOOK:
+  CLOCK: [2017-11-02 周四 16:32]--[2017-11-02 周四 16:57] =>  0:25
+  CLOCK: [2017-11-02 周四 14:08]--[2017-11-02 周四 14:33] =>  0:25
+  CLOCK: [2017-11-02 周四 13:01]--[2017-11-02 周四 13:26] =>  0:25
+  CLOCK: [2017-11-02 周四 00:18]--[2017-11-02 周四 00:43] =>  0:25
   CLOCK: [2017-10-31 周二 22:47]--[2017-10-31 周二 23:12] =>  0:25
   CLOCK: [2017-10-30 周一 22:07]--[2017-10-30 周一 22:32] =>  0:25
   CLOCK: [2017-10-30 周一 13:08]--[2017-10-30 周一 13:33] =>  0:25
@@ -1050,12 +1061,23 @@
         - [ ] deploy your app on a cloud provider
         - [ ] iteration and cleanup
   - [ ] [[https://docs.docker.com/samples/][samples]]
-  - [-] [[https://github.com/docker/labs/tree/master/beginner/][docker for beginers]]
+  - [X] [[https://github.com/docker/labs/tree/master/beginner/][docker for beginers]]
     - [X] 1.0 running your first container
       - [X] docker run
       - [X] terminology
-    - [ ] 2.0 webapps with docker
-      - [ ] run a static website in a container
-      - [ ] docker images
-      - [ ] create your first image
-    - [ ] 3.0 deploying an app to swarm
+    - [X] 2.0 webapps with docker
+      - [X] run a static website in a container
+      - [X] docker images
+      - [X] create your first image
+        - [X] create a flask app
+        - [X] write a docker file
+        - [X] run your image
+        - [X] dockerfile commands summary
+    - [X] 3.0 deploying an app to swarm
+      - [X] Voting app
+      - [X] 3.1 Deploying the app
+      - [X] 3.2 customize the app
+        - [X] 1.change the images used
+        - [X] 2.redeploy
+        - [X] 3.another test run
+  - [ ] [[https://docs.docker.com/engine/userguide/eng-image/dockerfile_best-practices/][best parctise for dockerfile]]
