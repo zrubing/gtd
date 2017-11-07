@@ -531,6 +531,7 @@
      - [ ] 网络游戏项目构建
 ** 算法 目录12
    :LOGBOOK:
+   CLOCK: [2017-11-08 周三 01:51]--[2017-11-08 周三 02:16] =>  0:25
    CLOCK: [2017-11-02 周四 19:37]--[2017-11-02 周四 20:02] =>  0:25
    CLOCK: [2017-10-28 周六 12:53]--[2017-10-28 周六 13:18] =>  0:25
    CLOCK: [2017-09-19 周二 11:07]--[2017-09-19 周二 11:32] =>  0:25
@@ -573,10 +574,17 @@
        - [X] 队列
        - [X] 下压栈
        - [X] 算术表达式求值
-     - [-] 1.3.2 集合类数据类型的实现
+     - [X] 1.3.2 集合类数据类型的实现
        - [X] 1.定容栈
        - [X] 2.泛型
-       - [ ] 3.调整数组大小
+       - [X] 3.调整数组大小
+       - [X] 4.对象游离
+       - [X] 5.迭代
+         - [X] 算法1.1下压栈
+     - [ ] 1.3.3 链表
+       - [ ] 1.节点记录
+       - 
+     - 
 *** 排序
 *** 查找
 *** 图
@@ -809,6 +817,11 @@
      - [ ] 支付密码
 ** [[http://www.hredt.com:8080/merchantmanage/login.do][后台管理系统]]
    :LOGBOOK:
+   CLOCK: [2017-11-08 周三 00:33]--[2017-11-08 周三 00:58] =>  0:25
+   CLOCK: [2017-11-07 周二 23:40]--[2017-11-08 周三 00:05] =>  0:25
+   CLOCK: [2017-11-07 周二 23:04]--[2017-11-07 周二 23:29] =>  0:25
+   CLOCK: [2017-11-07 周二 22:00]--[2017-11-07 周二 22:25] =>  0:25
+   CLOCK: [2017-11-07 周二 21:28]--[2017-11-07 周二 21:53] =>  0:25
    CLOCK: [2017-10-19 周四 17:46]--[2017-10-19 周四 18:11] =>  0:25
    CLOCK: [2017-10-18 周三 16:12]--[2017-10-18 周三 16:37] =>  0:25
    CLOCK: [2017-10-13 周五 20:25]--[2017-10-13 周五 20:50] =>  0:25
@@ -840,10 +853,12 @@
        - [ ] controller接收参数
      - [ ] 提现
      - [ ] 修改密码
-   - [ ] 扫码最近收费信息
+   - [X] 扫码最近收费信息
    - [ ] questions
      - [ ] food_infomation
        - startTime 格式是varchar 表里有2017/07/21 11:35 有2017-07-21 11:35
+   - [X] 发布园区活动
+   - [ ] 福利卡
 ** [[http://www.jianshu.com/p/6307c89fe3fa][jwt and spring security]]
    :LOGBOOK:
    CLOCK: [2017-10-12 周四 22:10]--[2017-10-12 周四 22:35] =>  0:25
@@ -978,6 +993,11 @@
    - [ ] Firebase for Flutter codelab
 * [[http://www.runoob.com/docker/docker-tutorial.html][Docker]]
   :LOGBOOK:
+  CLOCK: [2017-11-05 周日 01:35]--[2017-11-05 周日 02:00] =>  0:25
+  CLOCK: [2017-11-04 周六 14:47]--[2017-11-04 周六 15:12] =>  0:25
+  CLOCK: [2017-11-04 周六 14:06]--[2017-11-04 周六 14:31] =>  0:25
+  CLOCK: [2017-11-04 周六 12:13]--[2017-11-04 周六 12:38] =>  0:25
+  CLOCK: [2017-11-03 周五 13:42]--[2017-11-03 周五 14:07] =>  0:25
   CLOCK: [2017-11-02 周四 16:32]--[2017-11-02 周四 16:57] =>  0:25
   CLOCK: [2017-11-02 周四 14:08]--[2017-11-02 周四 14:33] =>  0:25
   CLOCK: [2017-11-02 周四 13:01]--[2017-11-02 周四 13:26] =>  0:25
@@ -1060,24 +1080,47 @@
         - [ ] create your swarm
         - [ ] deploy your app on a cloud provider
         - [ ] iteration and cleanup
-  - [ ] [[https://docs.docker.com/samples/][samples]]
-  - [X] [[https://github.com/docker/labs/tree/master/beginner/][docker for beginers]]
-    - [X] 1.0 running your first container
-      - [X] docker run
-      - [X] terminology
-    - [X] 2.0 webapps with docker
-      - [X] run a static website in a container
-      - [X] docker images
-      - [X] create your first image
-        - [X] create a flask app
-        - [X] write a docker file
-        - [X] run your image
-        - [X] dockerfile commands summary
-    - [X] 3.0 deploying an app to swarm
-      - [X] Voting app
-      - [X] 3.1 Deploying the app
-      - [X] 3.2 customize the app
-        - [X] 1.change the images used
-        - [X] 2.redeploy
-        - [X] 3.another test run
+  - [-] [[https://docs.docker.com/samples/][samples]]
+    - [X] [[https://github.com/docker/labs/tree/master/beginner/][docker for beginers]]
+      - [X] 1.0 running your first container
+        - [X] docker run
+        - [X] terminology
+      - [X] 2.0 webapps with docker
+        - [X] run a static website in a container
+        - [X] docker images
+        - [X] create your first image
+          - [X] create a flask app
+          - [X] write a docker file
+          - [X] run your image
+          - [X] dockerfile commands summary
+      - [X] 3.0 deploying an app to swarm
+        - [X] Voting app
+        - [X] 3.1 Deploying the app
+        - [X] 3.2 customize the app
+          - [X] 1.change the images used
+          - [X] 2.redeploy
+          - [X] 3.another test run
+    - [-] [[https://github.com/docker/labs/tree/master/developer-tools/java/][docker for java developers]]
+      - [X] setup environments
+      - [-] building
+        - [X] build a docker image
+          - [X] Dockerfile
+          - [X] Create your first image
+          - [X] Create your first image using java
+            - [X] create a simple java application
+            - [X] package and run java app as docker image
+            - [X] package and run java app using docker maven plugin
+          - [X] Dockerfile command design pattern
+            - [X] Difference between CMD and ENTRYPOINT
+            - [X] Difference between ADD and COPY
+            - [X] Import and export images
+        - [-] build a docker image for java 9
+          - [X] create a docker image using JDK 9
+          - [X] Create a Docker Image using JDK 9 and Alpine Linux
+          - [ ] Create a Docker Image using JDK 9 and a Java application
+          - [ ] Reduce the size of a Docker Image using JDK 9 and a Java application 
+      - [ ] run a container
+      - [ ] multi-container app using docker compose
+    - [ ] [[https://github.com/docker/labs/tree/master/developer-tools/nodejs/porting/][dockerizing a nodejs appliation]]
   - [ ] [[https://docs.docker.com/engine/userguide/eng-image/dockerfile_best-practices/][best parctise for dockerfile]]
+    
