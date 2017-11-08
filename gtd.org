@@ -817,6 +817,7 @@
      - [ ] 支付密码
 ** [[http://www.hredt.com:8080/merchantmanage/login.do][后台管理系统]]
    :LOGBOOK:
+   CLOCK: [2017-11-08 周三 14:36]--[2017-11-08 周三 15:01] =>  0:25
    CLOCK: [2017-11-08 周三 00:33]--[2017-11-08 周三 00:58] =>  0:25
    CLOCK: [2017-11-07 周二 23:40]--[2017-11-08 周三 00:05] =>  0:25
    CLOCK: [2017-11-07 周二 23:04]--[2017-11-07 周二 23:29] =>  0:25
@@ -859,6 +860,7 @@
        - startTime 格式是varchar 表里有2017/07/21 11:35 有2017-07-21 11:35
    - [X] 发布园区活动
    - [ ] 福利卡
+   - [X] 订单广场
 ** [[http://www.jianshu.com/p/6307c89fe3fa][jwt and spring security]]
    :LOGBOOK:
    CLOCK: [2017-10-12 周四 22:10]--[2017-10-12 周四 22:35] =>  0:25
@@ -993,6 +995,7 @@
    - [ ] Firebase for Flutter codelab
 * [[http://www.runoob.com/docker/docker-tutorial.html][Docker]]
   :LOGBOOK:
+  CLOCK: [2017-11-09 周四 01:55]--[2017-11-09 周四 02:20] =>  0:25
   CLOCK: [2017-11-05 周日 01:35]--[2017-11-05 周日 02:00] =>  0:25
   CLOCK: [2017-11-04 周六 14:47]--[2017-11-04 周六 15:12] =>  0:25
   CLOCK: [2017-11-04 周六 14:06]--[2017-11-04 周六 14:31] =>  0:25
@@ -1119,8 +1122,17 @@
           - [X] Create a Docker Image using JDK 9 and Alpine Linux
           - [ ] Create a Docker Image using JDK 9 and a Java application
           - [ ] Reduce the size of a Docker Image using JDK 9 and a Java application 
-      - [ ] run a container
+      - [X] run a container
+        - [X] pull image
+        - [X] run conatiner
       - [ ] multi-container app using docker compose
+        - [ ] what is docker compose
+        - [ ] configuration file
+        - [ ] start application
+        - [ ] verify application
+        - [ ] shutdown application
+        - [ ] 
+        - 
     - [ ] [[https://github.com/docker/labs/tree/master/developer-tools/nodejs/porting/][dockerizing a nodejs appliation]]
   - [ ] [[https://docs.docker.com/engine/userguide/eng-image/dockerfile_best-practices/][best parctise for dockerfile]]
     
