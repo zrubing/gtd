@@ -939,6 +939,7 @@
    - [ ] Firebase for Flutter codelab
 * [[http://www.runoob.com/docker/docker-tutorial.html][Docker]]
   :LOGBOOK:  
+  CLOCK: [2017-11-19 周日 12:14]--[2017-11-19 周日 15:29] =>  3:15
   CLOCK: [2017-11-09 周四 22:33]--[2017-11-09 周四 22:58] =>  0:25
   CLOCK: [2017-11-09 周四 17:42]--[2017-11-09 周四 18:07] =>  0:25
   CLOCK: [2017-11-09 周四 15:41]--[2017-11-09 周四 16:06] =>  0:25
@@ -1082,6 +1083,17 @@
       - [X] getting started
     - [ ] [[https://github.com/docker/labs/tree/master/developer-tools/nodejs/porting/][dockerizing a nodejs appliation]]
   - [ ] [[https://docs.docker.com/engine/userguide/eng-image/dockerfile_best-practices/][best parctise for dockerfile]]
+  - [-] [[https://docs.docker.com/engine/admin/volumes/][Manage application data]]
+    - [X] choose the right type of mount
+      - [X] more details about mount types
+    - [ ] Good use cases for volumes
+    - [ ] Good use cases for bind mounts
+    - [ ] Good use cases for tmpfs mounts
+    - [ ] Good use cases for tmpfs mounts
+    - [ ] tips for using bind mounts or volumes
+* [[https://log.zvz.im/2017/05/24/nodejs-cinema-microservice-part1/][nodejs打造影院微服务并部署到docker]]
+**  [[http://www.infoq.com/cn/articles/power-of-raml][RAML]]
+   - [ ] 编写 在线api设计器或者ide插件 [[https://raml.org/projects][地址]]
 * [[https://mitpress.mit.edu/sicp/full-text/book/book-Z-H-4.html][SICP]]
   - [ ] 1.Building Abstractions with Procedures
     - [ ] 1.1 The elements of programming
