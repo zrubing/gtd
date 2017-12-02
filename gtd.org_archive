@@ -1828,3 +1828,99 @@ Archived entries from file c:/Users/rubing/mygtd/gtd.org
      - [ ] 集成jwt和springSecurity
        - [ ] 建立filter
      - [ ] 完成鉴权(登录).注册和更新token的功能
+
+* Android
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-12-03 周日 01:22
+  :ARCHIVE_FILE: ~/mygtd/gtd.org
+  :ARCHIVE_CATEGORY: gtd
+  :END:
+  :LOGBOOK:
+  CLOCK: [2017-05-06 周六 09:30]--[2017-05-06 周六 09:31] =>  0:01
+  :END:
+** STARTED [[http://design-patterns.readthedocs.io/zh_CN/latest/read_uml.html][UML 类图和时序图]]
+   :LOGBOOK:
+   CLOCK: [2016-09-18 周日 14:06]--[2016-09-18 周日 14:20] =>  0:14
+   :END:
+** STARTED [[https://github.com/simple-android-framework-exchange/android_design_patterns_analysis][android 设计模式]]
+   :LOGBOOK:
+   CLOCK: [2016-09-18 周日 14:27]--[2016-09-18 周日 14:53] => 0:26
+   :END:
+** 四大组件
+*** STARTED [[http://blog.csdn.net/guolin_blog/article/details/11952435][service]]
+    :LOGBOOK:
+    CLOCK: [2016-09-18 周日 15:00]--[2016-09-18 周日 15:29] => 0:29
+    :END:
+** STARTED [[http://gityuan.com/2015/10/31/binder-prepare/][binder]]
+   :LOGBOOK:
+   CLOCK: [2017-02-11 周六 10:40]--[2017-02-11 周六 11:05] =>  0:25
+   :END:
+** [[https://drakeet.me/effective-multitype][multilType]]
+** STARTED [[http://www.gcssloop.com/customview/CustomViewIndex][自定义 view]]
+   :LOGBOOK:
+   CLOCK: [2017-02-11 周六 09:57]--[2017-02-11 周六 10:22] =>  0:25
+   CLOCK: [2017-02-09 周四 21:54]--[2017-02-09 周四 22:19] =>  0:25
+   CLOCK: [2017-02-08 周三 13:25]--[2017-02-08 周三 13:50] =>  0:25
+   CLOCK: [2017-02-05 周日 11:24]--[2017-02-05 周日 11:49] =>  0:25
+   CLOCK: [2017-02-04 周六 14:56]--[2017-02-04 周六 15:21] =>  0:25
+   CLOCK: [2017-02-03 周五 16:42]--[2017-02-03 周五 17:07] =>  0:25
+   CLOCK: [2016-09-20 周二 17:08]--[2016-09-20 周二 17:33] =>  0:25
+   :END:
+** STARTED [[https://hltj.gitbooks.io/kotlin-reference-chinese/content/txt/getting-started.html][kotlin]]
+   :LOGBOOK:
+   CLOCK: [2016-11-25 周五 17:41]--[2016-11-26 周六 10:11] => 16:30
+   CLOCK: [2016-11-24 周四 17:48]--[2016-11-24 周四 18:13] =>  0:25
+   CLOCK: [2016-11-23 周三 16:31]--[2016-11-23 周三 16:56] =>  0:25
+   CLOCK: [2016-11-20 周日 00:01]--[2016-11-20 周日 00:26] =>  0:25
+   CLOCK: [2016-09-25 周日 20:08]--[2016-09-25 周日 20:14] =>  0:06
+   CLOCK: [2016-09-22 周四 13:11]--[2016-09-22 周四 13:36] =>  0:25
+   CLOCK: [2016-09-21 周三 11:00]--[2016-09-21 周三 11:25] =>  0:25
+   :END:
+** STARTED [[https://wangjiegulu.gitbooks.io/kotlin-for-android-developers-zh/content/jie_wei.html][kotlin for android developers]]
+   :LOGBOOK:
+   CLOCK: [2016-11-23 周三 22:10]--[2016-11-23 周三 22:35] =>  0:25
+   CLOCK: [2016-11-23 周三 14:42]--[2016-11-23 周三 15:07] =>  0:25
+   CLOCK: [2016-11-22 周二 13:43]--[2016-11-22 周二 14:08] =>  0:25
+   CLOCK: [2016-11-21 周一 22:11]--[2016-11-21 周一 22:36] =>  0:25
+   CLOCK: [2016-11-20 周日 15:00]--[2016-11-20 周日 15:25] =>  0:25
+   CLOCK: [2016-11-19 周六 23:15]--[2016-11-19 周六 23:40] =>  0:25
+   :END:
+** STARTED [[http://jcodecraeer.com/a/anzhuokaifa/androidkaifa/2015/0512/2869.html][自定义 xmlView]]
+   :LOGBOOK:
+   CLOCK: [2016-11-23 周三 09:41]--[2016-11-23 周三 10:06] =>  0:25
+   :END:
+** STARTED [[http://blog.chengyunfeng.com/?p=983][RxJava]]
+   :LOGBOOK:
+   CLOCK: [2017-02-09 周四 23:39]--[2017-02-10 周五 00:06] =>  0:27
+   CLOCK: [2017-02-08 周三 20:37]--[2017-02-08 周三 21:02] =>  0:25
+   CLOCK: [2017-02-05 周日 14:45]--[2017-02-05 周日 15:10] =>  0:25
+   CLOCK: [2017-01-10 周二 11:49]--[2017-01-10 周二 12:14] =>  0:25
+   :END:
+*** [[https://mcxiaoke.gitbooks.io/rxdocs/content/Observables.html][ReactiveX 中文文档]]
+*** [[http://blog.chengyunfeng.com/?p=948][云在千峰]]
+*** [[http://blog.chengyunfeng.com/?p=959][创建事件流]]
+*** STARTED [[http://wingjay.com/2016/07/14/RxLifecycle%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90%EF%BC%8D%E5%BD%93Activity%E8%A2%ABdestory%E6%97%B6%E8%87%AA%E5%8A%A8%E6%9A%82%E5%81%9C%E7%BD%91%E7%BB%9C%E8%AF%B7%E6%B1%82/][RxLifeCycle]]
+    :LOGBOOK:
+    CLOCK: [2017-03-21 周二 15:41]--[2017-03-21 周二 15:59] =>  0:18
+    CLOCK: [2017-03-21 周二 15:08]--[2017-03-21 周二 15:33] =>  0:25
+    :END:
+** android 笔试面试题
+
+*** [[http://www.100mian.com/mianshi/android/49868.html][避免 oom]]
+** [[http://szysky.com/tags/#][android 开发艺术探索抄书笔记]]
+** [[https://blog.piasy.com/][site]]
+** [[http://liuwangshu.cn/system/][刘望舒]]
+** [[http://hencoder.com/][扔物线]]
+
+* [[https://classroom.udacity.com/nanodegrees/nd009/parts/0091345400/modules/009134540075460/lessons/6d6c5cc6-08eb-4e8b-8408-854e49584028/concepts/9556c8b3-6593-49b3-a44d-ef83febc6447][MachineLeanring]]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-12-03 周日 01:22
+  :ARCHIVE_FILE: ~/mygtd/gtd.org
+  :ARCHIVE_CATEGORY: gtd
+  :END:
+  :LOGBOOK:
+  CLOCK: [2016-12-13 周二 22:55]--[2016-12-13 周二 23:20] =>  0:25
+  CLOCK: [2016-12-12 周一 23:34]--[2016-12-12 周一 23:59] =>  0:25
+  CLOCK: [2016-12-07 周三 20:01]--[2016-12-07 周三 20:26] =>  0:25
+  CLOCK: [2016-12-06 周二 20:49]--[2016-12-06 周二 21:14] =>  0:25
+  :END:
