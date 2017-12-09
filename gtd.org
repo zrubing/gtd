@@ -26,16 +26,16 @@
    CLOCK: [2016-09-20 周二 16:27]--[2016-09-20 周二 16:52] =>  0:25
    :END:
    - [X] 快速入门
-     - [X] map和set
+     - [X] map 和 set
      - [X] iterable
    - [-] 函数
      - [X] 定义和调用
        - [X] arguments
-       - [X] rest参数
-       - [X] 小心return语句
+       - [X] rest 参数
+       - [X] 小心 return 语句
          #+BEGIN_SRC javascript 
          function foo() {
-            return; // 自动添加了分号，相当于return undefined;
+            return; // 自动添加了分号，相当于 return undefined;
             { name: 'foo' }; // 这行语句已经没法执行到了
          }
          #+END_SRC 
@@ -44,7 +44,7 @@
        - [X] 变量提升
          自动提升变量的声明，不会提升赋值
        - [X] 全局作用域
-         全局变量被绑定到window
+         全局变量被绑定到 window
          #+BEGIN_SRC  javascript
          'use strict';
 
@@ -55,17 +55,17 @@
          #+END_SRC
        - [X] 名字空间,减少函数或变量名冲突
        - [X] 局部作用域
-          for 循环中的i 在for外面也可以引用
+          for 循环中的 i 在 for 外面也可以引用
        - [X] 常量
      - [X] 方法
-       - [X] apply 函数本身的apply方法,可以绑定到某个对象
+       - [X] apply 函数本身的 apply 方法,可以绑定到某个对象
        - [X] 装饰器
      - [X] 高阶函数
        - [X] map/reduce
        - [X] filter
        - [X] sort
-         - 默认把元素转成 string再排序
-         - sort会对arr进行修改,返回原对象 
+         - 默认把元素转成 string 再排序
+         - sort 会对 arr 进行修改,返回原对象 
      - [X] 闭包
        - [X] 函数作为返回值
        - [X] 闭包
@@ -98,38 +98,38 @@
          - write
          - pipe
        - [X] http
-         - [X] http服务器
+         - [X] http 服务器
          - [X] 文件服务器
        - [X] crypto
-         - md5和sha1
+         - md5 和 sha1
          - hmac
          - aes
          - diffie-hellman
          - 证书
-     - [-] Web开发
+     - [-] Web 开发
        - [X] koa
-         - [X] koa入门
-         - [X] 处理url
-         - [X] 使用Nunjucks
+         - [X] koa 入门
+         - [X] 处理 url
+         - [X] 使用 Nunjucks
            - [X] 转义
            - [X] 格式化
            - [X] 简单逻辑
-         - [X] 使用mvc
+         - [X] 使用 mvc
        - [X] mysql
-         - [X] 使用Sequelize
-           - [X] 访问mysql mysql驱动
+         - [X] 使用 Sequelize
+           - [X] 访问 mysql mysql 驱动
            - [X] ORM
            - [X] 实战
-         - [X] 建立Model
+         - [X] 建立 Model
            - [X] model 
            - [X] 数据库配置
        - [X] mocha
          - [X] 编写测试
            - [X] mocha test
          - [X] 异步测试
-         - [X] Http测试 
+         - [X] Http 测试 
        - [-] WebSocket
-         - [X] 使用ws
+         - [X] 使用 ws
          - [ ] 编写聊天室 
        - [ ] Rest
        - [ ] MVVM
@@ -144,18 +144,18 @@
      - [X] 插件
      - [X] hello world
      - [ ] 构建
-     - [ ] 链接到nodejs自身的依赖
-     - [ ] 使用require()加载插件
-     - [ ] nodejs本地抽象
+     - [ ] 链接到 nodejs 自身的依赖
+     - [ ] 使用 require()加载插件
+     - [ ] nodejs 本地抽象
      - [ ] 插件实例
        - [ ] 函数参数
        - [ ] 回调函数
        - [ ] 对象工厂
        - [ ] 函数工厂
-       - [ ] 包装c++对象
+       - [ ] 包装 c++对象
        - [ ] 包装对象工厂方法
        - [ ] 传递包装对象
-       - [ ] AtExit钩子函数
+       - [ ] AtExit 钩子函数
    - [ ] 
    - [ ] 
    - [ ] 
@@ -165,7 +165,7 @@
    CLOCK: [2017-10-27 周五 14:51]--[2017-10-27 周五 15:08] =>  0:17
    CLOCK: [2017-10-27 周五 12:51]--[2017-10-27 周五 12:54] =>  0:03
    :END:
-   - [-] [[http://www.jianshu.com/p/a4d92d0d7e19][基于nodejs和rabbitMQ搭建消息队列]]
+   - [-] [[http://www.jianshu.com/p/a4d92d0d7e19][基于 nodejs 和 rabbitMQ 搭建消息队列]]
      - [X] 简介
        - [X] 消息队列
        - [X] RabbitMq
@@ -311,7 +311,7 @@
    :END:
 * 计算机
 ** [[http://scse.buaa.edu.cn/buaa-css-web/articleDetail.action;jsessionid=DBFB2A8FE1CD0441D85FC0F7057D0C83?articleId=2bff0a2e-f114-4853-9bd3-dd6515a98bff&type=NEWS&firstSelId=6e011b46-2c70-4f68-a633-ec51f42b4718&secondSelId=NOTICE_PUBLICITY&language=0][专业课大纲]]
-** [[https://www.coursera.org/learn/unity-yinqing-youxi-kaifa/lecture/xlbGz/ben-men-ke-cheng-jie-shao][Unity开发基础]]
+** [[https://www.coursera.org/learn/unity-yinqing-youxi-kaifa/lecture/xlbGz/ben-men-ke-cheng-jie-shao][Unity 开发基础]]
    :LOGBOOK:
    CLOCK: [2017-10-17 周二 15:36]--[2017-10-17 周二 16:01] =>  0:25
    CLOCK: [2017-10-09 周一 16:58]--[2017-10-09 周一 17:23] =>  0:25
@@ -345,8 +345,8 @@
       - [X] 摄像机
     - [X] 音频与项目部署
       - [X] 音频
-      - [X] 项目部署pc&移动
-*** 第三周c#
+      - [X] 项目部署 pc&移动
+*** 第三周 c#
     - [X] 简介&集成开发环境
     - [X] 基本语法
       - [X] 基本语法结构
@@ -360,7 +360,7 @@
       - [X] 类的定义与使用
     - 
 *** 第四周 MoocHero
-    - [X] c#编写unity脚本
+    - [X] c#编写 unity 脚本
       - [X] 骨牌脚本讲解
     - [X] 概述
     - [X] 地形系统
@@ -369,19 +369,19 @@
         - [X] Mecamim workflow
           - [X] 资源的导入 
           - [X] 角色的建立 一般角色与人形角色
-            - [X] Avatar角色替身
+            - [X] Avatar 角色替身
           - [X] 角色的运动 
             - [X] 设定动画片段,动画片段间的交互,建立状态机,混合树
-              - [X] Animation Clip动画片段,行走,奔跑,跳跃
-              - [X] 分割Animation Clip
-              - [X] Animation Clip首尾一致检查
+              - [X] Animation Clip 动画片段,行走,奔跑,跳跃
+              - [X] 分割 Animation Clip
+              - [X] Animation Clip 首尾一致检查
                 - [X] 姿势一致
                 - [X] Rotation
-                - [X] 首尾Position Y轴分量的一致检查
-                - [X] xz轴分量一致性检查
+                - [X] 首尾 Position Y 轴分量的一致检查
+                - [X] xz 轴分量一致性检查
             - [X] 调整动画参数或代码,控制动画 
       - [X] 动画状态机
-        - [X] Animator组件 控制对象的动画 包括建立状态机,调整动画参数,及代码控制动画
+        - [X] Animator 组件 控制对象的动画 包括建立状态机,调整动画参数,及代码控制动画
         - [X] Animator Controller 动画控制器用来管理某对象一系列动画片段
           - [X] Animation state Machine 状态机
           - [X] Animation Layer & Avatar Mask 管理不同身体部位的动画
@@ -401,7 +401,7 @@
       - [X] 游戏管理器 
       - [X] 敌人的自动生成
     - [ ] 总结
-*** 第五周 unity高级特性与移动平台开发
+*** 第五周 unity 高级特性与移动平台开发
     :LOGBOOK:
     CLOCK: [2017-10-11 周三 16:08]--[2017-10-11 周三 16:33] =>  0:25
     :END:
@@ -412,44 +412,44 @@
         - Canvas 和 EventSystem
       - [X] uGUI 控件
       - [X] 开始,进,结束界面制作
-      - [X] 移动平台UI设置
-        - 使用Input的输入函数
-        - 使用Cross Platform Input资源包
+      - [X] 移动平台 UI 设置
+        - 使用 Input 的输入函数
+        - 使用 Cross Platform Input 资源包
     - [ ] 粒子系统与线渲染器
       - [ ] 粒子系统
       - [ ] 线渲染器
     - [ ] 物品收集，游戏胜利与失败画面
     - [ ] 完整版总结
-** [[https://www.coursera.org/learn/unity-kaifa-jinjie/home/welcome][Unity开发进阶]]
-   - [ ] week1可玩性提升
+** [[https://www.coursera.org/learn/unity-kaifa-jinjie/home/welcome][Unity 开发进阶]]
+   - [ ] week1 可玩性提升
      - [ ] 概述
-     - [ ] Unity导航系统
-     - [ ] 僵尸AI
+     - [ ] Unity 导航系统
+     - [ ] 僵尸 AI
      - [ ] 逆向动力学
-   - [ ] week2游戏画面品质提升
-     - [ ] Unity三维场景渲染
+   - [ ] week2 游戏画面品质提升
+     - [ ] Unity 三维场景渲染
      - [ ] 光照进阶
      - [ ] 全局光照
      - [ ] 着色器
      - [ ] 图像特效
-   - [ ] week3游戏性能优化
+   - [ ] week3 游戏性能优化
      - [ ] 概述
      - [ ] 性能分析工具
      - [ ] 性能优化
-     - [ ] Quality质量设置
+     - [ ] Quality 质量设置
      - [ ] 总结
-   - [ ] week4 Phonton网络引擎与网络游戏大厅制作
+   - [ ] week4 Phonton 网络引擎与网络游戏大厅制作
      - [ ] 网络游戏开发与课程项目
-     - [ ] Photon网络引擎
-     - [ ] pun基本架构
-     - [ ] pun制作网络游戏大厅
-   - [ ] week5 Phonton实现网络游戏逻辑
-     - [ ] pun与网络游戏逻辑
+     - [ ] Photon 网络引擎
+     - [ ] pun 基本架构
+     - [ ] pun 制作网络游戏大厅
+   - [ ] week5 Phonton 实现网络游戏逻辑
+     - [ ] pun 与网络游戏逻辑
      - [ ] 网络游戏开始准备与玩家对象生成
      - [ ] 网络游戏玩家的行为逻辑
      - [ ] 游戏状态管理与场景收集物
      - [ ] 网络游戏项目构建
-** 算法 目录12
+** 算法 目录 12
    :LOGBOOK:
    CLOCK: [2017-12-01 周五 22:27]--[2017-12-01 周五 22:52] =>  0:25
    CLOCK: [2017-11-16 周四 20:33]--[2017-11-16 周四 20:58] =>  0:25
@@ -468,29 +468,29 @@
      - [X] 字符串
      - [X] 输入输出 35
      - [X] 二分查找 42
-   - [-] 1.2数据抽象
-     - [X] 1.2.1使用抽象数据类型
-       - [X] 1.抽象数据类型的api
+   - [-] 1.2 数据抽象
+     - [X] 1.2.1 使用抽象数据类型
+       - [X] 1.抽象数据类型的 api
        - [X] 2.继承的方法 toString()
        - [X] 3.用例代码
        - [X] 4.对象
-       - [X] 9.对象作为参数 java是引用传递 56
+       - [X] 9.对象作为参数 java 是引用传递 56
        - [X] 10.对象作为返回值 返回引用
        - [X] 11.数组也是对象
        - [X] 12.对象的数组 是由对象引用构成的数组
-     - [-] 1.2.2抽象数据类型举例
+     - [-] 1.2.2 抽象数据类型举例
        - [X] 1.几何对象 59
        - [ ] 2.信息处理 61
-     - [-] 1.2.3抽象数据类型的实现
+     - [-] 1.2.3 抽象数据类型的实现
        - [X] 1.实例变量
        - [X] 2.构造函数
        - [ ] 3.实例方法
        - [ ] 4.作用域
-       - [ ] 5.api用例与实现
-   - [X] 1.3背包队列和栈
-     - 目标1.集合中对象的表示方式会影响集合操作的效率
-     - 目标2.泛型和迭代
-     - 目标3.链式数据结构的重要性
+       - [ ] 5.api 用例与实现
+   - [X] 1.3 背包队列和栈
+     - 目标 1.集合中对象的表示方式会影响集合操作的效率
+     - 目标 2.泛型和迭代
+     - 目标 3.链式数据结构的重要性
      - [X] 1.3.1 api
        - [X] 泛型
        - [X] 自动装箱
@@ -536,25 +536,25 @@
 *** 图
 *** 字符串
 *** 算法
-    - [X] 1.1下压栈 140
-    - [X] 1.2下压堆栈 148
-    - [ ] 1.3先进先出队列 150
-** unix编程艺术 
+    - [X] 1.1 下压栈 140
+    - [X] 1.2 下压堆栈 148
+    - [ ] 1.3 先进先出队列 150
+** unix 编程艺术 
    :LOGBOOK:
    CLOCK: [2017-11-18 六 20:49]--[2017-11-18 六 21:14] =>  0:25
    CLOCK: [2017-11-13 周一 23:39]--[2017-11-14 周二 00:04] =>  0:25
    CLOCK: [2017-11-12 周日 18:38]--[2017-11-12 周日 19:03] =>  0:25
    :END:
    - [X] 4. 
-     - [X] 4.3软件是多层的
+     - [X] 4.3 软件是多层的
        - [X] 1.自顶向下和自底向上
        - [X] 2.胶合层
-       - [X] 3.c语言
-     - [X] 4.4程序库
-     - [X] 4.5 unix和面向对象语言
+       - [X] 3.c 语言
+     - [X] 4.4 程序库
+     - [X] 4.5 unix 和面向对象语言
      - [X] 4.6 模块式编码
    - [ ] 5.文本化,好协议产生好实践
-     - [ ] 5.1文本化的重要性 
+     - [ ] 5.1 文本化的重要性 
      
    - 
 * khan
@@ -610,12 +610,12 @@
      - [X] 什么是指针
        - 声明方式 type *varname
      - [X] 如何使用
-     - [X] null指针
+     - [X] null 指针
        #+BEGIN_SRC c 
          int *ptr=NULL
          //ptr=0
        #+END_SRC
-     - [-] c指针详解
+     - [-] c 指针详解
        - [X] [[http://www.runoob.com/cprogramming/c-pointer-arithmetic.html][指针的算术运算符]]
          - [X] ++ 
          - [X] --
@@ -627,15 +627,15 @@
    - [ ] 函数指针与回调函数
      - [ ] 函数指针
      - [ ] 回调函数
-   - [X] C结构体
+   - [X] C 结构体
      - [X] 访问结构成员
      - [X] 结构作为函数参数
      - [X] 指向结构的指针
      - [X] 位域
-   - [X] C共用体
+   - [X] C 共用体
      - [X] 定义共用体
      - [X] 访问共用体成员
-   - [X] C位域
+   - [X] C 位域
 ** [[http://www.runoob.com/cplusplus/cpp-tutorial.html][c++]]
   :LOGBOOK:
   CLOCK: [2017-10-24 周二 13:36]--[2017-10-24 周二 14:01] =>  0:25
@@ -654,7 +654,7 @@
   :END:
    - [X] c++数据类型
      - [X] 基本的内置类型
-     - [X] typedef声明 为已有类型取新的名字
+     - [X] typedef 声明 为已有类型取新的名字
      - [X] 枚举
    - [X] c++变量类型
      - [X] 变量定义
@@ -671,8 +671,8 @@
      - [X] 字符
      - [X] 字符串常量
      - [X] 定义常量
-       - [X] #define预处理
-       - [X] const关键字
+       - [X] #define 预处理
+       - [X] const 关键字
    - [X] 修饰符类型
      signed unsigned long short
      - [X] 类型限定符
@@ -684,22 +684,22 @@
    - [ ] 模板
      函数模板
      类模板
-   - [ ] web编程
+   - [ ] web 编程
    - 
 * cocos
 ** [[http://blog.sina.com.cn/s/blog_4057ab62010197z8.html][module import android.mk]]
 * [[https://qbgbook.gitbooks.io/spring-boot-reference-guide-zh/content/][spring boot]]
-  - [X] 13构建系统
+  - [X] 13 构建系统
     - [X] gradle
-    - [X] [[https://qbgbook.gitbooks.io/spring-boot-reference-guide-zh/content/III.%20Using%20Spring%20Boot/13.5.%20Starters.html][starters列表]]
-  - [-] 14组织代码
-    - [X] 使用defalut包
-    - [ ] 放置应用的main类
+    - [X] [[https://qbgbook.gitbooks.io/spring-boot-reference-guide-zh/content/III.%20Using%20Spring%20Boot/13.5.%20Starters.html][starters 列表]]
+  - [-] 14 组织代码
+    - [X] 使用 defalut 包
+    - [ ] 放置应用的 main 类
   :LOGBOOK:
   CLOCK: [2017-09-06 周三 13:32]--[2017-09-06 周三 13:57] =>  0:25
   :END:
 * socket  
-- [ ] [[http://www.cnblogs.com/hellojava/archive/2013/01/25/2861127.html][循序渐进socket编程java]] -
+- [ ] [[http://www.cnblogs.com/hellojava/archive/2013/01/25/2861127.html][循序渐进 socket 编程 java]] -
 * [[https://yeasy.gitbooks.io/blockchain_guide/content/][区块链技术指南]]
   :LOGBOOK:
   CLOCK: [2017-10-08 周日 23:29]--[2017-10-08 周日 23:54] =>  0:25
@@ -718,11 +718,11 @@
   - [ ] 分布式系统核心问题
   - [ ] 密码学与安全技术
   - [ ] 比特币项目
-  - [ ] 以太坊Ethereum
+  - [ ] 以太坊 Ethereum
   - [ ] Hyperledger(超级账本)
-  - [ ] Fabric部署与管理
+  - [ ] Fabric 部署与管理
   - [ ] 区块链应用开发
-  - [ ] Fabric架构设计
+  - [ ] Fabric 架构设计
   - [ ] 区块链即服务
   - [ ] 性能与评测
   - [ ] 附录
@@ -1013,9 +1013,13 @@
     - [ ] Good use cases for tmpfs mounts
     - [ ] Good use cases for tmpfs mounts
     - [ ] tips for using bind mounts or volumes
-* [[https://log.zvz.im/2017/05/24/nodejs-cinema-microservice-part1/][nodejs打造影院微服务并部署到docker]]
+* [[https://log.zvz.im/2017/05/24/nodejs-cinema-microservice-part1/][nodejs 打造影院微服务并部署到 docker]]
+  :LOGBOOK:
+  CLOCK: [2017-12-07 周四 18:00]--[2017-12-07 周四 18:25] =>  0:25
+  CLOCK: [2017-12-04 周一 10:18]--[2017-12-04 周一 10:43] =>  0:25
+  :END:
 **  [[http://www.infoq.com/cn/articles/power-of-raml][RAML]]
-   - [ ] 编写 在线api设计器或者ide插件 [[https://raml.org/projects][地址]]
+   - [ ] 编写 在线 api 设计器或者 ide 插件 [[https://raml.org/projects][地址]]
 * [[https://mitpress.mit.edu/sicp/full-text/book/book-Z-H-4.html][SICP]]
   - [ ] 1.Building Abstractions with Procedures
     - [ ] 1.1 The elements of programming
@@ -1024,3 +1028,19 @@
       - [ ] 3.evaluating combinations
       - [ ] 4.Compound Procedures
     - 
+* 大型缓存架构
+  :LOGBOOK:
+  CLOCK: [2017-12-06 周三 15:23]--[2017-12-06 周三 15:48] =>  0:25
+  :END:
+  - [X] 28.redis cluster 集群搭建
+  - [X] 29.多 master 写入,主从复制,高可用
+  - [X] 30.redis cluster 通过 mater 水平扩容支持更高读写吞吐
+  - [X] 31.redis cluster 自动化 slave 迁移实现更强的高可用架构
+  - [X] 32.redis cluster 的核心原理分析
+  - [X] 33.实践中的常见问题及优化思路
+  - [X] 34.阶段总结
+  - [X] 35.多级缓存架构每一层的意义
+  - [X] 36.Cache Aside Pattern 缓存+数据库读写模式的分析
+  - [X] 37.高并发场景下,缓存数据库双写不一致的问题与解决方案设计
+  - [X] 38.安装 mysql
+  - [ ] 38.库存服务开发框架搭建
