@@ -597,15 +597,16 @@
   CLOCK: [2017-10-22 周日 00:08]--[2017-10-22 周日 00:33] =>  0:25
   CLOCK: [2017-09-19 周二 16:33]--[2017-09-19 周二 16:58] =>  0:25
   :END:
-** [[http://www.runoob.com/cprogramming/c-tutorial.html][c]][60%]
+** [[http://www.runoob.com/cprogramming/c-tutorial.html][c]][29%]
    :LOGBOOK:
+   CLOCK: [2017-12-10 周日 02:11]--[2017-12-10 周日 02:36] =>  0:25
    CLOCK: [2017-10-21 周六 16:34]--[2017-10-21 周六 16:59] =>  0:25
    CLOCK: [2017-10-19 周四 12:03]--[2017-10-19 周四 12:28] =>  0:25
    CLOCK: [2017-09-01 周五 15:13]--[2017-09-01 周五 15:38] =>  0:25
    CLOCK: [2017-09-05 二 21:00]--[2017-09-05 二 21:25] => 0:25
    :END:
    :LOGBOOK:
-   - [-] 指针
+   - [X] 指针
      - [X] 内存地址的访问 &
      - [X] 什么是指针
        - 声明方式 type *varname
@@ -615,18 +616,19 @@
          int *ptr=NULL
          //ptr=0
        #+END_SRC
-     - [-] c 指针详解
+     - [X] c 指针详解
        - [X] [[http://www.runoob.com/cprogramming/c-pointer-arithmetic.html][指针的算术运算符]]
          - [X] ++ 
          - [X] --
          - [X] 比较
        - [X] [[http://www.runoob.com/cprogramming/c-array-of-pointers.html][指针数组]]
-       - [ ] [[http://www.runoob.com/cprogramming/c-pointer-to-pointer.html][指向指针的指针]]
-       - [ ] [[http://www.runoob.com/cprogramming/c-passing-pointers-to-functions.html][传递指针给函数]]
-       - [ ] [[http://www.runoob.com/cprogramming/c-passing-pointers-to-functions.html][从函数返回指针]]
-   - [ ] 函数指针与回调函数
-     - [ ] 函数指针
-     - [ ] 回调函数
+       - [X] [[http://www.runoob.com/cprogramming/c-pointer-to-pointer.html][指向指针的指针]]
+       - [X] [[http://www.runoob.com/cprogramming/c-passing-pointers-to-functions.html][传递指针给函数]]
+       - [X] [[http://www.runoob.com/cprogramming/c-return-pointer-from-functions.html][从函数返回指针]]
+   - [X] 函数指针与回调函数
+     - [X] 函数指针
+     - [X] 回调函数
+   - [ ] C 字符串
    - [X] C 结构体
      - [X] 访问结构成员
      - [X] 结构作为函数参数
@@ -636,6 +638,17 @@
      - [X] 定义共用体
      - [X] 访问共用体成员
    - [X] C 位域
+   - [ ] c typedef
+   - [ ] c 输入输出
+   - [ ] 文件读写
+   - [ ] 预处理器
+   - [ ] 头文件
+   - [ ] 强制类型转换
+   - [ ] 错误处理
+   - [ ] 递归
+   - [ ] 可变参数
+   - [ ] 内存管理
+   - [ ] 命令行参数
 ** [[http://www.runoob.com/cplusplus/cpp-tutorial.html][c++]]
   :LOGBOOK:
   CLOCK: [2017-10-24 周二 13:36]--[2017-10-24 周二 14:01] =>  0:25
