@@ -304,6 +304,10 @@
    :LOGBOOK:
    CLOCK: [2017-04-19 周三 23:25]--[2017-04-19 周三 23:50] =>  0:25
    :END:
+** ml
+   :LOGBOOK:
+   CLOCK: [2017-12-12 周二 01:28]--[2017-12-12 周二 01:53] =>  0:25
+   :END:
 * MongoDB
 ** STARTED [[http://www.runoob.com/mongodb/mongodb-relationships.html][简单教程]]
    :LOGBOOK:
@@ -558,7 +562,6 @@
      - [ ] 5.1 文本化的重要性
 ** 数学 
    - [ ] [[http://mp.weixin.qq.com/s/bYcZRGFT4qavlJ2IUcGYZg][拓扑变换]]
-   - 
 * khan
   :LOGBOOK:
   CLOCK: [2017-04-13 周四 00:07]--[2017-04-13 周四 00:32] =>  0:25
@@ -1030,6 +1033,7 @@
     - [ ] tips for using bind mounts or volumes
 * [[https://log.zvz.im/2017/05/24/nodejs-cinema-microservice-part1/][nodejs 打造影院微服务并部署到 docker]]
   :LOGBOOK:
+  CLOCK: [2017-12-11 周一 18:34]--[2017-12-11 周一 18:59] =>  0:25
   CLOCK: [2017-12-07 周四 18:00]--[2017-12-07 周四 18:25] =>  0:25
   CLOCK: [2017-12-04 周一 10:18]--[2017-12-04 周一 10:43] =>  0:25
   :END:
