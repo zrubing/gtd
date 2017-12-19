@@ -33,12 +33,12 @@
        - [X] arguments
        - [X] rest 参数
        - [X] 小心 return 语句
-         #+BEGIN_SRC javascript 
+         #+BEGIN_SRC javascript
          function foo() {
             return; // 自动添加了分号，相当于 return undefined;
             { name: 'foo' }; // 这行语句已经没法执行到了
          }
-         #+END_SRC 
+         #+END_SRC
      - [X] 变量作用域
        - [X] 变量作用域
        - [X] 变量提升
@@ -55,7 +55,7 @@
          #+END_SRC
        - [X] 名字空间,减少函数或变量名冲突
        - [X] 局部作用域
-          for 循环中的 i 在 for 外面也可以引用
+         for 循环中的 i 在 for 外面也可以引用
        - [X] 常量
      - [X] 方法
        - [X] apply 函数本身的 apply 方法,可以绑定到某个对象
@@ -65,13 +65,13 @@
        - [X] filter
        - [X] sort
          - 默认把元素转成 string 再排序
-         - sort 会对 arr 进行修改,返回原对象 
+         - sort 会对 arr 进行修改,返回原对象
      - [X] 闭包
        - [X] 函数作为返回值
        - [X] 闭包
        - [X] 闭包的功能
          - 换句话说，闭包就是携带状态的函数，并且它的状态可以完全对外隐藏起来
-         - 多参函数变成单参函数 
+         - 多参函数变成单参函数
      - [X] 箭头函数
        - [X] this
      - [ ] generator
@@ -121,21 +121,21 @@
            - [X] ORM
            - [X] 实战
          - [X] 建立 Model
-           - [X] model 
+           - [X] model
            - [X] 数据库配置
        - [X] mocha
          - [X] 编写测试
            - [X] mocha test
          - [X] 异步测试
-         - [X] Http 测试 
+         - [X] Http 测试
        - [-] WebSocket
          - [X] 使用 ws
-         - [ ] 编写聊天室 
+         - [ ] 编写聊天室
        - [ ] Rest
        - [ ] MVVM
        - [ ] 自动化工具
      - [ ] React
-** 6.x 中文文档 
+** 6.x 中文文档
    :LOGBOOK:
    CLOCK: [2017-10-23 周一 14:19]--[2017-10-23 周一 14:37] =>  0:18
    CLOCK: [2017-10-23 周一 12:43]--[2017-10-23 周一 12:54] =>  0:11
@@ -156,10 +156,10 @@
        - [ ] 包装对象工厂方法
        - [ ] 传递包装对象
        - [ ] AtExit 钩子函数
-   - [ ] 
-   - [ ] 
-   - [ ] 
-   - 
+   - [ ]
+   - [ ]
+   - [ ]
+   -
 ** 消息队列
    :LOGBOOK:
    CLOCK: [2017-10-27 周五 14:51]--[2017-10-27 周五 15:08] =>  0:17
@@ -289,7 +289,7 @@
        - [ ] intro 52
          - [ ] impulse function and response
            - [ ] [[https://zh.wikipedia.org/wiki/%E7%B7%9A%E6%80%A7%E9%97%9C%E4%BF%82][线性关系]]
-             - [ ] 
+             - [ ]
      - [ ] image processing for computer vision
      - [ ] camera models and views
      - [ ] features and matching
@@ -362,7 +362,7 @@
       - [X] 面向对象的含义
       - [X] 面向对象的技术
       - [X] 类的定义与使用
-    - 
+    -
 *** 第四周 MoocHero
     - [X] c#编写 unity 脚本
       - [X] 骨牌脚本讲解
@@ -371,10 +371,10 @@
     - [X] 动画系统
       - [X] 动画片段与角色替身
         - [X] Mecamim workflow
-          - [X] 资源的导入 
+          - [X] 资源的导入
           - [X] 角色的建立 一般角色与人形角色
             - [X] Avatar 角色替身
-          - [X] 角色的运动 
+          - [X] 角色的运动
             - [X] 设定动画片段,动画片段间的交互,建立状态机,混合树
               - [X] Animation Clip 动画片段,行走,奔跑,跳跃
               - [X] 分割 Animation Clip
@@ -383,7 +383,7 @@
                 - [X] Rotation
                 - [X] 首尾 Position Y 轴分量的一致检查
                 - [X] xz 轴分量一致性检查
-            - [X] 调整动画参数或代码,控制动画 
+            - [X] 调整动画参数或代码,控制动画
       - [X] 动画状态机
         - [X] Animator 组件 控制对象的动画 包括建立状态机,调整动画参数,及代码控制动画
         - [X] Animator Controller 动画控制器用来管理某对象一系列动画片段
@@ -402,7 +402,7 @@
       - [X] 敌人的追踪逻辑
       - [X] 敌人的生命值.分数与攻击行为
     - [X] 游戏逻辑-游戏管理
-      - [X] 游戏管理器 
+      - [X] 游戏管理器
       - [X] 敌人的自动生成
     - [ ] 总结
 *** 第五周 unity 高级特性与移动平台开发
@@ -468,73 +468,73 @@
    CLOCK: [2017-09-18 周一 17:04]--[2017-09-18 周一 17:29] =>  0:25
    :END:
 *** 基础
-   - [X] 基础编程模型
-     - [X] api 30
-     - [X] 字符串
-     - [X] 输入输出 35
-     - [X] 二分查找 42
-   - [-] 1.2 数据抽象
-     - [X] 1.2.1 使用抽象数据类型
-       - [X] 1.抽象数据类型的 api
-       - [X] 2.继承的方法 toString()
-       - [X] 3.用例代码
-       - [X] 4.对象
-       - [X] 9.对象作为参数 java 是引用传递 56
-       - [X] 10.对象作为返回值 返回引用
-       - [X] 11.数组也是对象
-       - [X] 12.对象的数组 是由对象引用构成的数组
-     - [-] 1.2.2 抽象数据类型举例
-       - [X] 1.几何对象 59
-       - [ ] 2.信息处理 61
-     - [-] 1.2.3 抽象数据类型的实现
-       - [X] 1.实例变量
-       - [X] 2.构造函数
-       - [ ] 3.实例方法
-       - [ ] 4.作用域
-       - [ ] 5.api 用例与实现
-   - [X] 1.3 背包队列和栈
-     - 目标 1.集合中对象的表示方式会影响集合操作的效率
-     - 目标 2.泛型和迭代
-     - 目标 3.链式数据结构的重要性
-     - [X] 1.3.1 api
-       - [X] 泛型
-       - [X] 自动装箱
-       - [X] 可迭代的集合类型
-       - [X] 背包
-       - [X] 队列
-       - [X] 下压栈
-       - [X] 算术表达式求值
-     - [X] 1.3.2 集合类数据类型的实现
-       - [X] 1.定容栈
-       - [X] 2.泛型
-       - [X] 3.调整数组大小
-       - [X] 4.对象游离
-       - [X] 5.迭代
-     - [X] 1.3.3 链表
-       - [X] 1.节点记录
-       - [X] 2.构造链表
-       - [X] 3.在表头插入节点
-       - [X] 4.从表头删除节点
-       - [X] 5.表尾插入节点
-       - [X] 6.其他位置的插入和删除操作
-       - [X] 7.遍历
-       - [X] 8.栈的实现
-       - [X] 9.队列的实现
-       - [X] 10.背包的实现
-     - [X] 1.3.4 综述
-   - [-] 1.4 算法分析
-     - [X] 1.科学方法
-     - [X] 2.观察
-     - [X] 3.数学模型
-       - [X] 1.近似
-       - [X] 2.近似运行时间
-       - [X] 3.对增长数量级的猜想
-       - [X] 4.算法的分析
-       - [X] 5.成本模型
-       - [X] 6.总结
-     - [X] 4.增长数量级的分类
-     - [X] 5.设计更快的算法
-     - [ ] 6.倍率实验
+    - [X] 基础编程模型
+      - [X] api 30
+      - [X] 字符串
+      - [X] 输入输出 35
+      - [X] 二分查找 42
+    - [-] 1.2 数据抽象
+      - [X] 1.2.1 使用抽象数据类型
+        - [X] 1.抽象数据类型的 api
+        - [X] 2.继承的方法 toString()
+        - [X] 3.用例代码
+        - [X] 4.对象
+        - [X] 9.对象作为参数 java 是引用传递 56
+        - [X] 10.对象作为返回值 返回引用
+        - [X] 11.数组也是对象
+        - [X] 12.对象的数组 是由对象引用构成的数组
+      - [-] 1.2.2 抽象数据类型举例
+        - [X] 1.几何对象 59
+        - [ ] 2.信息处理 61
+      - [-] 1.2.3 抽象数据类型的实现
+        - [X] 1.实例变量
+        - [X] 2.构造函数
+        - [ ] 3.实例方法
+        - [ ] 4.作用域
+        - [ ] 5.api 用例与实现
+    - [X] 1.3 背包队列和栈
+      - 目标 1.集合中对象的表示方式会影响集合操作的效率
+      - 目标 2.泛型和迭代
+      - 目标 3.链式数据结构的重要性
+      - [X] 1.3.1 api
+        - [X] 泛型
+        - [X] 自动装箱
+        - [X] 可迭代的集合类型
+        - [X] 背包
+        - [X] 队列
+        - [X] 下压栈
+        - [X] 算术表达式求值
+      - [X] 1.3.2 集合类数据类型的实现
+        - [X] 1.定容栈
+        - [X] 2.泛型
+        - [X] 3.调整数组大小
+        - [X] 4.对象游离
+        - [X] 5.迭代
+      - [X] 1.3.3 链表
+        - [X] 1.节点记录
+        - [X] 2.构造链表
+        - [X] 3.在表头插入节点
+        - [X] 4.从表头删除节点
+        - [X] 5.表尾插入节点
+        - [X] 6.其他位置的插入和删除操作
+        - [X] 7.遍历
+        - [X] 8.栈的实现
+        - [X] 9.队列的实现
+        - [X] 10.背包的实现
+      - [X] 1.3.4 综述
+    - [-] 1.4 算法分析
+      - [X] 1.科学方法
+      - [X] 2.观察
+      - [X] 3.数学模型
+        - [X] 1.近似
+        - [X] 2.近似运行时间
+        - [X] 3.对增长数量级的猜想
+        - [X] 4.算法的分析
+        - [X] 5.成本模型
+        - [X] 6.总结
+      - [X] 4.增长数量级的分类
+      - [X] 5.设计更快的算法
+      - [ ] 6.倍率实验
 
 *** 排序
 *** 查找
@@ -544,13 +544,13 @@
     - [X] 1.1 下压栈 140
     - [X] 1.2 下压堆栈 148
     - [ ] 1.3 先进先出队列 150
-** unix 编程艺术 
+** unix 编程艺术
    :LOGBOOK:
    CLOCK: [2017-11-18 六 20:49]--[2017-11-18 六 21:14] =>  0:25
    CLOCK: [2017-11-13 周一 23:39]--[2017-11-14 周二 00:04] =>  0:25
    CLOCK: [2017-11-12 周日 18:38]--[2017-11-12 周日 19:03] =>  0:25
    :END:
-   - [X] 4. 
+   - [X] 4.
      - [X] 4.3 软件是多层的
        - [X] 1.自顶向下和自底向上
        - [X] 2.胶合层
@@ -560,7 +560,7 @@
      - [X] 4.6 模块式编码
    - [ ] 5.文本化,好协议产生好实践
      - [ ] 5.1 文本化的重要性
-** 数学 
+** 数学
    - [ ] [[http://mp.weixin.qq.com/s/bYcZRGFT4qavlJ2IUcGYZg][拓扑变换]]
 * khan
   :LOGBOOK:
@@ -617,13 +617,13 @@
        - 声明方式 type *varname
      - [X] 如何使用
      - [X] null 指针
-       #+BEGIN_SRC c 
+       #+BEGIN_SRC c
          int *ptr=NULL
          //ptr=0
        #+END_SRC
      - [X] c 指针详解
        - [X] [[http://www.runoob.com/cprogramming/c-pointer-arithmetic.html][指针的算术运算符]]
-         - [X] ++ 
+         - [X] ++
          - [X] --
          - [X] 比较
        - [X] [[http://www.runoob.com/cprogramming/c-array-of-pointers.html][指针数组]]
@@ -655,21 +655,21 @@
    - [ ] 内存管理
    - [ ] 命令行参数
 ** [[http://www.runoob.com/cplusplus/cpp-tutorial.html][c++]]
-  :LOGBOOK:
-  CLOCK: [2017-10-24 周二 13:36]--[2017-10-24 周二 14:01] =>  0:25
-  CLOCK: [2017-09-20 周三 18:23]--[2017-09-20 周三 18:36] =>  0:13
-  CLOCK: [2017-09-14 周四 12:20]--[2017-09-14 周四 12:31] =>  0:11
-  CLOCK: [2017-09-06 周三 10:05]--[2017-09-06 周三 10:30] =>  0:25
-  CLOCK: [2017-09-04 一 11:34]--[2017-09-04 一 11:59] =>  0:25
-  CLOCK: [2017-09-01 周五 14:38]--[2017-09-01 周五 15:03] =>  0:25
-  CLOCK: [2017-08-31 周四 14:13]--[2017-08-31 周四 14:38] =>  0:25
-  CLOCK: [2017-08-29 周二 10:17]--[2017-08-29 周二 10:42] =>  0:25
-  CLOCK: [2017-08-28 一 22:51]--[2017-08-28 一 23:16] =>  0:25
-  CLOCK: [2017-08-28 周一 00:32]--[2017-08-28 周一 00:57] =>  0:25
-  CLOCK: [2017-08-27 周日 11:11]--[2017-08-27 周日 11:36] =>  0:25
-  CLOCK: [2017-08-26 周六 20:56]--[2017-08-26 周六 21:22] =>  0:26
-  CLOCK: [2017-08-26 周六 00:25]--[2017-08-26 周六 00:50] =>  0:25
-  :END:
+   :LOGBOOK:
+   CLOCK: [2017-10-24 周二 13:36]--[2017-10-24 周二 14:01] =>  0:25
+   CLOCK: [2017-09-20 周三 18:23]--[2017-09-20 周三 18:36] =>  0:13
+   CLOCK: [2017-09-14 周四 12:20]--[2017-09-14 周四 12:31] =>  0:11
+   CLOCK: [2017-09-06 周三 10:05]--[2017-09-06 周三 10:30] =>  0:25
+   CLOCK: [2017-09-04 一 11:34]--[2017-09-04 一 11:59] =>  0:25
+   CLOCK: [2017-09-01 周五 14:38]--[2017-09-01 周五 15:03] =>  0:25
+   CLOCK: [2017-08-31 周四 14:13]--[2017-08-31 周四 14:38] =>  0:25
+   CLOCK: [2017-08-29 周二 10:17]--[2017-08-29 周二 10:42] =>  0:25
+   CLOCK: [2017-08-28 一 22:51]--[2017-08-28 一 23:16] =>  0:25
+   CLOCK: [2017-08-28 周一 00:32]--[2017-08-28 周一 00:57] =>  0:25
+   CLOCK: [2017-08-27 周日 11:11]--[2017-08-27 周日 11:36] =>  0:25
+   CLOCK: [2017-08-26 周六 20:56]--[2017-08-26 周六 21:22] =>  0:26
+   CLOCK: [2017-08-26 周六 00:25]--[2017-08-26 周六 00:50] =>  0:25
+   :END:
    - [X] c++数据类型
      - [X] 基本的内置类型
      - [X] typedef 声明 为已有类型取新的名字
@@ -703,7 +703,7 @@
      函数模板
      类模板
    - [ ] web 编程
-   - 
+   -
 * cocos
 ** [[http://blog.sina.com.cn/s/blog_4057ab62010197z8.html][module import android.mk]]
 * [[https://qbgbook.gitbooks.io/spring-boot-reference-guide-zh/content/][spring boot]]
@@ -716,8 +716,8 @@
   :LOGBOOK:
   CLOCK: [2017-09-06 周三 13:32]--[2017-09-06 周三 13:57] =>  0:25
   :END:
-* socket  
-- [ ] [[http://www.cnblogs.com/hellojava/archive/2013/01/25/2861127.html][循序渐进 socket 编程 java]] -
+* socket
+  - [ ] [[http://www.cnblogs.com/hellojava/archive/2013/01/25/2861127.html][循序渐进 socket 编程 java]] -
 * [[https://yeasy.gitbooks.io/blockchain_guide/content/][区块链技术指南]]
   :LOGBOOK:
   CLOCK: [2017-10-08 周日 23:29]--[2017-10-08 周日 23:54] =>  0:25
@@ -783,7 +783,7 @@
    - [-] Congratulations
      - [ ] async/await
      - [X] method cascade
-     - [X] null aware operators 
+     - [X] null aware operators
    - [-] learn more
 ** [[https://www.dartlang.org/guides/language/language-tour][language tour]]
    :LOGBOOK:
@@ -802,7 +802,7 @@
      - [-] constructors
        - [X] named constructors
        - [ ] invoking a non-default superclass constructor
-       - [ ] 
+       - [ ]
    - [ ] Generics
    - [ ] Libraries and visibility
    - [ ] asynchrony support
@@ -837,7 +837,7 @@
          - [X] Using named navigator routes
          - [X] Routes can return a value
          - [X] Pop routes
-         - [X] Custom routes 
+         - [X] Custom routes
      - [X] handling gestures [[https://flutter.io/gestures/][gestures in flutter]]
      - [X] changing widgets in response to input [[https://docs.flutter.io/flutter/widgets/StatefulWidget-class.html][stateful widget]]
      - [X] bring it all together
@@ -878,7 +878,7 @@
      - [X] api docs
    - [ ] Firebase for Flutter codelab
 * [[http://www.runoob.com/docker/docker-tutorial.html][Docker]]
-  :LOGBOOK:  
+  :LOGBOOK:
   CLOCK: [2017-11-19 周日 12:14]--[2017-11-19 周日 15:29] =>  3:15
   CLOCK: [2017-11-09 周四 22:33]--[2017-11-09 周四 22:58] =>  0:25
   CLOCK: [2017-11-09 周四 17:42]--[2017-11-09 周四 18:07] =>  0:25
@@ -912,7 +912,7 @@
     - [X] 1.orientation
       - [X] prerequisites
         - [X] what is docker
-      - [X] a brife explanation of containers 
+      - [X] a brife explanation of containers
       - [X] containers vs virtual machines
       - [X] setup
     - [-] 2.containers
@@ -949,7 +949,7 @@
         - [X] configure a docker-machine shell to the swarm manager
           - [X] docker machine shell environment on windows
         - [X] deploy the app on the swarm manager
-        - [X] accessing your cluser 
+        - [X] accessing your cluser
       - [X] interating and scaling your app
       - [X] cleanup and reboot
         - [X] stacks and swarms
@@ -1009,7 +1009,7 @@
           - [X] create a docker image using JDK 9
           - [X] Create a Docker Image using JDK 9 and Alpine Linux
           - [ ] Create a Docker Image using JDK 9 and a Java application
-          - [ ] Reduce the size of a Docker Image using JDK 9 and a Java application 
+          - [ ] Reduce the size of a Docker Image using JDK 9 and a Java application
       - [X] run a container
         - [X] pull image
         - [X] run conatiner
@@ -1034,6 +1034,7 @@
 ** [[https://docs.docker.com/machine/][docker-machine]]
 * [[https://log.zvz.im/2017/05/24/nodejs-cinema-microservice-part1/][nodejs 打造影院微服务并部署到 docker]]
   :LOGBOOK:
+  CLOCK: [2017-12-19 周二 10:33]--[2017-12-19 周二 10:58] =>  0:25
   CLOCK: [2017-12-19 二 14:15]--[2017-12-19 二 14:40] =>  0:25
   CLOCK: [2017-12-19 二 11:31]--[2017-12-19 二 11:56] =>  0:25
   CLOCK: [2017-12-18 一 23:11]--[2017-12-18 一 23:36] =>  0:25
@@ -1051,7 +1052,7 @@
       - [ ] 2.naming and environment
       - [ ] 3.evaluating combinations
       - [ ] 4.Compound Procedures
-    - 
+    -
 * 大型缓存架构
   :LOGBOOK:
   CLOCK: [2017-12-06 周三 15:23]--[2017-12-06 周三 15:48] =>  0:25
@@ -1082,9 +1083,32 @@
     - [ ] [[https://github.com/vmware/harbor][harbor]]
 * TODO lgqp
   :LOGBOOK:
+  CLOCK: [2017-12-19 周二 20:44]--[2017-12-19 周二 21:09] =>  0:25
+  CLOCK: [2017-12-19 周二 09:13]--[2017-12-19 周二 09:38] =>  0:25
+  CLOCK: [2017-12-19 周二 08:39]--[2017-12-19 周二 09:04] =>  0:25
+  CLOCK: [2017-12-19 周二 08:07]--[2017-12-19 周二 08:32] =>  0:25
   CLOCK: [2017-12-19 周二 12:53]--[2017-12-19 周二 13:25] =>  0:32
   :END:
-  - [X] 返回图像 
+  - [X] 返回图像
   - [X] 加入房间
-  - [ ] 创建房间
+  - [X] 创建房间
+    #+BEGIN_SRC lua
+
+      tabLayTag.LAYER_CREATEPRIROOME     = 1002                                   -- 创建私人房界面
+
+      -- PriRoom.lua
+      function PriRoom:getTagLayer(tag, param, scene)
+        local list = appdf.req(MODULE.PLAZAMODULE .. "views.PriRoomListLayer"):create( scene ) --523
+
+      --创建房间
+      --priRoomListlayer
+
+      self._scene = scene
+
+      self._scene:onChangeShowMode(PriRoom.LAYTAG.LAYER_CREATEPRIROOME)        
+
+
+    #+END_SRC
+  - [ ] 创建房间弹出列表
+  - [ ] 修改图标 布局 
   - [ ] 网页链接
