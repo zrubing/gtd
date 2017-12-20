@@ -705,7 +705,11 @@
    - [ ] web 编程
    -
 * cocos
+  :LOGBOOK:
+  CLOCK: [2017-12-20 周三 14:18]--[2017-12-20 周三 14:43] =>  0:25
+  :END:
 ** [[http://blog.sina.com.cn/s/blog_4057ab62010197z8.html][module import android.mk]]
+** 3.16
 * [[https://qbgbook.gitbooks.io/spring-boot-reference-guide-zh/content/][spring boot]]
   - [X] 13 构建系统
     - [X] gradle
@@ -1083,6 +1087,8 @@
     - [ ] [[https://github.com/vmware/harbor][harbor]]
 * TODO lgqp
   :LOGBOOK:
+  CLOCK: [2017-12-20 周三 12:55]--[2017-12-20 周三 13:20] =>  0:25
+  CLOCK: [2017-12-20 周三 04:15]--[2017-12-20 周三 04:40] =>  0:25
   CLOCK: [2017-12-19 周二 20:44]--[2017-12-19 周二 21:09] =>  0:25
   CLOCK: [2017-12-19 周二 09:13]--[2017-12-19 周二 09:38] =>  0:25
   CLOCK: [2017-12-19 周二 08:39]--[2017-12-19 周二 09:04] =>  0:25
@@ -1110,5 +1116,8 @@
 
     #+END_SRC
   - [ ] 创建房间弹出列表
+    - 1851 clientScene 参考
+    - [ ] safe retain TrumpetSendLayer 81
   - [ ] 修改图标 布局 
   - [ ] 网页链接
+    
