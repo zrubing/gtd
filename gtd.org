@@ -194,6 +194,49 @@
            - 点对点,聊天室
      - [ ] 应用
 ** TODO [[https://docs.mongodb.com/manual/core/document/][mongodb]]
+   :LOGBOOK:
+   CLOCK: [2017-12-21 周四 23:22]--[2017-12-21 周四 23:47] =>  0:25
+   :END:
+   - [-] Getting Started
+     - [X] insert
+     - [ ] query
+       1.selectall 
+       #+BEGIN_SRC javascript
+         { <field1>: <value1>, ... }
+         var cursor = db.collection('inventory').find({});
+       #+END_SRC
+       2.Specify Equality Condition
+       #+BEGIN_SRC javascript 
+         { <field1>: { <operator1>: <value1> }, ... }
+       #+END_SRC
+       3.Specify AND Conditions
+       4.Specify OR Conditions
+       #+BEGIN_SRC javascript 
+                var cursor = db.collection('inventory').find({ 
+                    $or: [ {status: "A" }, { qty: { $lt: 30 } } ]
+                });
+       #+END_SRC
+       5.Specify AND as well as OR Conditions
+       - [ ] 返回的 cursor
+     - [ ] 
+       
+** [[https://log.zvz.im/2017/05/24/nodejs-cinema-microservice-part1/][nodejs 打造影院微服务并部署到 docker]]
+   :LOGBOOK:
+   CLOCK: [2017-12-21 四 15:43]--[2017-12-21 四 16:08] =>  0:25
+   CLOCK: [2017-12-19 二 22:34]--[2017-12-19 二 22:59] =>  0:25
+   CLOCK: [2017-12-19 二 21:44]--[2017-12-19 二 22:09] =>  0:25
+   CLOCK: [2017-12-19 周二 10:33]--[2017-12-19 周二 10:58] =>  0:25
+   CLOCK: [2017-12-19 二 14:15]--[2017-12-19 二 14:40] =>  0:25
+   CLOCK: [2017-12-19 二 11:31]--[2017-12-19 二 11:56] =>  0:25
+   CLOCK: [2017-12-18 一 23:11]--[2017-12-18 一 23:36] =>  0:25
+   CLOCK: [2017-12-11 周一 18:34]--[2017-12-11 周一 18:59] =>  0:25
+   CLOCK: [2017-12-07 周四 18:00]--[2017-12-07 周四 18:25] =>  0:25
+   CLOCK: [2017-12-04 周一 10:18]--[2017-12-04 周一 10:43] =>  0:25
+   :END:
+***  [[http://www.infoq.com/cn/articles/power-of-raml][RAML]]
+    - [ ] 编写 在线 api 设计器或者 ide 插件 [[https://raml.org/projects][地址]]
+*** [[https://towardsdatascience.com/how-to-deploy-a-mongodb-replica-set-using-docker-6d0b9ac00e49][docker 创建 mongodb 集群]]
+**** [[https://docs.mongodb.com/manual/tutorial/deploy-replica-set/][mongodb replica set]] 
 * python
 ** STARTED [[https://wizardforcel.gitbooks.io/think-python-2e/content/11.html][python tutorial]]
    :LOGBOOK:
@@ -605,15 +648,6 @@
   CLOCK: [2017-08-22 二 00:35]--[2017-08-22 二 01:00] =>  0:25
   :END:
 ** [[http://www.cnblogs.com/Open_Source/archive/2011/07/17/2108747.html#sec-7][简明手册]]
-* book
-** 未来简史
-   :LOGBOOK:
-   CLOCK: [2017-08-22 周二 10:34]--[2017-08-22 周二 10:59] =>  0:25
-   :END:
-** 人类简史
-   :LOGBOOK:
-   CLOCK: [2017-09-21 周四 14:58]--[2017-09-21 周四 15:23] =>  0:25
-   :END:
 * c,c++
   :LOGBOOK:
   CLOCK: [2017-10-22 周日 00:08]--[2017-10-22 周日 00:33] =>  0:25
@@ -1054,23 +1088,6 @@
     - [ ] Good use cases for tmpfs mounts
     - [ ] tips for using bind mounts or volumes
 ** [[https://docs.docker.com/machine/][docker-machine]]
-* [[https://log.zvz.im/2017/05/24/nodejs-cinema-microservice-part1/][nodejs 打造影院微服务并部署到 docker]]
-  :LOGBOOK:
-  CLOCK: [2017-12-21 四 15:43]--[2017-12-21 四 16:08] =>  0:25
-  CLOCK: [2017-12-19 二 22:34]--[2017-12-19 二 22:59] =>  0:25
-  CLOCK: [2017-12-19 二 21:44]--[2017-12-19 二 22:09] =>  0:25
-  CLOCK: [2017-12-19 周二 10:33]--[2017-12-19 周二 10:58] =>  0:25
-  CLOCK: [2017-12-19 二 14:15]--[2017-12-19 二 14:40] =>  0:25
-  CLOCK: [2017-12-19 二 11:31]--[2017-12-19 二 11:56] =>  0:25
-  CLOCK: [2017-12-18 一 23:11]--[2017-12-18 一 23:36] =>  0:25
-  CLOCK: [2017-12-11 周一 18:34]--[2017-12-11 周一 18:59] =>  0:25
-  CLOCK: [2017-12-07 周四 18:00]--[2017-12-07 周四 18:25] =>  0:25
-  CLOCK: [2017-12-04 周一 10:18]--[2017-12-04 周一 10:43] =>  0:25
-  :END:
-**  [[http://www.infoq.com/cn/articles/power-of-raml][RAML]]
-   - [ ] 编写 在线 api 设计器或者 ide 插件 [[https://raml.org/projects][地址]]
-** [[https://towardsdatascience.com/how-to-deploy-a-mongodb-replica-set-using-docker-6d0b9ac00e49][docker 创建 mongodb 集群]]
-*** [[https://docs.mongodb.com/manual/tutorial/deploy-replica-set/][mongodb replica set]] 
 * [[https://mitpress.mit.edu/sicp/full-text/book/book-Z-H-4.html][SICP]]
   - [ ] 1.Building Abstractions with Procedures
     - [ ] 1.1 The elements of programming

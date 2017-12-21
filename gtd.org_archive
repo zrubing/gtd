@@ -96,12 +96,12 @@ Archived entries from file c:/Users/rubing/mygtd/gtd.org
    :END:
 ** bugs
 *** 评论的点击次数
-*** 可以改进的地方:每次showInfoFragment都会请求数据
+*** 可以改进的地方:每次 showInfoFragment 都会请求数据
 *** 发布的约会没人报名,时间到了之后的处理
 *** 约会时间到了仍然能够报名的问题(解决方案:状态直接变为失败)
 *** 约会时间没到,但发布者已经接受了一个人,但是仍然可以报名
 *** 邂逅里面约会超时的仍然可以看到并且报名
-*** 我的报名没有加载出来hiar
+*** 我的报名没有加载出来 hiar
 *** 回复成功后刷新页面
 *** 在线收到消息不增加未阅读
 
@@ -272,7 +272,7 @@ Archived entries from file c:/Users/rubing/mygtd/gtd.org
    :LOGBOOK:
    CLOCK: [2017-03-13 周一 15:53]--[2017-03-13 周一 15:58] =>  0:05
    :END:
-** DONE 个人小店,无法添加商品bug(返回值是-400)
+** DONE 个人小店,无法添加商品 bug(返回值是-400)
    CLOSED: [2017-03-13 周一 17:49]
    - State "DONE"       from              [2017-03-13 周一 17:49]
 
@@ -289,7 +289,7 @@ Archived entries from file c:/Users/rubing/mygtd/gtd.org
   :LOGBOOK:
   CLOCK: [2017-03-14 周二 09:05]--[2017-03-14 周二 09:21] =>  0:16
   :END:
-** DONE 上线1.2.6
+** DONE 上线 1.2.6
    CLOSED: [2017-03-14 周二 09:21]
    - State "DONE"       from              [2017-03-14 周二 09:21]
 ** DONE 报销
@@ -322,7 +322,7 @@ Archived entries from file c:/Users/rubing/mygtd/gtd.org
      CLOSED: [2017-03-14 周二 14:17]
      - State "DONE"       from              [2017-03-14 周二 14:17]
 
-* DONE 3.15周三
+* DONE 3.15 周三
   CLOSED: [2017-03-16 周四 12:01]
   :PROPERTIES:
   :ARCHIVE_TIME: 2017-03-21 周二 14:42
@@ -343,7 +343,7 @@ Archived entries from file c:/Users/rubing/mygtd/gtd.org
 ** DONE 生日和性别的选择
    CLOSED: [2017-03-15 周三 11:57]
    - State "DONE"       from              [2017-03-15 周三 11:57]
-** DONE 上线版本1.2.7
+** DONE 上线版本 1.2.7
    CLOSED: [2017-03-15 周三 15:09]
    - State "DONE"       from "STARTED"    [2017-03-15 周三 15:09]
    :LOGBOOK:
@@ -363,7 +363,7 @@ Archived entries from file c:/Users/rubing/mygtd/gtd.org
    CLOCK: [2017-03-15 周三 17:24]--[2017-03-15 周三 17:35] =>  0:11
    :END:
 
-* DONE 3.16周四
+* DONE 3.16 周四
   CLOSED: [2017-03-17 周五 08:59]
   :PROPERTIES:
   :ARCHIVE_TIME: 2017-03-21 周二 14:42
@@ -389,7 +389,7 @@ Archived entries from file c:/Users/rubing/mygtd/gtd.org
    CLOCK: [2017-03-15 周三 16:12]--[2017-03-15 周三 16:37] =>  0:25
    CLOCK: [2017-03-15 周三 15:28]--[2017-03-15 周三 15:44] =>  0:16
    :END:
-*** DONE recyclerview添加footer
+*** DONE recyclerview 添加 footer
     CLOSED: [2017-03-15 周三 19:20]
     - State "DONE"       from              [2017-03-15 周三 19:20]
 *** DONE 日报图片选择
@@ -404,31 +404,31 @@ Archived entries from file c:/Users/rubing/mygtd/gtd.org
 *** DONE 发表完日报返回上一层
     CLOSED: [2017-03-16 周四 11:59]
     - State "DONE"       from              [2017-03-16 周四 11:59]
-*** DONE 日报commit
+*** DONE 日报 commit
     CLOSED: [2017-03-16 周四 11:59]
     - State "DONE"       from "STARTED"    [2017-03-16 周四 11:59]
     :LOGBOOK:
     CLOCK: [2017-03-16 周四 11:44]--[2017-03-16 周四 11:59] =>  0:15
     :END:
-** DONE 周报crash
+** DONE 周报 crash
    CLOSED: [2017-03-16 周四 12:29]
    - State "DONE"       from "STARTED"    [2017-03-16 周四 12:29]
    :LOGBOOK:
    CLOCK: [2017-03-16 周四 12:02]--[2017-03-16 周四 12:09] =>  0:07
    :END:
-** DONE 月报crash
+** DONE 月报 crash
    CLOSED: [2017-03-16 周四 13:38]
    - State "DONE"       from "STARTED"    [2017-03-16 周四 13:38]
    :LOGBOOK:
    CLOCK: [2017-03-16 周四 13:33]--[2017-03-16 周四 13:38] =>  0:05
    :END:
-** DONE 业绩报表crash
+** DONE 业绩报表 crash
    CLOSED: [2017-03-16 周四 13:52]
    - State "DONE"       from "STARTED"    [2017-03-16 周四 13:52]
    :LOGBOOK:
    CLOCK: [2017-03-16 周四 13:39]--[2017-03-16 周四 13:52] =>  0:13
    :END:
-** DONE 发布版本1.2.8
+** DONE 发布版本 1.2.8
    CLOSED: [2017-03-16 周四 15:33]
    - State "DONE"       from "STARTED"    [2017-03-16 周四 15:33]
    :LOGBOOK:
@@ -445,7 +445,7 @@ Archived entries from file c:/Users/rubing/mygtd/gtd.org
   :ARCHIVE_TODO: DONE
   :END:
   - State "DONE"       from              [2017-03-19 周日 14:03]
-** DONE 拍照crash
+** DONE 拍照 crash
    CLOSED: [2017-03-16 周四 19:06]
    - State "DONE"       from              [2017-03-16 周四 19:06]
 ** DONE 小店界面调整
@@ -480,7 +480,7 @@ Archived entries from file c:/Users/rubing/mygtd/gtd.org
    :LOGBOOK:
    CLOCK: [2017-03-17 周五 15:25]--[2017-03-17 周五 15:50] =>  0:25
    :END:
-*** DONE 新增商品done
+*** DONE 新增商品 done
     CLOSED: [2017-03-17 周五 15:52]
     - State "DONE"       from              [2017-03-17 周五 15:52]
 *** DONE 商品详情
@@ -660,7 +660,7 @@ Archived entries from file c:/Users/rubing/mygtd/gtd.org
   CLOCK: [2016-11-24 周四 15:16]--[2016-11-24 周四 15:41] =>  0:25
   CLOCK: [2016-11-24 周四 14:29]--[2016-11-24 周四 14:54] =>  0:25
   CLOCK: [2016-11-24 周四 13:52]--[2016-11-24 周四 14:17] =>  0:25
-  CLOCK: [2016-11-24 周四 13:17]--[2016-11-24 周四 13:42] =>  0:25 修改wxpay
+  CLOCK: [2016-11-24 周四 13:17]--[2016-11-24 周四 13:42] =>  0:25 修改 wxpay
   CLOCK: [2016-11-24 周四 12:45]--[2016-11-24 周四 13:10] =>  0:25
   CLOCK: [2016-11-24 周四 11:29]--[2016-11-24 周四 11:54] =>  0:25
   CLOCK: [2016-11-24 周四 10:51]--[2016-11-24 周四 11:16] =>  0:25
@@ -747,7 +747,7 @@ Archived entries from file c:/Users/rubing/mygtd/gtd.org
 ***** DONE 根据状态确定,单约详情的按钮点击与否,接受后可以聊天
       CLOSED: [2016-11-14 一 14:06]
       - State "DONE"       from "STARTED"    [2016-11-14 一 14:06]
-***** DONE 超时自动确认,后台把M币送给视频发布者,并发送消息,修改约会的状态
+***** DONE 超时自动确认,后台把 M 币送给视频发布者,并发送消息,修改约会的状态
       CLOSED: [2016-11-14 一 14:06]
       - State "DONE"       from "STARTED"    [2016-11-14 一 14:06]
       :LOGBOOK:
@@ -791,7 +791,7 @@ Archived entries from file c:/Users/rubing/mygtd/gtd.org
      CLOCK: [2016-11-15 二 13:14]--[2016-11-15 二 13:39] =>  0:25
      CLOCK: [2016-11-14 一 16:26]--[2016-11-14 一 16:51] =>  0:25
      :END:
-***** DONE 没有接受报名就算超时,修改为outOfDate,并且返还Mcoin
+***** DONE 没有接受报名就算超时,修改为 outOfDate,并且返还 Mcoin
       CLOSED: [2016-11-15 二 16:37]
       - State "DONE"       from "STARTED"    [2016-11-15 二 16:37]
       :LOGBOOK:
@@ -800,11 +800,11 @@ Archived entries from file c:/Users/rubing/mygtd/gtd.org
 ****** DONE 修改状态
        CLOSED: [2016-11-15 二 16:00]
        - State "DONE"       from "TODO"       [2016-11-15 二 16:00]
-****** DONE 返还coin
+****** DONE 返还 coin
        CLOSED: [2016-11-15 二 16:00]
        - State "DONE"       from "TODO"       [2016-11-15 二 16:00]
-******* 返还publish_user的coin
-******* 返还join_user的coin
+******* 返还 publish_user 的 coin
+******* 返还 join_user 的 coin
 ***** DONE 超时后不可报名
       CLOSED: [2016-11-15 二 17:01]
       - State "DONE"       from "STARTED"    [2016-11-15 二 17:01]
@@ -816,14 +816,14 @@ Archived entries from file c:/Users/rubing/mygtd/gtd.org
 ***** DONE 超时后不能接受
       CLOSED: [2016-11-15 二 16:37]
       - State "DONE"       from "STARTED"    [2016-11-15 二 16:37]
-***** DONE 修改appointWall的startTime和endTime,新增发布邀约的接口
+***** DONE 修改 appointWall 的 startTime 和 endTime,新增发布邀约的接口
       CLOSED: [2016-11-15 二 16:24]
       - State "DONE"       from "STARTED"    [2016-11-15 二 16:24]
       :LOGBOOK:
       CLOCK: [2016-11-15 二 10:27]--[2016-11-15 二 10:52] =>  0:25
       CLOCK: [2016-11-15 二 09:35]--[2016-11-15 二 10:00] =>  0:25
       :END:
-**** DONE 发布约会时,后台判断这个时间是否有约,判断Mcoin是否足够
+**** DONE 发布约会时,后台判断这个时间是否有约,判断 Mcoin 是否足够
      CLOSED: [2016-11-16 三 14:24]
      - State "DONE"       from "STARTED"    [2016-11-16 三 14:24]
      :LOGBOOK:
@@ -831,7 +831,7 @@ Archived entries from file c:/Users/rubing/mygtd/gtd.org
      CLOCK: [2016-11-15 二 17:38]--[2016-11-15 二 17:49] =>  0:11
      CLOCK: [2016-11-15 二 17:05]--[2016-11-15 二 17:30] =>  0:25
      :END:
-**** DONE 我的发布约会时,发布成功后,页面finish
+**** DONE 我的发布约会时,发布成功后,页面 finish
      CLOSED: [2016-11-18 周五 15:28]
      - State "DONE"       from "TODO"       [2016-11-18 周五 15:28]
 **** DONE 修改状态为超时自动确认
@@ -919,7 +919,7 @@ Archived entries from file c:/Users/rubing/mygtd/gtd.org
 ** DONE 掌信科技
    CLOSED: [2017-03-23 周四 17:07]
    - State "DONE"       from              [2017-03-23 周四 17:07]
-** DONE 添加任务单list
+** DONE 添加任务单 list
    CLOSED: [2017-03-23 周四 17:08]
    - State "DONE"       from              [2017-03-23 周四 17:08]
 
@@ -1017,10 +1017,10 @@ Archived entries from file c:/Users/rubing/mygtd/gtd.org
   :ARCHIVE_TODO: DONE
   :END:
   - State "DONE"       from "STARTED"    [2017-05-12 周五 16:00]
-** 需要的api
+** 需要的 api
 *** 查看别人的小店
 
-* DONE 会办another
+* DONE 会办 another
   CLOSED: [2017-05-12 周五 16:00]
   :PROPERTIES:
   :ARCHIVE_TIME: 2017-05-12 周五 16:00
@@ -1030,7 +1030,7 @@ Archived entries from file c:/Users/rubing/mygtd/gtd.org
   :ARCHIVE_TODO: DONE
   :END:
   - State "DONE"       from "STARTED"    [2017-05-12 周五 16:00]
-*** STARTED 审批activity
+*** STARTED 审批 activity
     :LOGBOOK:
     CLOCK: [2017-03-16 周四 16:33]--[2017-03-16 周四 16:58] =>  0:25
     CLOCK: [2017-03-16 周四 15:52]--[2017-03-16 周四 16:17] =>  0:25
@@ -1039,7 +1039,7 @@ Archived entries from file c:/Users/rubing/mygtd/gtd.org
 **** DONE 创建 
      CLOSED: [2017-03-13 周一 22:54]
      - State "DONE"       from              [2017-03-13 周一 22:
-*** DONE TeamFragment加载慢
+*** DONE TeamFragment 加载慢
     CLOSED: [2017-03-13 周一 23:30]
     - State "DONE"       from              [2017-03-13 周一 23:30]
 *** STARTED 朋友圈
@@ -1053,7 +1053,7 @@ Archived entries from file c:/Users/rubing/mygtd/gtd.org
      CLOCK: [2017-03-18 周六 22:04]--[2017-03-18 周六 22:29] =>  0:25
      CLOCK: [2017-03-18 周六 10:28]--[2017-03-18 周六 10:31] =>  0:03
      :END:
-*** STARTED 我的团队A
+*** STARTED 我的团队 A
     :LOGBOOK:
     CLOCK: [2017-03-20 周一 15:33]--[2017-03-20 周一 15:34] =>  0:01
     :END:
@@ -1084,9 +1084,9 @@ Archived entries from file c:/Users/rubing/mygtd/gtd.org
   :ARCHIVE_TODO: DONE
   :END:
   - State "DONE"       from              [2017-05-12 周五 16:00]
-** Team/team_detail email 返回null
+** Team/team_detail email 返回 null
 
-* SOMEDAY java编程思想
+* SOMEDAY java 编程思想
   :PROPERTIES:
   :ARCHIVE_TIME: 2017-06-30 周五 12:22
   :ARCHIVE_FILE: ~/mygtd/gtd.org
@@ -1138,7 +1138,7 @@ Archived entries from file c:/Users/rubing/mygtd/gtd.org
   - State "DONE"       from "TODO"       [2016-09-12 周一 08:51]
   :END:
 
-* STARTED [[http://design-patterns.readthedocs.io/zh_CN/latest/read_uml.html][UML类图和时序图]]
+* STARTED [[http://design-patterns.readthedocs.io/zh_CN/latest/read_uml.html][UML 类图和时序图]]
   :PROPERTIES:
   :ARCHIVE_TIME: 2017-07-18 周二 18:11
   :ARCHIVE_FILE: ~/mygtd/gtd.org
@@ -1424,7 +1424,7 @@ Archived entries from file c:/Users/rubing/mygtd/gtd.org
   :ARCHIVE_CATEGORY: gtd
   :ARCHIVE_TODO: DONE
   :END:
-** 报名时定时器bug
+** 报名时定时器 bug
 ** DONE 延迟显示比赛结果
    CLOSED: [2017-08-24 周四 17:05]
 ** DONE 显示“等待其他玩家结束比赛”
@@ -1523,8 +1523,8 @@ Archived entries from file c:/Users/rubing/mygtd/gtd.org
 ** 安卓断网重连
 ** 转盘点击有时没反应
 ** 接受任务房卡数量发生变化
-** 麻将lua_src error
-** [[file:lua_src_err.org::1][麻将error]] 
+** 麻将 lua_src error
+** [[file:lua_src_err.org::1][麻将 error]] 
 
 * 7.27
   :PROPERTIES:
@@ -1536,8 +1536,8 @@ Archived entries from file c:/Users/rubing/mygtd/gtd.org
 ** 安卓断网重连
 ** 转盘点击有时没反应
 ** 接受任务房卡数量发生变化
-** 麻将lua_src error
-** [[file:lua_src_err.org::1][麻将error]] 
+** 麻将 lua_src error
+** [[file:lua_src_err.org::1][麻将 error]] 
 
 * 比赛场
   :PROPERTIES:
@@ -1546,7 +1546,7 @@ Archived entries from file c:/Users/rubing/mygtd/gtd.org
   :ARCHIVE_CATEGORY: gtd
   :END:
   - [X] showWinResult
-  - [ ] showWinResult数据
+  - [ ] showWinResult 数据
   - [X] showFailureResult
   - [ ] showFinalMathResult
   - GameLayer:onSubGameConclude()
@@ -1556,10 +1556,10 @@ Archived entries from file c:/Users/rubing/mygtd/gtd.org
     - >GameLayer:914:onGetGameconclude()
     - >GameViewLayer:1383:onGetGameconclude()
     - >GameViewLayer:1407:showGameResult()
-    - >GameResultLayer:306:setClock()运行5秒 每秒查询一次结果
+    - >GameResultLayer:306:setClock()运行 5 秒 每秒查询一次结果
       - http://dlbj.ttqp.cc:8080/TCQP/Jinji
-      - [X] 创建了5次查询结果的定时器 fix 
-    - >GameResultLayer:194查询到结果
+      - [X] 创建了 5 次查询结果的定时器 fix 
+    - >GameResultLayer:194 查询到结果
     - >ClientScence:1803:matchUpdateStatus()
     - >显示失败或成功页面,或者决赛页面
     - >成功-开始下一局
@@ -1625,7 +1625,7 @@ Archived entries from file c:/Users/rubing/mygtd/gtd.org
   :ARCHIVE_FILE: ~/mygtd/gtd.org
   :ARCHIVE_CATEGORY: gtd
   :END:
-** 进入比赛网络连接超时 2个人无法开始
+** 进入比赛网络连接超时 2 个人无法开始
 ** 没进去的那个人 GlobalUserItem.bPasswordRoom=true,进普通场会有问题
 ** 定时器优化
 *** 层级关系
@@ -1635,7 +1635,7 @@ Archived entries from file c:/Users/rubing/mygtd/gtd.org
     #+BEGIN_SRC lua
     local GameLayer = class("GameLayer", GameModel)
     
-    function GameLayer:ctor( frameEngine,scene )      创建gameModel   
+    function GameLayer:ctor( frameEngine,scene )      创建 gameModel   
        GameLayer.super.ctor(self, frameEngine, scene)
     end
 
@@ -1743,9 +1743,9 @@ Archived entries from file c:/Users/rubing/mygtd/gtd.org
    CLOCK: [2017-10-10 周二 20:19]--[2017-10-10 周二 20:44] =>  0:25
    :END:
    - [X] 商户注册
-     - [X] 创建UserMerchantMapper.java
-     - [X] 创建UserMerchantMapper.xml
-     - [X] 创建 model类 UserMerchant.java
+     - [X] 创建 UserMerchantMapper.java
+     - [X] 创建 UserMerchantMapper.xml
+     - [X] 创建 model 类 UserMerchant.java
      - [X] 使用原有数据库 merchant
        - [X] selectByPhone()
        - [X] merchantMapper.xml
@@ -1753,15 +1753,15 @@ Archived entries from file c:/Users/rubing/mygtd/gtd.org
    - [-] 商户登录
      - [X] controller
      - [ ] session
-     - [X] 使用merchant表
-     - [X] 登录时生成token
+     - [X] 使用 merchant 表
+     - [X] 登录时生成 token
    - [-] 获取验证码
      - [X] controller
-     - [ ] 需要修改tempID
+     - [ ] 需要修改 tempID
    - [-] 修改密码
      - [X] 密码
-       - [X] flag status audit_status的含义
-         status 0 启用,1停用 audit_status 0,审核中,1通过,2不通过
+       - [X] flag status audit_status 的含义
+         status 0 启用,1 停用 audit_status 0,审核中,1 通过,2 不通过
      - [ ] 支付密码
 ** [[http://www.hredt.com:8080/merchantmanage/login.do][后台管理系统]]
    :LOGBOOK:
@@ -1782,7 +1782,7 @@ Archived entries from file c:/Users/rubing/mygtd/gtd.org
      - [X] 含有空值
      - [X] status=0?
      - [X] 插入
-   - [X] filter chain处理 jwt
+   - [X] filter chain 处理 jwt
      - [X] [[http://hejiajunsh.iteye.com/blog/1776569][过滤器,监听器,拦截器]]
    - [X] 菜品发布
      - [X] list
@@ -1791,21 +1791,21 @@ Archived entries from file c:/Users/rubing/mygtd/gtd.org
    - [-] 我的资料
      - [-] 资料显示/merchant/info.do
        - [X] 需要的信息
-         name店铺名称,province省,city市,area区,地址address,contactsPhone联系电话,details商户详情,
-         businessHours营业时间,(商户类型,服务类型)其他表,(身份证正面照,背面照,详细图集,执照编码,银行卡号,开户银行,银行类别编码,持卡人姓名)其他表,二维码
+         name 店铺名称,province 省,city 市,area 区,地址 address,contactsPhone 联系电话,details 商户详情,
+         businessHours 营业时间,(商户类型,服务类型)其他表,(身份证正面照,背面照,详细图集,执照编码,银行卡号,开户银行,银行类别编码,持卡人姓名)其他表,二维码
        - [ ] 二维码
      - [-] 修改信息
        - [X] 可以更新的字段
-         商户图标,province省,city市,area区,地址address,服务园区,联系电话,营业时间,商户类型,服务类型,身份证正,身份反,是否餐厅,接受预定,人均消费,开始配送时间,起送价格,
+         商户图标,province 省,city 市,area 区,地址 address,服务园区,联系电话,营业时间,商户类型,服务类型,身份证正,身份反,是否餐厅,接受预定,人均消费,开始配送时间,起送价格,
          餐盒费,配送费,预计送达时间,商户介绍,介绍图片,执照编码,银行卡号,开户银行,持卡人姓名
-       - [ ] mapper.xml添加额外update字段 身份证图片等
-       - [ ] controller接收参数
+       - [ ] mapper.xml 添加额外 update 字段 身份证图片等
+       - [ ] controller 接收参数
      - [ ] 提现
      - [ ] 修改密码
    - [X] 扫码最近收费信息
    - [ ] questions
      - [ ] food_infomation
-       - startTime 格式是varchar 表里有2017/07/21 11:35 有2017-07-21 11:35
+       - startTime 格式是 varchar 表里有 2017/07/21 11:35 有 2017-07-21 11:35
    - [X] 发布园区活动
    - [ ] 福利卡
    - [X] 订单广场
@@ -1814,20 +1814,20 @@ Archived entries from file c:/Users/rubing/mygtd/gtd.org
    CLOCK: [2017-10-12 周四 22:10]--[2017-10-12 周四 22:35] =>  0:25
    CLOCK: [2017-10-12 周四 16:32]--[2017-10-12 周四 16:57] =>  0:25
    :END:
-   - [X] 什么是jwt
-   - [X] jwt工作流程
-   - [X] jwt的生成和解析
+   - [X] 什么是 jwt
+   - [X] jwt 工作流程
+   - [X] jwt 的生成和解析
    - [ ] spring-security
    - [ ] 简单的背景知识
-   - [ ] 引入spring-security
-     - [ ] 实现UserDetails
-     - [ ] 实现UserDetailService loadByUserName
-     - [ ] 安全配置类extends WebSecurityConfigureAdapter
+   - [ ] 引入 spring-security
+     - [ ] 实现 UserDetails
+     - [ ] 实现 UserDetailService loadByUserName
+     - [ ] 安全配置类 extends WebSecurityConfigureAdapter
      - [ ] @PreAuthorize()限制访问
-     - [ ] 使用application.yml配置springboot应用
-     - [ ] 集成jwt和springSecurity
-       - [ ] 建立filter
-     - [ ] 完成鉴权(登录).注册和更新token的功能
+     - [ ] 使用 application.yml 配置 springboot 应用
+     - [ ] 集成 jwt 和 springSecurity
+       - [ ] 建立 filter
+     - [ ] 完成鉴权(登录).注册和更新 token 的功能
 
 * Android
   :PROPERTIES:
@@ -1924,3 +1924,18 @@ Archived entries from file c:/Users/rubing/mygtd/gtd.org
   CLOCK: [2016-12-07 周三 20:01]--[2016-12-07 周三 20:26] =>  0:25
   CLOCK: [2016-12-06 周二 20:49]--[2016-12-06 周二 21:14] =>  0:25
   :END:
+
+* book
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-12-21 周四 23:29
+  :ARCHIVE_FILE: ~/mygtd/gtd.org
+  :ARCHIVE_CATEGORY: gtd
+  :END:
+** 未来简史
+   :LOGBOOK:
+   CLOCK: [2017-08-22 周二 10:34]--[2017-08-22 周二 10:59] =>  0:25
+   :END:
+** 人类简史
+   :LOGBOOK:
+   CLOCK: [2017-09-21 周四 14:58]--[2017-09-21 周四 15:23] =>  0:25
+   :END:
