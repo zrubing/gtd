@@ -1038,6 +1038,7 @@
 ** [[https://docs.docker.com/machine/][docker-machine]]
 * [[https://log.zvz.im/2017/05/24/nodejs-cinema-microservice-part1/][nodejs 打造影院微服务并部署到 docker]]
   :LOGBOOK:
+  CLOCK: [2017-12-21 四 15:43]--[2017-12-21 四 16:08] =>  0:25
   CLOCK: [2017-12-19 二 22:34]--[2017-12-19 二 22:59] =>  0:25
   CLOCK: [2017-12-19 二 21:44]--[2017-12-19 二 22:09] =>  0:25
   CLOCK: [2017-12-19 周二 10:33]--[2017-12-19 周二 10:58] =>  0:25
@@ -1051,6 +1052,7 @@
 **  [[http://www.infoq.com/cn/articles/power-of-raml][RAML]]
    - [ ] 编写 在线 api 设计器或者 ide 插件 [[https://raml.org/projects][地址]]
 ** [[https://towardsdatascience.com/how-to-deploy-a-mongodb-replica-set-using-docker-6d0b9ac00e49][docker 创建 mongodb 集群]]
+*** [[https://docs.mongodb.com/manual/tutorial/deploy-replica-set/][mongodb replica set]] 
 * [[https://mitpress.mit.edu/sicp/full-text/book/book-Z-H-4.html][SICP]]
   - [ ] 1.Building Abstractions with Procedures
     - [ ] 1.1 The elements of programming
@@ -1122,4 +1124,5 @@
     - [ ] safe retain TrumpetSendLayer 81
   - [ ] 修改图标 布局 
   - [ ] 网页链接
-    
+* emacs
+** TODO [[http://blog.binchen.org/posts/counsel-etags-v1-3-1-is-released-enemacsctags.html#disqus_thread][counsel-etags]]
