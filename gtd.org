@@ -1,6 +1,7 @@
 * nodejs
 ** STARTED [[http://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000/00143449917624134f5c4695b524e81a581ab5a222b05ec000][js 廖雪峰]]
    :LOGBOOK:
+   CLOCK: [2017-12-22 周五 13:40]--[2017-12-22 周五 14:06] =>  0:26
    CLOCK: [2017-12-22 周五 12:45]--[2017-12-22 周五 13:10] =>  0:25
    CLOCK: [2017-12-21 周四 22:45]--[2017-12-21 周四 23:10] =>  0:25
    CLOCK: [2017-10-08 周日 17:21]--[2017-10-08 周日 17:46] =>  0:25
@@ -27,11 +28,11 @@
    CLOCK: [2016-09-21 周三 09:53]--[2016-09-21 周三 10:18] =>  0:25
    CLOCK: [2016-09-20 周二 16:27]--[2016-09-20 周二 16:52] =>  0:25
    :END:
-   - [-] 快速入门
+   - [X] 快速入门
      - [X] 数据类型和变量
      - [X] 字符串
      - [X] 数组
-     - [ ] 对象
+     - [X] 对象
      - [X] map 和 set
      - [X] iterable
    - [-] 函数
@@ -155,6 +156,20 @@
    10.concat()合并两个 arr,并没有修改当前 arr
    11.join()把每个元素连接起来,如果不是字符串,会转化为字符串再连接
    12.对象的属性名包含特殊字符,必须用''括起来,访问不存在的属性,返回 undefined
+   13.JavaScript 把 null、undefined、0、NaN 和空字符串''视为 false，其他值一概视为 true
+   14.for..in
+   #+BEGIN_SRC javascript
+     var o = {
+         name: 'Jack',
+         age: 20,
+         city: 'Beijing'
+     };
+     for (var key in o) {
+         console.log(key); // 'name', 'age', 'city'
+     }
+   #+END_SRC
+   15.arr 也是对象 可以循环出 arr 的索引,请注意，for ... in 对 Array 的循环得到的是 String 而不是 Number
+   16.for..in 遍历数组会出现问题,for..of 修复了这个问题
 
 ** 6.x 中文文档
    :LOGBOOK:
