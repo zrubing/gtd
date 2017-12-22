@@ -170,6 +170,9 @@
    #+END_SRC
    15.arr 也是对象 可以循环出 arr 的索引,请注意，for ... in 对 Array 的循环得到的是 String 而不是 Number
    16.for..in 遍历数组会出现问题,for..of 修复了这个问题
+   17.es6 引入的 rest function foo(a, b, ...rest) {}
+   18.return 语句的大坑 javascript 行末自动添加分号的机制
+   19.javascript 函数的变量提升
 
 ** 6.x 中文文档
    :LOGBOOK:
@@ -222,6 +225,7 @@
      - [ ] 应用
 ** TODO [[https://docs.mongodb.com/manual/core/document/][mongodb]]
    :LOGBOOK:
+   CLOCK: [2017-12-22 周五 15:07]--[2017-12-22 周五 15:32] =>  0:25
    CLOCK: [2017-12-21 周四 23:22]--[2017-12-21 周四 23:47] =>  0:25
    :END:
    - [-] Getting Started
