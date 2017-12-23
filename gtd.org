@@ -1,6 +1,12 @@
 * nodejs
 ** STARTED [[http://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000/00143449917624134f5c4695b524e81a581ab5a222b05ec000][js 廖雪峰]]
    :LOGBOOK:
+   CLOCK: [2017-12-23 周六 15:12]--[2017-12-23 周六 15:37] =>  0:25
+   CLOCK: [2017-12-23 周六 13:37]--[2017-12-23 周六 14:02] =>  0:25
+   CLOCK: [2017-12-23 周六 13:02]--[2017-12-23 周六 13:27] =>  0:25
+   CLOCK: [2017-12-23 周六 10:21]--[2017-12-23 周六 10:46] =>  0:25
+   CLOCK: [2017-12-22 周五 18:55]--[2017-12-22 周五 19:20] =>  0:25
+   CLOCK: [2017-12-22 周五 18:19]--[2017-12-22 周五 18:39] =>  0:20
    CLOCK: [2017-12-22 周五 13:40]--[2017-12-22 周五 14:06] =>  0:26
    CLOCK: [2017-12-22 周五 12:45]--[2017-12-22 周五 13:10] =>  0:25
    CLOCK: [2017-12-21 周四 22:45]--[2017-12-21 周四 23:10] =>  0:25
@@ -35,7 +41,7 @@
      - [X] 对象
      - [X] map 和 set
      - [X] iterable
-   - [-] 函数
+   - [X] 函数
      - [X] 定义和调用
        - [X] arguments
        - [X] rest 参数
@@ -81,8 +87,11 @@
          - 多参函数变成单参函数
      - [X] 箭头函数
        - [X] this
-     - [ ] generator
+     - [X] generator
    - [ ] 标准对象
+     - [ ] JSON
+     - [ ] RegExp
+     - [ ] Date
    - [ ] 面向对象编程
    - [ ] 浏览器
    - [ ] jQuery
@@ -142,6 +151,13 @@
        - [ ] MVVM
        - [ ] 自动化工具
      - [ ] React
+** koajs
+   :LOGBOOK:
+   CLOCK: [2017-12-23 周六 16:47]--[2017-12-23 周六 17:12] =>  0:25
+   CLOCK: [2017-12-23 周六 14:40]--[2017-12-23 周六 15:05] =>  0:25
+   CLOCK: [2017-12-22 周五 16:06]--[2017-12-22 周五 16:31] =>  0:25
+   :END:
+*** TODO [[http://www.runoob.com/nodejs/nodejs-event.html][events]]
 ** 注意点
    1.==和===比较
    2.NaN 与所有其他值都不相等包括自己 isNaN(NaN)来判断
@@ -173,7 +189,50 @@
    17.es6 引入的 rest function foo(a, b, ...rest) {}
    18.return 语句的大坑 javascript 行末自动添加分号的机制
    19.javascript 函数的变量提升
+   20.javascript 中只有一个全局作用域 window,顶层的函数会被绑定到全局变量,好的做法是将自己的变量和函数都绑定到
+   一个全局变量中(名字空间)
+   21.局部作用域 for 循环中 i 在循环外也可被引用
+   22.es6 的 const 来定义常量
+   23.解构赋值 var [x, y, z] = ['hello', 'JavaScript', 'ES6'];
+   忽略某些元素 let [, , z] = ['hello', 'JavaScript', 'ES6']; // 忽略前两个元素，只对 z 赋值第三个元素
+   数组解构,对象解构
+   24.// 声明变量:
+   #+BEGIN_SRC javascript
+            var x, y;
+           // 解构赋值:
+           {x, y} = { name: '小明', x: 100, y: 200};
+           // 语法错误: Uncaught SyntaxError: Unexpected token =
 
+     //正确
+          ({x, y} = { name: '小明', x: 100, y: 200})
+   #+END_SRC
+   25.解构赋值使用场景
+   #+BEGIN_SRC javascript
+     //交换两个变量的值
+     var x=1, y=2;
+     [x, y] = [y, x]
+   #+END_SRC
+   26.strict 模式下,this 指向 undefined
+   27.可以用 apply 修复独立函数调用
+   类似的有 call
+   28.装饰器增加原有函数功能
+   #+BEGIN_SRC javascript
+     'use strict';
+     var count = 0;
+     var oldParseInt = parseInt; // 保存原函数
+     window.parseInt = function () {
+         count += 1;
+         return oldParseInt.apply(null, arguments); // 调用原函数
+     };
+   #+END_SRC
+   29.arrays.sort()的坑,默认把元素转成 string 进行 ASCII 排序,sort 可以接收一个
+   函数进行自定义排序
+   30.sort()方法会直接对 array 修改,返回的仍是当前的 Array
+   31.闭包的坑,返回函数时,不要引用后续会发生变化的量,如循环里的 i
+   32.闭包可以封装私有变量
+   33.闭包可以把多参函数编程单参函数
+   34.es6 的 ArrowFunction
+   35.es6 的 generator
 ** 6.x 中文文档
    :LOGBOOK:
    CLOCK: [2017-12-21 周四 21:08]--[2017-12-21 周四 21:33] =>  0:25
@@ -324,8 +383,7 @@
    CLOCK: [2017-08-29 周二 10:59]--[2017-08-29 周二 11:24] =>  0:25
    CLOCK: [2017-08-21 一 23:29]--[2017-08-21 一 23:54] =>  0:25
    :END:
-* AI
-** [[https://www.youtube.com/watch?v=6sxrxYj3kvg&index=15&list=PLAwxTw4SYaPnbDacyrK_kB_RUkuxQBlCm][computer vision]]
+* AI** [[https://www.youtube.com/watch?v=6sxrxYj3kvg&index=15&list=PLAwxTw4SYaPnbDacyrK_kB_RUkuxQBlCm][computer vision]]
    :LOGBOOK:
    CLOCK: [2017-11-09 周四 02:34]--[2017-11-09 周四 02:59] =>  0:25
    CLOCK: [2017-11-01 周三 01:27]--[2017-11-01 周三 01:52] =>  0:25
