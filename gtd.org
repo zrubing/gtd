@@ -1288,3 +1288,17 @@
   - [ ] 网页链接
 * emacs
 ** TODO [[http://blog.binchen.org/posts/counsel-etags-v1-3-1-is-released-enemacsctags.html#disqus_thread][counsel-etags]]
+
+* 区块链 交易广播算法 
+- [[https://keeganlee.me/post/blockchain/20180313][p2p网络]]
+ 
+  
+
+account_detail 缺少reward_amount
+activity_match 缺少enter_count
+缺少data_region表
+缺少country_code表
+sportMatchController
+- /in_inprogress缺少翻页参数
+
+
