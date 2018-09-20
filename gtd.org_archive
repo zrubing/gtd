@@ -2738,3 +2738,49 @@ Archived entries from file c:/Users/rubing/mygtd/gtd.org
    :LOGBOOK:
    CLOCK: [2017-12-27 周三 23:51]--[2017-12-28 周四 00:16] =>  0:25
    :END:
+
+* 区块链 交易广播算法 
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2018-09-20 四 00:31
+  :ARCHIVE_FILE: ~/gtd/gtd.org
+  :ARCHIVE_CATEGORY: gtd
+  :END:
+- [[https://keeganlee.me/post/blockchain/20180313][p2p网络]]
+- [[http://bijian1013.iteye.com/blog/2355339][p2p协议]]
+- [[https://medium.com/@micheledaliessi/how-does-the-blockchain-work-98c8cd01d2ae][medium,区块链如何运作]]
+** TODO 根据模板完善word
+   :LOGBOOK:
+   CLOCK: [2018-08-29 周三 10:46]--[2018-08-29 周三 11:11] =>  0:25
+   :END:
+ 
+  
+
+* 大型缓存架构
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2018-09-20 四 00:31
+  :ARCHIVE_FILE: ~/gtd/gtd.org
+  :ARCHIVE_CATEGORY: gtd
+  :END:
+  :LOGBOOK:
+  CLOCK: [2017-12-06 周三 15:23]--[2017-12-06 周三 15:48] =>  0:25
+  :END:
+  - [X] 28.redis cluster 集群搭建
+  - [X] 29.多 master 写入,主从复制,高可用
+  - [X] 30.redis cluster 通过 mater 水平扩容支持更高读写吞吐
+  - [X] 31.redis cluster 自动化 slave 迁移实现更强的高可用架构
+  - [X] 32.redis cluster 的核心原理分析
+  - [X] 33.实践中的常见问题及优化思路
+  - [X] 34.阶段总结
+  - [X] 35.多级缓存架构每一层的意义
+  - [X] 36.Cache Aside Pattern 缓存+数据库读写模式的分析
+  - [X] 37.高并发场景下,缓存数据库双写不一致的问题与解决方案设计
+  - [X] 38.安装 mysql
+  - [ ] 38.库存服务开发框架搭建
+
+* 量子计算
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2018-09-20 四 00:31
+  :ARCHIVE_FILE: ~/gtd/gtd.org
+  :ARCHIVE_CATEGORY: gtd
+  :END:
+  - [ ] [[https://www.zhihu.com/question/26933442][zhihu]]

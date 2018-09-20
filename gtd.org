@@ -73,6 +73,7 @@
    :LOGBOOK:
    CLOCK: [2017-12-12 周二 01:28]--[2017-12-12 周二 01:53] =>  0:25
    :END:
+   [[https://pythonprogramming.net/introduction-deep-learning-python-tensorflow-keras/][Introduction to Deep Learning - Deep Learning basics with Python, TensorFlow and Keras p.1]]
 * 计算机
 ** [[http://scse.buaa.edu.cn/buaa-css-web/articleDetail.action;jsessionid=DBFB2A8FE1CD0441D85FC0F7057D0C83?articleId=2bff0a2e-f114-4853-9bd3-dd6515a98bff&type=NEWS&firstSelId=6e011b46-2c70-4f68-a633-ec51f42b4718&secondSelId=NOTICE_PUBLICITY&language=0][专业课大纲]]
 ** [[https://www.coursera.org/learn/unity-yinqing-youxi-kaifa/lecture/xlbGz/ben-men-ke-cheng-jie-shao][Unity 开发基础]]
@@ -513,8 +514,6 @@
            - [ ] 莱布尼茨记号
            - [ ] 积分学
            - [ ] 微积分基本定理
-* 量子计算
-  - [ ] [[https://www.zhihu.com/question/26933442][zhihu]]
 * [[https://mitpress.mit.edu/sicp/full-text/book/book-Z-H-4.html][SICP]]
   - [ ] 1.Building Abstractions with Procedures
     - [ ] 1.1 The elements of programming
@@ -523,22 +522,6 @@
       - [ ] 3.evaluating combinations
       - [ ] 4.Compound Procedures
     -
-* 大型缓存架构
-  :LOGBOOK:
-  CLOCK: [2017-12-06 周三 15:23]--[2017-12-06 周三 15:48] =>  0:25
-  :END:
-  - [X] 28.redis cluster 集群搭建
-  - [X] 29.多 master 写入,主从复制,高可用
-  - [X] 30.redis cluster 通过 mater 水平扩容支持更高读写吞吐
-  - [X] 31.redis cluster 自动化 slave 迁移实现更强的高可用架构
-  - [X] 32.redis cluster 的核心原理分析
-  - [X] 33.实践中的常见问题及优化思路
-  - [X] 34.阶段总结
-  - [X] 35.多级缓存架构每一层的意义
-  - [X] 36.Cache Aside Pattern 缓存+数据库读写模式的分析
-  - [X] 37.高并发场景下,缓存数据库双写不一致的问题与解决方案设计
-  - [X] 38.安装 mysql
-  - [ ] 38.库存服务开发框架搭建
 * [[https://jimmysong.io/kubernetes-handbook/][kubernetes]]
   :LOGBOOK:
   CLOCK: [2017-12-19 二 15:09]--[2017-12-19 二 15:34] =>  0:25
@@ -551,16 +534,6 @@
   - [ ] 2.3 资源对象与基本概念解析
   - [ ] 4.1 在 centos 部署 kubernets 集群
     - [ ] [[https://github.com/vmware/harbor][harbor]]
-* 区块链 交易广播算法 
-- [[https://keeganlee.me/post/blockchain/20180313][p2p网络]]
-- [[http://bijian1013.iteye.com/blog/2355339][p2p协议]]
-- [[https://medium.com/@micheledaliessi/how-does-the-blockchain-work-98c8cd01d2ae][medium,区块链如何运作]]
-** TODO 根据模板完善word
-   :LOGBOOK:
-   CLOCK: [2018-08-29 周三 10:46]--[2018-08-29 周三 11:11] =>  0:25
-   :END:
- 
-  
 * TODO 代码迁移 
 account_detail 缺少reward_amount
 activity_match 缺少enter_count
@@ -573,10 +546,43 @@ sportMatchController
   
 邀请码管理相关接口->立刻领取 和登录接口很像?
 
+** shiro
+ - *Subject.Builder* 将值设置给 *SubjectContext*,在build()时再交给 *SecurityManager* 创建
+ - *Subject* login/logout,access controll
+ - *DefaultWebSecurityManager* 将认证,授权,session管理交给Athenticator,Authorizer,SessionManager
+   这些代理分别由 *DefaultSecurityManager* 的父类实现
+   包含了一些 *Subject* 的行为,开发者不常用,framework开发者用
+   
+ - *FormAuthenticationFilter* 需要请求的用户已经认证,否则重定向到登录页面
+   - 从request中获取 /username/ /password/ /remberMe/ 创建token,然后 *subject.login(usernamePasswordToken)*
+     这个只有 *isLoginSubmission* 为true并且 *isLoginRequest* 为true时调用
+     *subject.login* 失败会抛出AuthenticationEx
+     - login操作会交给 *SecurityManager* 进而交给父类 *AuthenticatingSecurityManager* 持有 *Authenticator*
+     
+ - *AuthenticatingSecurityManager* 代理了 *SecurityManager* 中的认证操作(通过交给(Authenticator实例,
+   默认为 *ModularRealmAuthenticator*
+   
+ - *ModularRealmAuthenticator* 
+       
+ - *DelegatingSubject* subject的实现类,代理了 *SecurityManager* 的权限相关操作(认证),授权还是交给SecurityManager
+   - 错误用法:每次调用 *DelegatingSubject* 的方法都会去EIS中查找数据
+ - *WebDelegatingSubject* webSubject实现类 维护request/response
+     
+
+   
 
 * TODO emacs
+  
   [[http://cestlaz.github.io/stories/emacs/][emacs]]
+  
   [[https://www.youtube.com/user/mzamansky/videos][videos youtube]]
   [[https://github.com/seagle0128/.emacs.d][config github]]
   Aaron Bieber youtube
+  
+
+  
+* TODO rust
+  :LOGBOOK:
+  CLOCK: [2018-09-20 四 00:36]--[2018-09-20 四 01:01] =>  0:25
+  :END:
   
