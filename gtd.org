@@ -71,9 +71,14 @@
    :END:
 ** ml
    :LOGBOOK:
+   CLOCK: [2018-09-20 四 22:54]--[2018-09-20 四 23:19] =>  0:25
    CLOCK: [2017-12-12 周二 01:28]--[2017-12-12 周二 01:53] =>  0:25
    :END:
    [[https://pythonprogramming.net/introduction-deep-learning-python-tensorflow-keras/][Introduction to Deep Learning - Deep Learning basics with Python, TensorFlow and Keras p.1]]
+   
+   [[https://keras.io/zh/][keras中文文档]]
+   [[http://paddlepaddle.org/documentation/docs/zh/0.15.0/new_docs/beginners_guide/index.html][paddle]]
+   [[https://developers.google.com/machine-learning/crash-course/ml-intro?hl=zh-cn][google]]
 * 计算机
 ** [[http://scse.buaa.edu.cn/buaa-css-web/articleDetail.action;jsessionid=DBFB2A8FE1CD0441D85FC0F7057D0C83?articleId=2bff0a2e-f114-4853-9bd3-dd6515a98bff&type=NEWS&firstSelId=6e011b46-2c70-4f68-a633-ec51f42b4718&secondSelId=NOTICE_PUBLICITY&language=0][专业课大纲]]
 ** [[https://www.coursera.org/learn/unity-yinqing-youxi-kaifa/lecture/xlbGz/ben-men-ke-cheng-jie-shao][Unity 开发基础]]
@@ -562,27 +567,161 @@ sportMatchController
  - *AuthenticatingSecurityManager* 代理了 *SecurityManager* 中的认证操作(通过交给(Authenticator实例,
    默认为 *ModularRealmAuthenticator*
    
- - *ModularRealmAuthenticator* 
-       
+ - *ModularRealmAuthenticator* 将账户查找交给一系列的可插拔的 *Realm*,这个用来访问关系数据库
+
+   - 只有1个 *Realm* 根据 *getAuthenticationInfo* 来决定是否认证成功
+
  - *DelegatingSubject* subject的实现类,代理了 *SecurityManager* 的权限相关操作(认证),授权还是交给SecurityManager
    - 错误用法:每次调用 *DelegatingSubject* 的方法都会去EIS中查找数据
  - *WebDelegatingSubject* webSubject实现类 维护request/response
-     
+ - *AuthenticationToken* 通过 *Authenticator#authticate(token)* 交给authenticator
 
-   
+
+** @RequestBody
+*RequestResponseBodyMethodProcessor* 处理 @RequestBody 注解的参数和
+@ResponseBody 注解的方法
+*AbstractMessageConverterMethodProcessor*
+*AbstractMessageConverterMethodArgumentResolver* 处理方法参数的基类,通过 HttpMessageConverter
+*interface HandlerMethodArgumentResolver* 将方法参数解析为参数值
+*MethodParamter* 一个包含方法参数规范的帮助类
+
 
 * TODO emacs
+  :LOGBOOK:
+  CLOCK: [2018-10-07 日 19:51]--[2018-10-07 日 20:16] =>  0:25
+  CLOCK: [2018-09-29 六 01:14]--[2018-09-29 六 01:39] =>  0:25
+  CLOCK: [2018-09-28 五 19:48]--[2018-09-28 五 20:13] =>  0:25
+  CLOCK: [2018-09-23 日 15:40]--[2018-09-23 日 16:05] =>  0:25
+  CLOCK: [2018-09-22 六 16:13]--[2018-09-22 六 16:38] =>  0:25
+  CLOCK: [2018-09-22 六 12:52]--[2018-09-22 六 12:53] =>  0:01
+  CLOCK: [2018-09-20 四 20:10]--[2018-09-20 四 20:35] =>  0:25
+  :END:
   
   [[http://cestlaz.github.io/stories/emacs/][emacs]]
-  
   [[https://www.youtube.com/user/mzamansky/videos][videos youtube]]
   [[https://github.com/seagle0128/.emacs.d][config github]]
+  [[https://www.youtube.com/playlist?list=PLVtKhBrRV_ZkPnBtt_TD1Cs9PJlU0IIdE][org-mode tutorial]]
   Aaron Bieber youtube
   
 
   
 * TODO rust
   :LOGBOOK:
+  CLOCK: [2018-10-07 日 20:25]--[2018-10-07 日 20:50] =>  0:25
+  CLOCK: [2018-09-29 六 00:37]--[2018-09-29 六 01:02] =>  0:25
+  CLOCK: [2018-09-25 二 12:15]--[2018-09-25 二 12:32] =>  0:17
+  CLOCK: [2018-09-22 六 22:55]--[2018-09-22 六 23:28] =>  0:25
+  CLOCK: [2018-09-20 四 20:37]--[2018-09-20 四 21:02] =>  0:25
   CLOCK: [2018-09-20 四 00:36]--[2018-09-20 四 01:01] =>  0:25
   :END:
   
+  [[https://kaisery.github.io/trpl-zh-cn/][rust入门]]
+
+
+  
+* TODO v1.0
+** TODO 运动/活动 迁移数据,准备交给测试
+- 主页
+  - [ ] 我的步数&名次
+  - [ ] 运动排行榜 100名 分页 /user/ranking
+  - [ ] 运动天数/总里程/总步数
+- 运动榜单
+  /头像/步数/名次/昵称
+- 运动数据
+  - [ ] 近期运动记录 步数/公里 xxx千卡,日期
+** TODO 发现(一些文章)
+迁移数据,准备交给测试
+** TODO 后台管理准备交给测试//
+user/role/menu
+** TODO App版本控制
+** TODO 新闻相关
+   
+*** TODO app 
+    - [ ] 加载新闻列表
+    - [ ] 加载新闻详情
+    - [ ] 新闻分享
+    - [ ] 热量计算公式
+** TODO 赛事相关
+** TODO 公共接口
+*** TODO app
+- [ ] 获取验证码
+- [ ] 加载全部地区
+** TODO 传播大使
+** TODO mysql data
+- [X] app_version -> common_app_version
+- [X] news -> common_news
+- [X] sport_match -> activity_match
+- [X] user_match_steps -> user_match_steps
+- [X] user_sport_match -> user_sport_match
+- [X] country_code -> country_code
+- [X] data_region -> data_region
+- [X] banner->common_banners
+- [X] user_day_data->user_day_steps
+** 任务/签到
+- [-] 签到/抽奖 app
+  - [X] 用户每日是否抽过奖,
+  - [X] 用户每日抽奖次数,
+  - [X] 抽奖广播(xxx抽中了xxx)
+  - [X] 1-8每个位置对应的奖品
+  - [ ] 实物奖品失效时间
+    #+BEGIN_SRC json
+{
+    "data":{
+        "prize_list":[
+            {}
+        ],
+        "prize_message":[
+            {
+                "message":"xxx抽取了xxx",
+                "timestamp":123241
+            }
+        ],
+        "left_count":1,
+        "total_count":2
+
+    }
+}
+    #+END_SRC
+  - 奖品表
+    | name        |                                    |
+    | image       | 奖品图片                           |
+    | type        | 奖品种类(实物/虚拟/无)             |
+    | weight      | 中奖权重,来计算概率                |
+    | left_amount | 奖品剩余数量                       |
+    | unity       | 奖品单位 5个/1个/  实物奖品默认为1 |
+    | description | 奖品描述                           |
+    | location    | 奖品摆放位置                       |
+  - 中奖记录
+    | user_id       | 用户id                                                                      |
+    | receive_state | 奖品领取状态(待发放,待领取,已发放,已领取,已失效 (算力等虚拟物品 默认已领取) |
+    | name          | 奖品名称                                                                    |
+    | type          | 奖品类型                                                                    |
+    | unit          | 奖品单位                                                                    |
+    | description   | 奖品描述                                                                    |
+  - 用户-抽奖次数表
+
+- [ ] 签到抽奖记录 app
+- [ ] 签到抽奖 admin
+- [ ] 签到抽奖记录 admin
+- [ ] 任务列表 app
+  新手任务,日常任务,高阶任务
+  - 任务表
+    | type        | 任务类型(新手任务,日常任务,高阶任务) |
+    | name        | 任务名称                             |
+    | amount      | 任务奖励数值                         |
+    | description | 任务描述                             |
+    | enable      | 是否开启                               |
+  - 用户-任务表
+    | task_id | 任务id                                  |
+    | user_id | 用户id                                  |
+    | state   | 任务状态 未完成,领取(完成未领取),已领取 |
+- [ ] 任务列表 admin
+- [ ] 任务添加&编辑 admin
+
+  
+* TODO 测试出现的异常
+** DONE AuthRealm lockedAccountEx 没有处理
+   CLOSED: [2018-09-28 五 11:02]
+** TODO 删除用户接口错误 sysUser
+** TODO 用token登录显示403(默认已经给了所有权限
+* TODO [[https://solid.inrupt.com/docs][solid]]

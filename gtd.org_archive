@@ -2784,3 +2784,64 @@ Archived entries from file c:/Users/rubing/mygtd/gtd.org
   :ARCHIVE_CATEGORY: gtd
   :END:
   - [ ] [[https://www.zhihu.com/question/26933442][zhihu]]
+
+* TODO v1.0
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2018-09-28 五 11:04
+  :ARCHIVE_FILE: ~/gtd/gtd.org
+  :ARCHIVE_CATEGORY: gtd
+  :ARCHIVE_TODO: TODO
+  :END:
+- 邀请好友瓜分奖励基金
+  - 表
+    - 用户-瓜分券表
+    - 新增 *瓜分邀请基金* 活动
+      | 列               | 描述                           |
+      | ---              | ---                            |
+      | 活动时间         |                                |
+      | 结束时间         | 是否可以为开奖时间             |
+      | 开奖时间         |                                |
+      | 邀请基金         | 奖池数量 aidoc/eth/ 多币种支持 |
+      | 当前的瓜分券数量 |                                |
+  - 接口
+    - 添加 *瓜分邀请基金* 活动 admin
+    - 获取 *瓜分邀请基金* 活动列表 admin/app/
+    - 修改 *瓜分邀请基金* 活动 admin
+    - 设置app是否显示 *瓜分邀请基金* 活动
+** TODO 运动/活动 迁移数据,准备交给测试
+- 主页
+  - [ ] 我的步数&名次
+  - [ ] 运动排行榜 100名 分页
+  - [ ] 运动天数/总里程/总步数
+- 运动榜单
+  /头像/步数/名次/昵称
+- 运动数据
+  - [ ] 近期运动记录 步数/公里 xxx千卡,日期
+** TODO 发现(一些文章)
+迁移数据,准备交给测试
+** TODO 后台管理准备交给测试//
+user/role/menu
+** TODO App版本控制
+** TODO 新闻相关
+** TODO 赛事相关
+** TODO 公共接口
+** TODO 传播大使
+** TODO mysql data
+- [X] app_version -> common_app_version
+- [X] news -> common_news
+- [X] sport_match -> activity_match
+- [X] user_match_steps -> user_match_steps
+- [X] user_sport_match -> user_sport_match
+- [X] country_code -> country_code
+- [X] data_region -> data_region
+- [ ] banner->common_banners
+** TODO 任务/签到
+- [ ] 签到/抽奖 app
+- [ ] 签到抽奖记录 app
+- [ ] 签到抽奖 admin
+- [ ] 签到抽奖记录 admin
+- [ ] 任务列表 app
+- [ ] 任务列表 admin
+- [ ] 任务添加&编辑 admin
+
+  
